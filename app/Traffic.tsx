@@ -1,0 +1,16 @@
+ 'use client';
+import {useEffect,useState} from 'react';
+const API=process.env.NEXT_PUBLIC_API_BASE||'';
+export function trackVisit(){
+ if(navigator.doNotTrack==='1'||(navigator as Navigator & {globalPrivacyControl?:boolean}).globalPrivacyControl||navigator.webdriver||!['flbjcy.github.io','charlie-card-hunt-boston.warmmaple17.chatgpt.site'].includes(location.hostname))return;
+ let visit=true;try{const last=Number(sessionStorage.getItem('findmycharlie:lastVisit'));visit=!last||Date.now()-last>1800000;sessionStorage.setItem('findmycharlie:lastVisit',String(Date.now()));}catch{}
+ let source='Direct / unknown';try{const h=new URL(document.referrer).hostname;if(h!==location.hostname){source=/(^|\.)reddit\.com$/.test(h)?'Reddit':/(^|\.)google\.[a-z.]+$/.test(h)?'Google':h==='github.com'?'GitHub':'Other';}}catch{}
+ void fetch(API+'/api/traffic',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:crypto.randomUUID(),source,device:innerWidth<768?'Mobile':'Desktop',visit}),keepalive:true}).catch(()=>{});
+}
+type Row={day:string;source:string;device:string;views:number;visits:number};
+export default function Traffic(){
+ const [rows,setRows]=useState<Row[]>([]),[error,setError]=useState(''),[loading,setLoading]=useState(true);
+ useEffect(()=>{async function load(){try{const r=await fetch(API+'/api/traffic');if(!r.ok)throw Error();const data=await r.json() as {rows:Row[]};setRows(data.rows);setError('');}catch{setError('Traffic totals are temporarily unavailable.')}finally{setLoading(false)}}load();const t=setInterval(load,60000);return()=>clearInterval(t)},[]);
+ const days=[...new Set(rows.map(r=>r.day))].reverse(),total=rows.reduce((n,r)=>n+r.views,0),visits=rows.reduce((n,r)=>n+r.visits,0);
+ return <main className="traffic-page"><a href="?">← Back to map</a><h1>FindMyCharlie traffic</h1><p>Anonymous traffic · last 90 days · Eastern Time</p>{loading?<p>Loading…</p>:error?<p role="alert">{error}</p>:<><div className="traffic-totals"><div><strong>{total.toLocaleString()}</strong> Page views</div><div><strong>{visits.toLocaleString()}</strong> Visits</div></div>{!total&&<p>No visits recorded yet. Tracking starts with this update.</p>}<h2>Daily traffic</h2><table><thead><tr><th>Date</th><th>Page views</th><th>Visits</th></tr></thead><tbody>{days.map(day=><tr key={day}><td>{day}</td><td>{rows.filter(r=>r.day===day).reduce((n,r)=>n+r.views,0)}</td><td>{rows.filter(r=>r.day===day).reduce((n,r)=>n+r.visits,0)}</td></tr>)}</tbody></table><h2>Referral sources</h2>{['Reddit','Google','GitHub','Other','Direct / unknown'].map(s=><p key={s}>{s}: <b>{rows.filter(r=>r.source===s).reduce((n,r)=>n+r.views,0)}</b></p>)}<h2>Screen size</h2>{['Mobile','Desktop'].map(d=><p key={d}>{d}: <b>{rows.filter(r=>r.device===d).reduce((n,r)=>n+r.views,0)}</b></p>)}</>}<p className="traffic-note">Visits are approximate browser-tab sessions, restarting after 30 minutes between page loads—not unique people. Reloads count as page views. Mobile means a screen narrower than 768 pixels. No cookies, saved IP addresses, or full referral URLs. Privacy opt-outs and known bots are excluded; blockers and unrecognized bots can affect totals. This dashboard is not counted.</p></main>;
+}

@@ -6,3 +6,5 @@ export const reports = sqliteTable('reports', {
  notes: text('notes').notNull(), source: text('source').notNull(), sourceUrl: text('source_url'), clientHash: text('client_hash'),
 });
 export const syncState = sqliteTable('sync_state', {id:text('id').primaryKey(), attemptedAt:integer('attempted_at').notNull(), succeededAt:integer('succeeded_at'), message:text('message').notNull()});
+
+export const traffic = sqliteTable('traffic', {id:text('id').primaryKey(),day:text('day').notNull(),createdAt:integer('created_at').notNull(),source:text('source').notNull(),device:text('device').notNull(),visit:integer('visit').notNull()});
