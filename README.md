@@ -6,8 +6,8 @@ Public community map for collectible MBTA CharlieCards. Built with React, Vinext
 - Shared sightings with station, official entrance/exit, machine description, card design/color, observation time, and availability.
 - Official MBTA subway shapes; 125 rapid-transit stations and 309 entrances/exits from MBTA V3 API (snapshot October 25, 2026).
 - Exit unknown falls back to the station location. Exit coordinates identify entrances, not exact indoor machine positions.
-- Confidence uses report recency, matching observations and conflicting reports; it is not a statistical probability.
-- Latest observation wins per station, design and machine number when known; otherwise exit and normalized machine label. Unavailable cards remain in history but are hidden from map and counts.
+- Confidence uses recency, corroboration and conflicting observations; unavailable reports remain in history but are hidden from the map.
+- Latest observation wins per station + exit + design + normalized machine label.
 - Public submissions have server validation, same-origin checks, a honeypot, and basic hourly submission limits. No account required.
 - Reddit sync attempts on page open and every ten minutes while a page is open, globally throttled via D1. Imports only explicit, unambiguous single-station and single-design comments. No claim of complete comment coverage. No unattended polling while the site has no visitors.
 
@@ -31,12 +31,10 @@ Independent community project; not affiliated with MBTA. No sample sightings are
 
 Approved Reddit API access can be configured through server-side Sites runtime secrets: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT (descriptive app/version and account contact), and optionally REDDIT_REFRESH_TOKEN for an approved read-only user grant. Without a refresh token, app-only client credentials are used. Credentials are never stored in source or exposed to visitors. Live authenticated sync cannot be verified until approved credentials are supplied.
 
-## Publication and updates
+## GitHub Pages
 
-Live site: https://charlie-card-hunt-boston.warmmaple17.chatgpt.site/
+Public frontend: https://flbjcy.github.io/charlie-card-map/
 
-This repository is a source snapshot, not a GitHub Pages deployment. The current application requires a Cloudflare Worker and D1 database; GitHub Pages alone cannot run its API routes.
+Build with `npx vite build --config vite.pages.config.ts`. GitHub Actions publishes `dist-pages` on pushes to main. Shared API routes and D1 remain on the existing Sites deployment; its CORS allowlist permits https://flbjcy.github.io. Hourly browser reviews search relevant Reddit threads and publish supported updates while Codex is running.
 
-Hourly browser reviews are scheduled while Codex is running. They inspect accessible nested replies and publish supported changes. Reddit can block access; the app retains previously verified sightings. Review coverage is recorded in `.openai/reddit-review-log.json`. No approved Reddit API credentials are configured.
-
-Card photographs belong to their respective rights holders (MBTA, via WHDH); no blanket license to those assets is granted by this repository.
+Local GitHub checkout: sibling directory `charlie-card-github`. Copy authored source changes there, preserve its Git history, and push to main to publish frontend updates. Never copy local secrets, runtime databases, dependency folders or build output.

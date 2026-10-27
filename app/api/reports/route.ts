@@ -1,11 +1,12 @@
+import {allowedOrigin,cors,preflight} from '../../../lib/cors';
 import reviewedReports from '../../../lib/reviewed-reports.json';
 import { getDb } from '../../../db';
 import { reports, syncState } from '../../../db/schema';
 import { desc, eq, and, gt } from 'drizzle-orm';
 import { stations, designs, exits } from '../../../lib/catalog';
-export async function GET(){try{const db=getDb();const rows=await db.select({id:reports.id,station:reports.station,exitId:reports.exitId,design:reports.design,machine:reports.machine,color:reports.color,status:reports.status,observedAt:reports.observedAt,createdAt:reports.createdAt,notes:reports.notes,source:reports.source,sourceUrl:reports.sourceUrl}).from(reports).orderBy(desc(reports.observedAt)).limit(2000);const sync=await db.select().from(syncState).limit(1);return Response.json({reports:[...rows,...reviewedReports.filter(r=>!rows.some(x=>x.id===r.id))].sort((a,b)=>b.observedAt-a.observedAt),sync:sync[0]||null},{headers:{'Cache-Control':'no-store'}});}catch{return Response.json({error:'Reports are temporarily unavailable. Please try again.'},{status:503});}}
-export async function POST(req:Request){try{
- if(req.headers.get('origin') && req.headers.get('origin')!==new URL(req.url).origin)return Response.json({error:'Invalid request origin.'},{status:403});
+async function getReports(){try{const db=getDb();const rows=await db.select({id:reports.id,station:reports.station,exitId:reports.exitId,design:reports.design,machine:reports.machine,color:reports.color,status:reports.status,observedAt:reports.observedAt,createdAt:reports.createdAt,notes:reports.notes,source:reports.source,sourceUrl:reports.sourceUrl}).from(reports).orderBy(desc(reports.observedAt)).limit(2000);const sync=await db.select().from(syncState).limit(1);return Response.json({reports:[...rows,...reviewedReports.filter(r=>!rows.some(x=>x.id===r.id))].sort((a,b)=>b.observedAt-a.observedAt),sync:sync[0]||null},{headers:{'Cache-Control':'no-store'}});}catch{return Response.json({error:'Reports are temporarily unavailable. Please try again.'},{status:503});}}
+async function postReport(req:Request){try{
+ if(!allowedOrigin(req))return Response.json({error:'Invalid request origin.'},{status:403});
  const raw=await req.text();if(raw.length>5000)return Response.json({error:'Report is too large.'},{status:413});
  let b;try{b=JSON.parse(raw)}catch{return Response.json({error:'Invalid report.'},{status:400})}
  const now=Date.now();
@@ -19,3 +20,7 @@ export async function POST(req:Request){try{
  const r={id:crypto.randomUUID(),station:b.station,exitId:b.exitId||null,design:b.design,machine:b.machine.trim(),color:b.color.trim()||'Not specified',status:b.status,observedAt:b.observedAt,createdAt:now,notes:b.notes.trim(),source:'community',sourceUrl:null,clientHash:hash};
  await db.insert(reports).values(r);return Response.json({ok:true,id:r.id},{status:201});
  }catch{return Response.json({error:'Your report could not be saved. Please try again.'},{status:503});}}
+
+export async function GET(req:Request){return cors(req,await getReports());}
+export async function POST(req:Request){return cors(req,await postReport(req));}
+export const OPTIONS=preflight;
