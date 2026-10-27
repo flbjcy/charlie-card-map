@@ -5,8 +5,7 @@
 .card-marker{overflow:visible!important;cursor:pointer}
 .pin-leader{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
 .pin-dot{position:absolute;left:-5px;top:-5px;width:10px;height:10px;background:#26323b;border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 1px #26323b;pointer-events:none}
-.pin-label{position:absolute;width:112px;min-width:112px;transform:translate(-50%,-100%);border-color:#a7adb2;border-radius:7px;box-shadow:0 2px 6px #0002;transition:left .18s ease,top .18s ease}
-.pin-label .pin-cards{max-width:99px;flex-wrap:wrap;justify-content:center}
+.pin-label{position:absolute;width:112px;min-width:112px;transform:translate(-50%,-100%);border-color:#a7adb2;border-radius:7px;box-shadow:0 2px 6px #0002}
 .pin-label:after{display:none}
 .card-marker:hover .pin-label,.card-marker:focus-visible .pin-label{border-color:#26323b;box-shadow:0 0 0 2px #26323b}
 .card-marker:focus-visible{outline:none}
