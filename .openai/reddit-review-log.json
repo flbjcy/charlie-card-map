@@ -91,5 +91,19 @@
     "coverage": "Expanded all accessible older comments, nested reply controls and six separately opened deep threads. Six comments counted by Reddit could not be individually reviewed.",
     "comparison": "No new, edited or missing IDs compared with previous 172-comment audit.",
     "outcome": "No sighting changes or deployment. Existing unavailable reports remain hidden."
+  },
+  {
+    "checkedAt": "2026-10-27T03:55:08.831078+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "215 comments reviewed across 8 discussions: 174 in the original thread (180 displayed; six inaccessible), plus 41 across seven additional threads. Older comments, nested replies, six deep branches and a screenshot-only reply were reviewed.",
+    "reviewedCount": 215,
+    "displayedCount": 221,
+    "threadCount": 8,
+    "comparison": "Original discussion: two new comments, no edited/missing prior IDs; announcement excluded. Seven newly discovered threads reviewed.",
+    "includedSources": [
+      "t3_1xg9rpt",
+      "t1_19rpn03q2qwsk"
+    ],
+    "outcome": "Add Park Street orange machine221186; refresh State orange221053. Retain Harvard yellow as unavailable; newer 11PM report supersedes 4PM availability. Other older/ambiguous reports retained in registry decisions without reviving superseded availability."
   }
 ]

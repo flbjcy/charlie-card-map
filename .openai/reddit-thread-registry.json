@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-27T03:55:08.831078+00:00",
+  "searches": [
+    "https://www.reddit.com/r/mbta/search/?q=charliecard&sort=new&restrict_sr=on",
+    "https://www.reddit.com/r/mbta/search/?q=charlie%20cards&sort=new&restrict_sr=on",
+    "https://www.reddit.com/r/boston/search/?q=charlie%20cards&sort=new&restrict_sr=on"
+  ],
+  "scope": "Recent relevant October 2026 collectible-card discussions surfaced by browser searches and related links; not a claim to cover every Reddit thread.",
+  "threads": [
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xaqcns/limited_edition_special_design_charlie_cards/",
+      "reviewedCount": 174,
+      "displayedCount": 180,
+      "coverage": "All available older-comment and nested-reply controls expanded; six separately linked deep branches revisited. Six counted comments inaccessible; deleted placeholder excluded.",
+      "comparison": "Two new comments, no edits or missing previously reviewed IDs versus 172-comment baseline.",
+      "newCommentIds": [
+        "t1_19rpnsgrhtvnk",
+        "t1_19rpn03q2qwsk"
+      ]
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/",
+      "title": "CharlieCards update",
+      "reviewedCount": 1,
+      "commentIds": [
+        "t1_19rpdzqtgzeio"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "Imported Park Street orange, State orange confirmation and historical Harvard yellow. DTX Winter Street Concourse regular-only statement retained as evidence, not generalized to unobserved machines/cards."
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xg4b3a/location_of_the_old_charliecards_from_summer/",
+      "title": "Location of the old CharlieCards from summer?",
+      "reviewedCount": 1,
+      "commentIds": [
+        "t1_19roz2j3w25ep"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "Question, hearsay about Forest Hills and an offer to trade; no firsthand station sighting."
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xe978o/yellow_limited_card_location/",
+      "title": "Yellow Limited Card location",
+      "reviewedCount": 5,
+      "commentIds": [
+        "t1_19ros4t1excn8",
+        "t1_19rolqkdf4wg4",
+        "t1_19rlbbwc3ynut",
+        "t1_19rl66rpwklz8",
+        "t1_19rl68anafy2s"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "Harvard restock confirmations precede newer sold-out evidence. North purple observation has no machine; not added as a duplicate map pin. North yellow is hearsay."
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xc6fmh/the_5_new_charliecards/",
+      "title": "The 5 new CharlieCards",
+      "reviewedCount": 4,
+      "commentIds": [
+        "t1_19royzybgl69s",
+        "t1_19royg9vxji0x",
+        "t1_19rhe8ju1b9qd",
+        "t1_19rkbz0hamnlt"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "Questions and links to original thread; no firsthand new observation."
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xdpxde/collecting_new_limited_edition_charlie_cards/",
+      "title": "Collecting new limited edition Charlie Cards",
+      "reviewedCount": 9,
+      "commentIds": [
+        "t1_19ros6ykzgkf4",
+        "t1_19rltvjhqfjhc",
+        "t1_19rjux7kyirmo",
+        "t1_19rjvgmvwfaea",
+        "t1_19rjvl337hj6s",
+        "t1_19rjvmzggfskj",
+        "t1_19rjvfhvkxpb9",
+        "t1_19rjvhmexxkdc",
+        "t1_19rjuyg1py8v7"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "Older State/Kenmore observations duplicate tracked locations; purple post omits station. Harvard observations superseded. Ambiguous 222121 machine number preserved in audit, not silently corrected or used to revive yellow. Nested reply confirms writer corrected number to 222121."
+    },
+    {
+      "url": "https://www.reddit.com/r/boston/comments/1xbaq62/new_collectible_charlie_cards_announced/",
+      "title": "New collectible Charlie Cards Announced",
+      "reviewedCount": 17,
+      "commentIds": [
+        "t1_19rghwmwyqyv8",
+        "t1_19rfxwida6mf7",
+        "t1_19rpf6w9yp0jl",
+        "t1_pi04zyf",
+        "t1_19rg92jpk79q9",
+        "t1_19rhb8t1jgxkz",
+        "t1_19rhgntpe2ww4",
+        "t1_phz9m2f",
+        "t1_pi01llq",
+        "t1_phzb2ku",
+        "t1_phz3nhb",
+        "t1_phyz8cq",
+        "t1_phzk14t",
+        "t1_phz19ad",
+        "t1_pi0e00e",
+        "t1_phyztzz",
+        "t1_phz0gxs"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "State Milk Street silver/orange report is older than later negatives. Image-only reply visually inspected: screenshot of original thread with Haymarket 221183, State orange221053 and silver221277, as of Oct21 19:00; duplicate evidence, not independent confirmation."
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xb4uz4/new_charlie_card_designs/",
+      "title": "New Charlie Card Designs",
+      "reviewedCount": 4,
+      "commentIds": [
+        "t1_19rglrbtjh751",
+        "t1_19rfl22t6cyub",
+        "t1_19relx807s674",
+        "t1_19rekb8mseelc"
+      ],
+      "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
+      "decision": "Old Oct21/22 Park Street no-luck observation lacks machine. Superseded by specific Oct26 Park machine221186 positive; suggestions excluded."
+    }
+  ]
+}

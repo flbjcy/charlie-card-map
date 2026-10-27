@@ -1,7 +1,8 @@
 {
-  "checkedAt": "2026-10-27T01:52:59.248275+00:00",
-  "method": "Expanded browser review",
-  "coverage": "172 distinct comments reviewed, including all accessible nested replies and six separately opened deep reply threads. Reddit displayed 178 total; six could not be individually reviewed.",
-  "reviewedCount": 172,
-  "displayedCount": 178
+  "checkedAt": "2026-10-27T03:55:08.831078+00:00",
+  "method": "Expanded multi-thread browser review",
+  "coverage": "215 comments reviewed across 8 discussions: 174 in the original thread (180 displayed; six inaccessible), plus 41 across seven additional threads. Older comments, nested replies, six deep branches and a screenshot-only reply were reviewed.",
+  "reviewedCount": 215,
+  "displayedCount": 221,
+  "threadCount": 8
 }
