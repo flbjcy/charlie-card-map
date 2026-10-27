@@ -22,3 +22,12 @@ assert.equal(availableReports([gone,{...old,id:"restocked",observedAt:now+1}]).l
 assert.ok(!availableReports(data as Report[]).some(r=>r.station==="place-coecl"));
 assert.ok(availableReports(data as Report[]).some(r=>r.station==="place-aqucl"&&r.design==="constitution"));
 assert.ok(!availableReports(data as Report[]).some(r=>r.station==="place-forhl"&&r.design==="library"));
+
+// Details affect ranking, not which observation supersedes an older one.
+const vague={...fresh,id:'vague',machine:'Unknown',exitId:null,notes:''};
+const detailed={...vague,id:'detailed',machine:'Machine 123456',exitId:'known-exit'};
+assert.ok(confidence(detailed,[detailed],now).score>confidence(vague,[vague],now).score);
+assert.equal(confidence({...vague,notes:'great '.repeat(100)},[vague],now).score,confidence(vague,[vague],now).score);
+assert.equal(confidence({...detailed,source:'community'},[detailed],now).score,confidence(detailed,[detailed],now).score);
+const removed={...detailed,id:'removed',observedAt:now+1,status:'unavailable'};
+assert.equal(availableReports([detailed,removed]).length,0);
