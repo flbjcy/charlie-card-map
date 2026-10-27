@@ -1,5 +1,33 @@
 [
   {
+    "id": "reviewed-1xgrj3u-north-silver-221043",
+    "station": "place-north",
+    "design": "tea",
+    "color": "Silver",
+    "machine": "Machine 221043",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793100600000,
+    "createdAt": 1793114973131,
+    "notes": "Observed October 27, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not reply posting time. Exit unknown; Green Line exit toward Commuter Rail. Photos identify machines 222029 and 221043. Reply explicitly confirms both had silver: “Yes! At North Station (GL).” Parent asks whether both machines had silver. Confirmation posted October 27 14:07:24 UTC.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rqgo8mf2v4z/"
+  },
+  {
+    "id": "reviewed-1xgrj3u-north-silver-222029",
+    "station": "place-north",
+    "design": "tea",
+    "color": "Silver",
+    "machine": "Machine 222029",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793100600000,
+    "createdAt": 1793114973131,
+    "notes": "Observed October 27, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not reply posting time. Exit unknown; Green Line exit toward Commuter Rail. Photos identify machines 222029 and 221043. Reply explicitly confirms both had silver: “Yes! At North Station (GL).” Parent asks whether both machines had silver. Confirmation posted October 27 14:07:24 UTC.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rqgo8mf2v4z/"
+  },
+  {
     "id": "reviewed-1xgrj3u-harvard-yellow",
     "station": "place-harsq",
     "design": "bunker",
@@ -9,21 +37,7 @@
     "status": "available",
     "observedAt": 1793100600000,
     "createdAt": 1793109027595,
-    "notes": "Observed during October 27 morning hunt, 7:30\u20138:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Yellow found in main lobby. Machine unspecified; does not establish restocking of previously unavailable machine 221121.",
-    "source": "reddit-reviewed",
-    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
-  },
-  {
-    "id": "reviewed-1xgrj3u-north-silver",
-    "station": "place-north",
-    "design": "tea",
-    "color": "Silver",
-    "machine": "Machine unknown; Green Line exit toward Commuter Rail",
-    "exitId": null,
-    "status": "available",
-    "observedAt": 1793100600000,
-    "createdAt": 1793109027595,
-    "notes": "Observed during October 27 morning hunt, 7:30\u20138:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Photos show machines 222029 and 221043. Post does not unambiguously say both dispensed silver; a reply asks this without an answer. Keep machine unknown rather than assigning either number. Photos: https://i.redd.it/h7jqzp32a0yh1.jpeg and https://i.redd.it/l4dem562a0yh1.jpeg",
+    "notes": "Observed during October 27 morning hunt, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Yellow found in main lobby. Machine unspecified; does not establish restocking of previously unavailable machine 221121.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
   },
@@ -37,7 +51,7 @@
     "status": "available",
     "observedAt": 1793100600000,
     "createdAt": 1793109027595,
-    "notes": "Observed during October 27 morning hunt, 7:30\u20138:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Purple found at Green Line entrance; no machine number. Do not infer which previously reported machine was used.",
+    "notes": "Observed during October 27 morning hunt, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Purple found at Green Line entrance; no machine number. Do not infer which previously reported machine was used.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
   },
@@ -51,7 +65,7 @@
     "status": "unavailable",
     "observedAt": 1793100600000,
     "createdAt": 1793109027595,
-    "notes": "Observed during October 27 morning hunt, 7:30\u20138:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Writer reports machines at the Old State House entrance did not have orange or dark-blue cards. Applied to previously documented orange machine 221053 at this entrance; number inherited from prior evidence, not supplied by this writer. No station-wide inference; red platform reports unaffected.",
+    "notes": "Observed during October 27 morning hunt, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Writer reports machines at the Old State House entrance did not have orange or dark-blue cards. Applied to previously documented orange machine 221053 at this entrance; number inherited from prior evidence, not supplied by this writer. No station-wide inference; red platform reports unaffected.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
   },
@@ -65,7 +79,7 @@
     "status": "unavailable",
     "observedAt": 1793100600000,
     "createdAt": 1793109027595,
-    "notes": "Observed during October 27 morning hunt, 7:30\u20138:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Writer reports machines at the Old State House entrance did not have orange or dark-blue cards. Applied to previously documented dark-blue machine 221054 at this entrance; number inherited from prior evidence, not supplied by this writer. Remains unavailable.",
+    "notes": "Observed during October 27 morning hunt, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Writer reports machines at the Old State House entrance did not have orange or dark-blue cards. Applied to previously documented dark-blue machine 221054 at this entrance; number inherited from prior evidence, not supplied by this writer. Remains unavailable.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
   },
@@ -88,12 +102,12 @@
     "station": "place-north",
     "design": "tea",
     "color": "Silver",
-    "machine": "Machine unknown; near TD Garden entrance gate",
+    "machine": "Machine 222029",
     "exitId": null,
     "status": "available",
     "observedAt": 1793079617416,
     "createdAt": 1793080996970,
-    "notes": "Comment states silver is at North Station near the TD Garden entrance gate. Exact machine and mapped exit unknown. Observation time unspecified; posting time used. Reply to a request for silver, not a confirmation of a numbered machine. No inferred link to machine 222029.",
+    "notes": "Silver near TD Garden entrance gate. Observation time unspecified; original comment posting time used. Exit unknown. Follow-up image reply 19rqgw03rlikk to the machine-number question shows 222029; photographed number visually reviewed. Image reply posted October 27 14:12:14 UTC clarifies the original report without refreshing observation time. Source: https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rqgw03rlikk/",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rpu1yqdnwao/"
   },
@@ -163,7 +177,7 @@
     "status": "unavailable",
     "observedAt": 1793064600000,
     "createdAt": 1793065979248,
-    "notes": "Writer just tried Harvard machine 221121 at 9:30 today and reports it out of yellow. Interpreted as 9:30 PM October 26 from the 9:50 PM posting time and \u201cjust tried\u201d; AM/PM was not explicit. Exit unknown. Supersedes the earlier yellow availability at this machine.",
+    "notes": "Writer just tried Harvard machine 221121 at 9:30 today and reports it out of yellow. Interpreted as 9:30 PM October 26 from the 9:50 PM posting time and “just tried”; AM/PM was not explicit. Exit unknown. Supersedes the earlier yellow availability at this machine.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rpjsqv7y8hx/"
   },
@@ -303,7 +317,7 @@
     "status": "available",
     "observedAt": 1793020099246,
     "createdAt": 1793036100000,
-    "notes": "Old State House entrance, leftmost machine. Time is the comment posting time; the writer says \u201cstill has.\u201d Exact exit coordinate unknown.",
+    "notes": "Old State House entrance, leftmost machine. Time is the comment posting time; the writer says “still has.” Exact exit coordinate unknown.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rolt5u4mf7o/"
   },
@@ -387,7 +401,7 @@
     "status": "available",
     "observedAt": 1792950600000,
     "createdAt": 1792987200000,
-    "notes": "Reported near the Orange Line Forest Hills platform. The comment also says \u201coutbound,\u201d so follow the platform destination and verify locally. Exit unknown.",
+    "notes": "Reported near the Orange Line Forest Hills platform. The comment also says “outbound,” so follow the platform destination and verify locally. Exit unknown.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rn6axq98yo2/"
   },
@@ -443,7 +457,7 @@
     "status": "available",
     "observedAt": 1792879330946,
     "createdAt": 1793039517883,
-    "notes": "Reply to a question about the green Boston Public Library card: obtained at Forest Hills. Writer says \u201c221270 I think\u201d; machine number is uncertain. Exit unknown. Posting time used.",
+    "notes": "Reply to a question about the green Boston Public Library card: obtained at Forest Hills. Writer says “221270 I think”; machine number is uncertain. Exit unknown. Posting time used.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rlp5z2r97r6/"
   },
@@ -485,7 +499,7 @@
     "status": "available",
     "observedAt": 1792870200000,
     "createdAt": 1792987200000,
-    "notes": "Center of three machines in the Green Line mezzanine. Time clarified in the author\u2019s reply. Exit unknown.",
+    "notes": "Center of three machines in the Green Line mezzanine. Time clarified in the author’s reply. Exit unknown.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rlj52pslfnn/"
   },

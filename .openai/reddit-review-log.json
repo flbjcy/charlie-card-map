@@ -258,5 +258,78 @@
         "https://i.redd.it/l4dem562a0yh1.jpeg"
       ]
     }
+  },
+  {
+    "checkedAt": "2026-10-27T15:29:33.131092+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "229 comments reviewed across 9 discussions: 175 original and 54 across eight other threads. Available older and nested controls expanded, six deep branches revisited, new machine photo inspected. Six original comments and one New Charlie Card Designs comment remain inaccessible.",
+    "reviewedCount": 229,
+    "displayedCount": 236,
+    "threadCount": 9,
+    "comparison": "Seven new comments; previously accessible comments unchanged. Three recency searches found no additional relevant threads.",
+    "includedCommentIds": [
+      "t1_19rqgo8mf2v4z",
+      "t1_19rqgw03rlikk"
+    ],
+    "previousUncertainRecords": [
+      {
+        "id": "reviewed-1xgrj3u-north-silver",
+        "station": "place-north",
+        "design": "tea",
+        "color": "Silver",
+        "machine": "Machine unknown; Green Line exit toward Commuter Rail",
+        "exitId": null,
+        "status": "available",
+        "observedAt": 1793100600000,
+        "createdAt": 1793109027595,
+        "notes": "Observed during October 27 morning hunt, 7:30–8:05 AM ET; exact time within range unknown. Earliest bound used, not posting time. Exit unknown. Photos show machines 222029 and 221043. Post does not unambiguously say both dispensed silver; a reply asks this without an answer. Keep machine unknown rather than assigning either number. Photos: https://i.redd.it/h7jqzp32a0yh1.jpeg and https://i.redd.it/l4dem562a0yh1.jpeg",
+        "source": "reddit-reviewed",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
+      },
+      {
+        "id": "reviewed-19rpu1yqdnwao-north-silver",
+        "station": "place-north",
+        "design": "tea",
+        "color": "Silver",
+        "machine": "Machine unknown; near TD Garden entrance gate",
+        "exitId": null,
+        "status": "available",
+        "observedAt": 1793079617416,
+        "createdAt": 1793080996970,
+        "notes": "Comment states silver is at North Station near the TD Garden entrance gate. Exact machine and mapped exit unknown. Observation time unspecified; posting time used. Reply to a request for silver, not a confirmation of a numbered machine. No inferred link to machine 222029.",
+        "source": "reddit-reviewed",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rpu1yqdnwao/"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "t1_19rqgo8mf2v4z",
+        "parent": "t1_19rqdftg1ly5d",
+        "text": "Yes! At North Station (GL).",
+        "parentText": "Both machines had the silver ones? Also looking for the Dark Blue cards",
+        "postedAt": "2026-10-27T14:07:24.376Z"
+      },
+      {
+        "id": "t1_19rqgw03rlikk",
+        "parent": "t1_19rqbpagfez43",
+        "image": "https://preview.redd.it/charliecards-update-v0-9hllk4smp0yh1.jpeg?width=3060&format=pjpg&auto=webp&s=f37aba851e85ea0e12435422ba1975adaf420f83",
+        "visualReading": "222029",
+        "postedAt": "2026-10-27T14:12:14.470Z"
+      },
+      {
+        "id": "t1_19rqing6zlpus",
+        "text": "I found the Orange at Park St yesterday, a lesser known location, 221186. Still in stock as of this morning.",
+        "postedAt": "2026-10-27T14:51:45.287Z",
+        "decision": "Supports existing Park orange; morning exact time unknown, no refresh beyond explicit 8:21AM report."
+      }
+    ],
+    "excludedCommentIds": [
+      "t1_19rqiqph8h90l",
+      "t1_19rqh6mcih44i",
+      "t1_19rqiu2km9jj8",
+      "t1_19rqjkikuvji8"
+    ],
+    "feedback": "Original-thread feedback questions Harvard morning yellow and missing Forest Hills. Harvard morning evidence is from separate morning-hunt post, unspecified machine; older221121 negative remains. Forest Hills negatives still supersede positives. No new observation in feedback.",
+    "outcome": "Clarify North silver machines, removing duplicate unknown-machine versions. Preserve observation timestamps and unavailable history."
   }
 ]
