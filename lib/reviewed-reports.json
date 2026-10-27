@@ -1,5 +1,19 @@
 [
   {
+    "id": "reviewed-19rpu1yqdnwao-north-silver",
+    "station": "place-north",
+    "design": "tea",
+    "color": "Silver",
+    "machine": "Machine unknown; near TD Garden entrance gate",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793079617416,
+    "createdAt": 1793080996970,
+    "notes": "Comment states silver is at North Station near the TD Garden entrance gate. Exact machine and mapped exit unknown. Observation time unspecified; posting time used. Reply to a request for silver, not a confirmation of a numbered machine. No inferred link to machine 222029.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rpu1yqdnwao/"
+  },
+  {
     "id": "reviewed-19rpn03q2qwsk-place-harsq-bunker",
     "station": "place-harsq",
     "design": "bunker",

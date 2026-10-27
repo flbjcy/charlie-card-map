@@ -105,5 +105,21 @@
       "t1_19rpn03q2qwsk"
     ],
     "outcome": "Add Park Street orange machine221186; refresh State orange221053. Retain Harvard yellow as unavailable; newer 11PM report supersedes 4PM availability. Other older/ambiguous reports retained in registry decisions without reviving superseded availability."
+  },
+  {
+    "checkedAt": "2026-10-27T06:03:16.969943+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "217 comments reviewed across 8 discussions: 174 in the original thread (180 displayed; six inaccessible), plus 43 across seven other threads. New Charlie Card Designs displayed five comments but only four were accessible. All available older-comment and nested-reply controls expanded, including six deep branches.",
+    "reviewedCount": 217,
+    "displayedCount": 224,
+    "threadCount": 8,
+    "comparison": "Original 174 IDs unchanged. Two new replies in CharlieCards update; all other accessible IDs and text unchanged. Three recent Reddit searches found no additional relevant threads.",
+    "includedCommentIds": [
+      "t1_19rpu1yqdnwao"
+    ],
+    "excludedCommentIds": [
+      "t1_19rpsliza5t1f"
+    ],
+    "outcome": "Add North Station silver near TD Garden entrance; machine unknown, exit unknown, posting-time fallback. Preserve existing unavailable machine/card states."
   }
 ]

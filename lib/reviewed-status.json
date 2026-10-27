@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-27T03:55:08.831078+00:00",
+  "checkedAt": "2026-10-27T06:03:16.969943+00:00",
   "method": "Expanded multi-thread browser review",
-  "coverage": "215 comments reviewed across 8 discussions: 174 in the original thread (180 displayed; six inaccessible), plus 41 across seven additional threads. Older comments, nested replies, six deep branches and a screenshot-only reply were reviewed.",
-  "reviewedCount": 215,
-  "displayedCount": 221,
+  "coverage": "217 comments reviewed across 8 discussions: 174 in the original thread (180 displayed; six inaccessible), plus 43 across seven other threads. New Charlie Card Designs displayed five comments but only four were accessible. All available older-comment and nested-reply controls expanded, including six deep branches.",
+  "reviewedCount": 217,
+  "displayedCount": 224,
   "threadCount": 8
 }
