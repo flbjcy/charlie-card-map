@@ -121,5 +121,114 @@
       "t1_19rpsliza5t1f"
     ],
     "outcome": "Add North Station silver near TD Garden entrance; machine unknown, exit unknown, posting-time fallback. Preserve existing unavailable machine/card states."
+  },
+  {
+    "checkedAt": "2026-10-27T06:39:13.821201+00:00",
+    "reviewedCount": 217,
+    "displayedCount": 225,
+    "threadCount": 8,
+    "coverage": "174 original-thread comments and 43 across seven tracked threads reviewed. Expanded all available older and nested-reply controls and revisited six deep branches. Eight counted comments inaccessible: six original, one CharlieCards update, one New Charlie Card Designs.",
+    "comparison": "No new or edited accessible comments versus preceding review. Three recency-sorted searches found no additional relevant current threads.",
+    "outcome": "No sighting changes; no deployment. Published review timestamp unchanged.",
+    "perThreadCounts": {
+      "1xaqcns": 174,
+      "1xg9rpt": 3,
+      "1xg4b3a": 1,
+      "1xe978o": 5,
+      "1xc6fmh": 4,
+      "1xdpxde": 9,
+      "1xbaq62": 17,
+      "1xb4uz4": 4
+    }
+  },
+  {
+    "checkedAt": "2026-10-27T07:30:44.417468+00:00",
+    "status": "incomplete",
+    "reviewedCount": 133,
+    "displayedCount": 180,
+    "threadCount": 1,
+    "coverage": "133 accessible original-thread comments compared, unchanged. Eight nested-reply controls and older comments remained unreviewed. Deep branches and seven other tracked threads not revisited.",
+    "failure": "Reddit search navigation failed with ERR_CONNECTION_RESET; browser policy prevented inspecting its generated error page. Nested-reply interaction also failed. No bypass attempted.",
+    "outcome": "No data or deployment changes. Published successful review timestamp preserved; this run is not a successful sync."
+  },
+  {
+    "checkedAt": "2026-10-27T08:23:26.853083+00:00",
+    "triggeredAt": "2026-10-27T08:22:53.462Z",
+    "status": "failed",
+    "reviewedCount": 0,
+    "coverage": "No Reddit pages or comments could be reviewed in this run; browser connection failed both opening the original thread and listing tabs.",
+    "failure": "Browser transport closed before response.",
+    "outcome": "No changes to reports, published review timestamp, or deployment. Previous evidence and unavailable states preserved."
+  },
+  {
+    "checkedAt": "2026-10-27T09:29:32.058083+00:00",
+    "status": "reviewed-with-coverage-gaps",
+    "reviewedCount": 218,
+    "displayedCount": 225,
+    "threadCount": 8,
+    "coverage": "174 original comments and 44 across seven other tracked threads. All available older and nested controls expanded, six deep branches revisited. Six original comments and one New Charlie Card Designs comment inaccessible.",
+    "comparison": "Original IDs/text unchanged. Previously inaccessible reply 19rpv60k1h8w4 now readable in CharlieCards update; other accessible comments unchanged. Three recent searches found no new relevant threads.",
+    "evidence": {
+      "id": "t1_19rpv60k1h8w4",
+      "parent": "t1_19rpu1yqdnwao",
+      "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rpv60k1h8w4/",
+      "postedAt": "2026-10-27T06:05:13.988Z",
+      "text": "Thanks. I had gone over just now and the doors were closed..I thought it was open 24/7",
+      "interpretation": "North Station doors reported closed around 2:05 AM ET, posting-time fallback. Access observation only; no machine/card stock observation. Does not supersede silver availability or establish current daytime closure."
+    },
+    "outcome": "No sighting changes or deployment. Browser recovered; published review metadata unchanged."
+  },
+  {
+    "checkedAt": "2026-10-27T10:29:25.214044+00:00",
+    "triggeredAt": "2026-10-27T10:28:05.716Z",
+    "status": "reviewed-with-coverage-gaps",
+    "reviewedCount": 218,
+    "displayedCount": 225,
+    "threadCount": 8,
+    "coverage": "174 original comments plus 44 across seven tracked threads reviewed. All available older and nested controls expanded; six deep branches revisited. Six original comments and one New Charlie Card Designs comment remain inaccessible.",
+    "comparison": "No new, edited or missing accessible comment IDs, or changed tracked post text. Three recency-sorted Reddit searches found no additional relevant current threads.",
+    "perThreadCounts": {
+      "1xaqcns": 174,
+      "1xg9rpt": 4,
+      "1xg4b3a": 1,
+      "1xe978o": 5,
+      "1xc6fmh": 4,
+      "1xdpxde": 9,
+      "1xbaq62": 17,
+      "1xb4uz4": 4
+    },
+    "outcome": "No sighting changes or deployment; published review timestamp unchanged."
+  },
+  {
+    "checkedAt": "2026-10-27T11:41:52.507483+00:00",
+    "triggeredAt": "2026-10-27T11:41:21.153Z",
+    "status": "failed",
+    "reviewedCount": 0,
+    "coverage": "No threads or comments reviewed; browser connection failed when opening original discussion and when listing tabs.",
+    "failure": "Browser transport closed before response on both attempts.",
+    "outcome": "No report, published review timestamp, or deployment changes. Previous evidence and unavailable states preserved; no successful sync recorded."
+  },
+  {
+    "checkedAt": "2026-10-27T12:44:36.864168+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "221 comments reviewed across 8 discussions: 174 original comments and 47 across seven other threads. All available older and nested-reply controls expanded; six deep branches revisited. Six original comments and one New Charlie Card Designs comment remain inaccessible.",
+    "reviewedCount": 221,
+    "displayedCount": 228,
+    "threadCount": 8,
+    "comparison": "Original 174 comments unchanged; three new comments across two other threads. Three recency-sorted searches found no additional relevant current threads.",
+    "includedCommentIds": [
+      "t1_19rqbyzs87tc3"
+    ],
+    "excludedCommentIds": [
+      "t1_19rqbpagfez43"
+    ],
+    "uncertainEvidence": {
+      "id": "t1_19rqcdp8m6b4x",
+      "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg4b3a/comment/19rqcdp8m6b4x/",
+      "postedAt": "2026-10-27T12:31:09.746Z",
+      "text": "State street had red, blue, and orange. Red was on platform level downstairs.",
+      "decision": "Past-tense report without observation date, machine numbers or precise blue design. Retained as evidence; no invented machine association, independent stock revival or current-time assumption."
+    },
+    "outcome": "Refresh Park Street orange machine221186 using explicit 8:21AM observation. Preserve all existing unavailable reports."
   }
 ]

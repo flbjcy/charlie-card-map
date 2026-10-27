@@ -1,5 +1,19 @@
 [
   {
+    "id": "reviewed-19rqbyzs87tc3-park-orange",
+    "station": "place-pktrm",
+    "design": "oldstate",
+    "color": "Orange",
+    "machine": "Machine 221186",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793103660000,
+    "createdAt": 1793105076864,
+    "notes": "Still in stock at 8:21 AM October 27, explicitly stated. Orange Old State House design and Green Line toward Government Center/Union Square entrance context from parent post. Exact exit unknown. Posted 8:22 AM ET; stated observation time used.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rqbyzs87tc3/"
+  },
+  {
     "id": "reviewed-19rpu1yqdnwao-north-silver",
     "station": "place-north",
     "design": "tea",
