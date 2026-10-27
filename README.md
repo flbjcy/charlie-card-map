@@ -33,7 +33,7 @@ Approved Reddit API access can be configured through server-side Sites runtime s
 
 ## GitHub Pages
 
-Public frontend: https://flbjcy.github.io/charlie-card-map/
+Public frontend: https://flbjcy.github.io/find-my-charlie/
 
 Build with `npx vite build --config vite.pages.config.ts`. GitHub Actions publishes `dist-pages` on pushes to main. Shared API routes and D1 remain on the existing Sites deployment; its CORS allowlist permits https://flbjcy.github.io. Hourly browser reviews search relevant Reddit threads and publish supported updates while Codex is running.
 
