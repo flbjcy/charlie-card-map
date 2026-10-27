@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+  "checkedAt": "2026-10-27T17:51:40.711414+00:00",
   "searches": [
     "https://www.reddit.com/r/mbta/search/?q=charliecard&sort=new&restrict_sr=on",
     "https://www.reddit.com/r/mbta/search/?q=charlie%20cards&sort=new&restrict_sr=on",
@@ -10,21 +10,17 @@
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xaqcns/limited_edition_special_design_charlie_cards/",
       "reviewedCount": 178,
-      "displayedCount": 184,
-      "coverage": "All available older-comment and nested-reply controls expanded; six separately linked deep branches revisited. Six counted comments inaccessible; deleted placeholder excluded.",
-      "comparison": "New comments recorded; prior accessible text unchanged.",
-      "newCommentIds": [
-        "t1_19rqm8iidaflv",
-        "t1_19rqliawvmo3o",
-        "t1_19rqnkhw1z7no"
-      ],
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "displayedCount": 187,
+      "coverage": "178 accessible of187 displayed after repeated full expansion and seven deep branches; nine inaccessible.",
+      "comparison": "Prior accessible text unchanged.",
+      "newCommentIds": [],
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "decision": "Import explicit noon Harvard221123 yellow report; keep221121 unavailable. Feedback replies excluded."
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/",
       "title": "CharlieCards update",
-      "reviewedCount": 9,
+      "reviewedCount": 10,
       "commentIds": [
         "t1_19rpdzqtgzeio",
         "t1_19rpsliza5t1f",
@@ -34,14 +30,17 @@
         "t1_19rqbyzs87tc3",
         "t1_19rqgw03rlikk",
         "t1_19rqk7uig8fgk",
-        "t1_19rqklapcxemd"
+        "t1_19rqklapcxemd",
+        "t1_19rqpr48x3ade"
       ],
       "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
       "decision": "Imported Park Street orange, State orange confirmation and historical Harvard yellow. DTX Winter Street Concourse regular-only statement retained as evidence, not generalized to unobserved machines/cards. New silver North Station report near TD Garden entrance added with machine and exact exit unknown, posting-time fallback; parent question excluded. Reply 19rpv60k1h8w4 reports doors closed around 2:05 AM ET, not card unavailability; retained in review log without changing stock status. October27 8:21AM Park221186 availability confirmation imported; machine-number question excluded. New photo reply identifies North silver machine222029; original observation timestamp preserved.",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
-      "displayedCount": 9,
-      "newCommentIds": [],
-      "comparison": "Prior accessible text unchanged."
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
+      "displayedCount": 10,
+      "newCommentIds": [
+        "t1_19rqpr48x3ade"
+      ],
+      "comparison": "New comments recorded; prior accessible text unchanged."
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xg4b3a/location_of_the_old_charliecards_from_summer/",
@@ -54,7 +53,7 @@
       ],
       "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
       "decision": "Question, hearsay about Forest Hills and an offer to trade; no firsthand station sighting. New State red/blue/orange past-tense report retained in audit with unknown observation time/machine and ambiguous blue design; no numbered-machine refresh inferred.",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "displayedCount": 3,
       "newCommentIds": [],
       "comparison": "Prior accessible text unchanged."
@@ -72,7 +71,7 @@
       ],
       "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
       "decision": "Harvard restock confirmations precede newer sold-out evidence. North purple observation has no machine; not added as a duplicate map pin. North yellow is hearsay.",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "displayedCount": 5,
       "newCommentIds": [],
       "comparison": "Prior accessible text unchanged."
@@ -89,7 +88,7 @@
       ],
       "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
       "decision": "Questions and links to original thread; no firsthand new observation.",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "displayedCount": 4,
       "newCommentIds": [],
       "comparison": "Prior accessible text unchanged."
@@ -111,7 +110,7 @@
       ],
       "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
       "decision": "Older State/Kenmore observations duplicate tracked locations; purple post omits station. Harvard observations superseded. Ambiguous 222121 machine number preserved in audit, not silently corrected or used to revive yellow. Nested reply confirms writer corrected number to 222121.",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "displayedCount": 9,
       "newCommentIds": [],
       "comparison": "Prior accessible text unchanged."
@@ -141,7 +140,7 @@
       ],
       "coverage": "Post and all accessible comments/replies reviewed; no remaining expansion controls.",
       "decision": "State Milk Street silver/orange report is older than later negatives. Image-only reply visually inspected: screenshot of original thread with Haymarket 221183, State orange221053 and silver221277, as of Oct21 19:00; duplicate evidence, not independent confirmation.",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "displayedCount": 17,
       "newCommentIds": [],
       "comparison": "Prior accessible text unchanged."
@@ -159,16 +158,16 @@
       "coverage": "Four accessible comments reviewed; Reddit displays five. No more-reply or deep-branch controls available; one counted comment inaccessible.",
       "decision": "Old Oct21/22 Park Street no-luck observation lacks machine. Superseded by specific Oct26 Park machine221186 positive; suggestions excluded.",
       "displayedCount": 5,
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
       "newCommentIds": [],
       "comparison": "Prior accessible text unchanged."
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/",
       "title": "Limited Edition Charlie Card Hunt this AM",
-      "checkedAt": "2026-10-27T17:10:30.444738+00:00",
-      "reviewedCount": 9,
-      "displayedCount": 9,
+      "checkedAt": "2026-10-27T17:51:40.711414+00:00",
+      "reviewedCount": 12,
+      "displayedCount": 12,
       "commentIds": [
         "t1_19rqdftg1ly5d",
         "t1_19rqgo8mf2v4z",
@@ -178,13 +177,17 @@
         "t1_19rqkpnm4awx1",
         "t1_19rqk7uh11an8",
         "t1_19rqn3kfnl25d",
-        "t1_19rqona5dpq1t"
+        "t1_19rqona5dpq1t",
+        "t1_19rqp4wme8nxd",
+        "t1_19rqpztk9l44g",
+        "t1_19rqqke1qh4x1"
       ],
       "coverage": "Post, one comment and all three photos visually reviewed; no remaining expansion controls.",
       "decision": "Both North silver machines222029 and221043 confirmed by nested answer. Park orange221186 morning confirmation retained in audit without invented exact observation time. CharlieCard Store reply lacks clear design/firsthand observation; not mapped. Question excluded. New undated State House orange/blue recollection retained as uncertain evidence; no current availability inferred. Harvard machine-number question excluded.",
       "newCommentIds": [
-        "t1_19rqn3kfnl25d",
-        "t1_19rqona5dpq1t"
+        "t1_19rqp4wme8nxd",
+        "t1_19rqpztk9l44g",
+        "t1_19rqqke1qh4x1"
       ],
       "comparison": "New comments recorded; prior accessible text unchanged."
     }

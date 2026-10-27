@@ -391,5 +391,30 @@
       "decision": "No observation date or machine numbers, ambiguous blue design and unclear firsthand observation. Retain without inventing machine association or reviving prior unavailable darkblue."
     },
     "outcome": "Add Harvard yellow221123 at explicit noon October27 observation; preserve unavailable221121 and prior unknown-machine morning report as separate evidence."
+  },
+  {
+    "checkedAt": "2026-10-27T17:51:40.711414+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "242 accessible comments reviewed across 9 discussions: 178 original and 64 across eight other threads. Available older/nested controls expanded; seven deep branches checked. Original discussion displays187 but only178 accessible after repeat expansion; one New Charlie Card Designs comment also inaccessible.",
+    "reviewedCount": 242,
+    "displayedCount": 252,
+    "threadCount": 9,
+    "comparison": "Four accessible new replies; prior accessible text unchanged. No new relevant threads in three recency searches.",
+    "includedCommentIds": [
+      "t1_19rqpztk9l44g"
+    ],
+    "excludedCommentIds": [
+      "t1_19rqpr48x3ade",
+      "t1_19rqqke1qh4x1"
+    ],
+    "uncertainEvidence": {
+      "id": "t1_19rqp4wme8nxd",
+      "parent": "t1_19rqiu2km9jj8",
+      "postedAt": "2026-10-27T17:17:08.838Z",
+      "text": "Yes, I asked for the dark blue card and they gave it to me",
+      "context": "Parent asks whether one can stop by CharlieCard Store and ask.",
+      "decision": "Supported staff handout at CharlieCard Store, unknown observation time. Retained in audit; not assigned to a station fare machine or invented exit."
+    },
+    "outcome": "Add Haymarket purple restock at described unnumbered machine. Preserve existing numbered reports and negative history."
   }
 ]
