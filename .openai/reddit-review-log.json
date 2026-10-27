@@ -416,5 +416,60 @@
       "decision": "Supported staff handout at CharlieCard Store, unknown observation time. Retained in audit; not assigned to a station fare machine or invented exit."
     },
     "outcome": "Add Haymarket purple restock at described unnumbered machine. Preserve existing numbered reports and negative history."
+  },
+  {
+    "checkedAt": "2026-10-27T18:52:52.166087+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "246 accessible comments across 9 discussions: 178 original and 68 across eight others. Available nested and older controls expanded; seven deep branches reviewed. Original displays187 but178 accessible; one New Charlie Card Designs comment also inaccessible.",
+    "reviewedCount": 246,
+    "displayedCount": 256,
+    "threadCount": 9,
+    "comparison": "Four new comments and one edited comment; three recency searches found no additional relevant threads.",
+    "evidence": [
+      {
+        "id": "t1_19rqr0yyrpr29",
+        "parent": null,
+        "time": "2026-10-27T17:59:32.222Z",
+        "text": "All 4 DTX machines by Summer St concourse are normal",
+        "decision": "No matching mapped Summer St machine reports; retain negative evidence without marking all DTX machines unavailable."
+      },
+      {
+        "id": "t1_19rqr3xd29d7m",
+        "parent": "t1_19rqp4wme8nxd",
+        "time": "2026-10-27T18:01:22.660Z",
+        "text": "Awesome thanks I was able to get 2 as well!",
+        "decision": "CharlieCard Store handout confirmation; design not explicit, no station fare-machine mapping."
+      },
+      {
+        "id": "t1_19rqritiwwnr9",
+        "text": "Yeah....",
+        "decision": "Not a sighting."
+      },
+      {
+        "id": "t1_19rqrqjzy50rn",
+        "text": "oooo pull my hair",
+        "decision": "Not a sighting."
+      },
+      {
+        "id": "t1_19rqpztk9l44g",
+        "text": "Purple just got restocked at haymarket, the right machine by the kiosk",
+        "previousReport": {
+          "id": "reviewed-19rqpztk9l44g-haymarket-purple",
+          "station": "place-haecl",
+          "design": "garden",
+          "color": "Purple",
+          "machine": "Second from the right by the kiosk; number unknown",
+          "exitId": null,
+          "status": "available",
+          "observedAt": 1793122584037,
+          "createdAt": 1793123500711,
+          "notes": "Reporter says purple just got restocked at Haymarket, second from the right by the kiosk. Exact observation time unspecified; posting time (October27 1:36PM ET) used as fallback. Exit unknown. No machine number or entrance stated; do not assign this to221183 or another previously numbered machine.",
+          "source": "reddit-reviewed",
+          "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rqpztk9l44g/"
+        },
+        "decision": "Correct location wording, preserve original observation timestamp."
+      }
+    ],
+    "outcome": "Correct Haymarket purple location from second-right to right machine by kiosk; no time refresh or new machine number."
   }
 ]
