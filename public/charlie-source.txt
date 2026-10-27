@@ -1,0 +1,2 @@
+Charlie character: original MBTA CharlieCard artwork. Source: https://mycharlie.mbta.com/images/charliecard.png
+Displayed through an SVG viewport focusing on Charlie; original artwork preserved. This community map is not affiliated with the MBTA.
