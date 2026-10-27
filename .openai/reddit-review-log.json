@@ -1,0 +1,95 @@
+[
+  {
+    "checkedAt": "2026-10-26T19:30:18.146036+00:00",
+    "thread": "https://www.reddit.com/r/mbta/comments/1xaqcns/limited_edition_special_design_charlie_cards/?sort=new",
+    "reviewedCount": 163,
+    "displayedCount": 167,
+    "coverage": "Expanded all available top-level comments, all visible nested reply controls, and six separately linked deep reply threads. Four comments counted by Reddit were not accessible.",
+    "comparison": "Compared IDs and whitespace-normalized comment text against previous browser review: no new or edited comments among 163 accessible comments.",
+    "outcome": "No sighting changes; no deployment needed. Published review timestamp remains the last published review."
+  },
+  {
+    "checkedAt": "2026-10-26T20:29:54.628321+00:00",
+    "reviewedCount": 167,
+    "displayedCount": 171,
+    "coverage": "167 distinct comments reviewed, including all accessible nested replies and six separately opened deep reply threads. Reddit displayed 171 total; four were not accessible in the expanded discussion.",
+    "comparison": "Four new comments; no changed existing comment text. Two positive confirmations imported; two questions excluded.",
+    "includedCommentIds": [
+      "19rp55s3cdr40",
+      "19rp4uscjr7nm"
+    ],
+    "excludedCommentIds": [
+      "19rp4h4o6rjpe",
+      "19rp4b7latym8"
+    ]
+  },
+  {
+    "checkedAt": "2026-10-26T22:11:36.701587+00:00",
+    "reviewedCount": 171,
+    "displayedCount": 176,
+    "coverage": "171 distinct comments reviewed, including all accessible nested replies and six separately opened deep reply threads. Reddit displayed 176 total; five were not accessible in the expanded discussion.",
+    "comparison": "Four new comments; no changed existing comment text or missing previously reviewed IDs. Three comments support four observations. One uncertain machine-location reply excluded.",
+    "includedCommentIds": [
+      "19rp71z1vuglh",
+      "19rp6kew1ft6p",
+      "19rp6z6ken79h"
+    ],
+    "excludedCommentIds": [
+      "19rp6466ku5c0"
+    ]
+  },
+  {
+    "checkedAt": "2026-10-26T22:37:47.060537+00:00",
+    "reviewedCount": 171,
+    "displayedCount": 177,
+    "coverage": "171 distinct comment identifiers reviewed, including all accessible nested replies and six separately opened deep reply threads. All visible expansion controls exhausted. Reddit displayed 177 total; six could not be individually reviewed.",
+    "comparison": "One new question asking whether cards remain; excluded because it contains no observation. No changed text among previously reviewed comments. Previous generic t1_deleted placeholder no longer present; no sourced sighting removed.",
+    "excludedCommentIds": [
+      "19rpa6vfhddhc"
+    ],
+    "outcome": "No sighting changes; no deployment. Published review timestamp remains the last published review."
+  },
+  {
+    "attemptedAt": "2026-10-27T00:30:28.170914+00:00",
+    "status": "failed",
+    "reviewedCount": 0,
+    "displayedCount": null,
+    "coverage": "No comments accessible this run. Browser navigation timed out; subsequent tab inspection returned a site-unreachable error with ERR_CONNECTION_RESET. Browser URL policy blocked inspection of the generated error page.",
+    "outcome": "Review not successful. No sighting changes or deployment; previous successful audit and published review timestamp preserved."
+  },
+  {
+    "checkedAt": "2026-10-27T00:39:24.652523+00:00",
+    "reviewedCount": 171,
+    "displayedCount": 177,
+    "coverage": "171 distinct comments reviewed, including all accessible nested replies and six separately opened deep reply threads. Reddit displayed 177 total; six could not be individually reviewed.",
+    "comparison": "No new, edited or missing comment IDs compared with the last successful 171-comment audit.",
+    "outcome": "Review timestamp refreshed with marker clarity update; no sighting changes."
+  },
+  {
+    "checkedAt": "2026-10-27T00:44:59.315496+00:00",
+    "reviewedCount": 171,
+    "displayedCount": 177,
+    "coverage": "All accessible top-level and nested reply controls expanded, including six separate deep threads. 171 distinct comments reviewed; six counted by Reddit not individually accessible.",
+    "comparison": "No new or edited comments compared with the previous 171-comment audit. One deep thread initially loaded no comments, then loaded all four on revisit.",
+    "outcome": "No sighting changes or deployment."
+  },
+  {
+    "checkedAt": "2026-10-27T01:52:59.248275+00:00",
+    "reviewedCount": 172,
+    "displayedCount": 178,
+    "coverage": "172 distinct comments reviewed, including all accessible nested replies and six separately opened deep reply threads. Reddit displayed 178 total; six could not be individually reviewed.",
+    "comparison": "One new negative Harvard yellow report; no edits or missing previously reviewed comment IDs.",
+    "includedCommentIds": [
+      "19rpjsqv7y8hx"
+    ],
+    "outcome": "Hide Harvard yellow machine 221121; preserve older positive reports in history. Observation 9:30 PM inferred from just-tried wording and 9:50 PM posting time; uncertainty recorded."
+  },
+  {
+    "checkedAt": "2026-10-27T02:49:15.104954+00:00",
+    "reviewedCount": 172,
+    "displayedCount": 178,
+    "coverage": "Expanded all accessible older comments, nested reply controls and six separately opened deep threads. Six comments counted by Reddit could not be individually reviewed.",
+    "comparison": "No new, edited or missing IDs compared with previous 172-comment audit.",
+    "outcome": "No sighting changes or deployment. Existing unavailable reports remain hidden."
+  }
+]

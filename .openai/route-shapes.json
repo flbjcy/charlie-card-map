@@ -1,0 +1,64 @@
+{
+  "source": "https://api-v3.mbta.com/shapes",
+  "selection": "Canonical shapes only; exclude alternate service patterns and deduplicate identical geometry.",
+  "routes": [
+    {
+      "route": "Red",
+      "shapeIds": [
+        "canonical-931_0009",
+        "canonical-931_0010",
+        "canonical-933_0009",
+        "canonical-933_0010"
+      ]
+    },
+    {
+      "route": "Orange",
+      "shapeIds": [
+        "canonical-903_0017",
+        "canonical-903_0018"
+      ]
+    },
+    {
+      "route": "Blue",
+      "shapeIds": [
+        "canonical-946_0014",
+        "canonical-946_0013"
+      ]
+    },
+    {
+      "route": "Green-B",
+      "shapeIds": [
+        "canonical-8000012",
+        "canonical-8000013"
+      ]
+    },
+    {
+      "route": "Green-C",
+      "shapeIds": [
+        "canonical-8000005",
+        "canonical-8000006"
+      ]
+    },
+    {
+      "route": "Green-D",
+      "shapeIds": [
+        "canonical-8000009",
+        "canonical-8000008"
+      ]
+    },
+    {
+      "route": "Green-E",
+      "shapeIds": [
+        "canonical-8000015",
+        "canonical-8000018"
+      ]
+    },
+    {
+      "route": "Mattapan",
+      "shapeIds": [
+        "canonical-899_0005",
+        "canonical-899_0008"
+      ]
+    }
+  ]
+}
