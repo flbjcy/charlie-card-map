@@ -331,5 +331,65 @@
     ],
     "feedback": "Original-thread feedback questions Harvard morning yellow and missing Forest Hills. Harvard morning evidence is from separate morning-hunt post, unspecified machine; older221121 negative remains. Forest Hills negatives still supersede positives. No new observation in feedback.",
     "outcome": "Clarify North silver machines, removing duplicate unknown-machine versions. Preserve observation timestamps and unavailable history."
+  },
+  {
+    "checkedAt": "2026-10-27T15:45:39.366733+00:00",
+    "triggeredAt": "2026-10-27T15:43:26.820Z",
+    "method": "Expanded multi-thread browser review",
+    "reviewedCount": 233,
+    "displayedCount": 240,
+    "threadCount": 9,
+    "coverage": "175 original comments and 58 comments across eight other discussions. Available older-comment and nested-reply controls expanded; six deep branches reviewed. Six original comments and one New Charlie Card Designs comment remain inaccessible.",
+    "perThreadCounts": {
+      "1xaqcns": 175,
+      "1xg9rpt": 9,
+      "1xg4b3a": 3,
+      "1xe978o": 5,
+      "1xc6fmh": 4,
+      "1xdpxde": 9,
+      "1xbaq62": 17,
+      "1xb4uz4": 4,
+      "1xgrj3u": 7
+    },
+    "comparison": "Four new comments; all previously accessible comment text unchanged. Three recency-sorted searches found no additional relevant threads.",
+    "excludedCommentIds": [
+      "t1_19rqk7uig8fgk",
+      "t1_19rqklapcxemd",
+      "t1_19rqkpnm4awx1"
+    ],
+    "uncertainEvidence": {
+      "id": "t1_19rqk7uh11an8",
+      "parent": null,
+      "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rqk7uh11an8/",
+      "postedAt": "2026-10-27T15:26:52.658Z",
+      "text": "Orange and Dark Blue are at the old State House. I believe I found the Orange on the far-left machine and the blue on the far-right machine. I thought one of the machines was going to give me the silver, but it gave me blue",
+      "observationTime": null,
+      "decision": "Undated recollection; cannot establish that observation follows October27 morning regular-only evidence. No machine numbers stated. Retain in audit without reviving unavailable machines or assuming posting time is observation time."
+    },
+    "outcome": "No supported sighting corrections. No deployment or published-review timestamp change."
+  },
+  {
+    "checkedAt": "2026-10-27T17:10:30.444738+00:00",
+    "method": "Expanded multi-thread browser review",
+    "coverage": "238 comments reviewed across 9 discussions: 178 original and 60 across eight other threads. Available older and nested controls expanded; six deep branches and the new feedback branch reviewed. Six original comments and one New Charlie Card Designs comment remain inaccessible.",
+    "reviewedCount": 238,
+    "displayedCount": 245,
+    "threadCount": 9,
+    "comparison": "Five new comments; all prior accessible text unchanged. Three recency searches found no new relevant threads.",
+    "includedCommentIds": [
+      "t1_19rqm8iidaflv"
+    ],
+    "excludedCommentIds": [
+      "t1_19rqliawvmo3o",
+      "t1_19rqnkhw1z7no",
+      "t1_19rqona5dpq1t"
+    ],
+    "uncertainEvidence": {
+      "id": "t1_19rqn3kfnl25d",
+      "postedAt": "2026-10-27T16:31:28.401Z",
+      "text": "Blue ones you can find in state by the city hall side. Second machine to the left. There’s another one at the state side headed towards Forrest hills by the chipotle (state station)",
+      "decision": "No observation date or machine numbers, ambiguous blue design and unclear firsthand observation. Retain without inventing machine association or reviving prior unavailable darkblue."
+    },
+    "outcome": "Add Harvard yellow221123 at explicit noon October27 observation; preserve unavailable221121 and prior unknown-machine morning report as separate evidence."
   }
 ]

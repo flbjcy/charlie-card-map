@@ -1,5 +1,19 @@
 [
   {
+    "id": "reviewed-19rqm8iidaflv-harvard-yellow",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221123",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793116800000,
+    "createdAt": 1793121030444,
+    "notes": "Explicit observation: October 27 at 12:00 PM ET. Machine 221123; Exit unknown. This is a different numbered machine from the older unavailable221121 report. Comment includes an edit and a photo; availability and number taken from its current text.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rqm8iidaflv/"
+  },
+  {
     "id": "reviewed-1xgrj3u-north-silver-221043",
     "station": "place-north",
     "design": "tea",
