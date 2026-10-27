@@ -1,5 +1,19 @@
 [
   {
+    "id": "reviewed-19rqwk7ted9c3-harvard-yellow",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221123 (rightmost)",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793125800000,
+    "createdAt": 1793131417432,
+    "notes": "Comment explicitly confirms yellow at Harvard rightmost TVM 221123 at 2:30 PM ET October 27. Observation time used rather than 4:03 PM posting time. Exit unknown. Same machine as the earlier noon report; older unavailable report concerns 221121.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rqwk7ted9c3/"
+  },
+  {
     "id": "reviewed-19rqpztk9l44g-haymarket-purple",
     "station": "place-haecl",
     "design": "garden",

@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-27T18:52:52.166087+00:00",
-  "method": "Expanded multi-thread browser review",
-  "coverage": "246 accessible comments across 9 discussions: 178 original and 68 across eight others. Available nested and older controls expanded; seven deep branches reviewed. Original displays187 but178 accessible; one New Charlie Card Designs comment also inaccessible.",
-  "reviewedCount": 246,
-  "displayedCount": 256,
+  "checkedAt": "2026-10-27T21:37:26Z",
+  "method": "Incremental review of visible comments in nine tracked Reddit discussions; no full expansion this run",
+  "coverage": "88 comments visible across nine tracked threads were checked in this incremental pass. Older comments and collapsed replies were not re-reviewed. The last expanded review at Oct 27 2:52 PM ET covered 246 accessible of 256 displayed comments; 10 were inaccessible.",
+  "reviewedCount": 88,
+  "displayedCount": 88,
   "threadCount": 9
 }

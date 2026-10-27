@@ -1,5 +1,12 @@
 {
-  "checkedAt": "2026-10-27T18:52:52.166087+00:00",
+  "checkedAt": "2026-10-27T21:37:26Z",
+  "lastExpandedReviewAt": "2026-10-27T18:52:52.166087+00:00",
+  "lastIncrementalReview": {
+    "checkedAt": "2026-10-27T21:37:26Z",
+    "visibleCommentCounts": [25, 7, 3, 5, 4, 8, 16, 4, 16],
+    "coverage": "88 visible comments across nine tracked threads; collapsed replies and older comments were not re-expanded in this hourly run.",
+    "newCommentIds": ["t1_19rqwk7ted9c3", "t1_19rqzu4xtdyjo", "t1_19rqxn3r2q3ac", "t1_19rqyrsj3g5y8"]
+  },
   "searches": [
     "https://www.reddit.com/r/mbta/search/?q=charliecard&sort=new&restrict_sr=on",
     "https://www.reddit.com/r/mbta/search/?q=charlie%20cards&sort=new&restrict_sr=on",

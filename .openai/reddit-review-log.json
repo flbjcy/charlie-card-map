@@ -471,5 +471,17 @@
       }
     ],
     "outcome": "Correct Haymarket purple location from second-right to right machine by kiosk; no time refresh or new machine number."
+  },
+  {
+    "checkedAt": "2026-10-27T21:37:26Z",
+    "method": "Incremental browser review of visible comments only",
+    "coverage": "88 visible comments in nine tracked threads. Older comments and collapsed replies were not re-expanded. Last full expanded review was 2026-10-27T18:52:52Z (246 accessible of 256 displayed).",
+    "evidence": [
+      {"id":"t1_19rqwk7ted9c3","parent":null,"time":"2026-10-27T20:03:37.432Z","text":"Yellow confirmed at Harvard rightmost TVM 221123 at 2:30pm today 10/27","decision":"Imported explicit 2:30 PM ET observation for Harvard machine 221123; posting time not used as observation time."},
+      {"id":"t1_19rqxn3r2q3ac","parent":"t1_19rqk7uh11an8","time":"2026-10-27T20:27:50.524Z","text":"All are normal Charlie cards now as of 2:00 PM","context":"Parent discussed orange and dark-blue cards at the Old State House entrance.","decision":"Supports existing unavailable status at that entrance; does not change State platform machines or imply a station-wide outage."},
+      {"id":"t1_19rqyrsj3g5y8","parent":"t1_19rqxn3r2q3ac","time":"2026-10-27T20:53:10.920Z","text":"I think they’re mixed in. Went to this location and someone got a yellow on the far left and then normal for the other machines","decision":"Second-hand and uncertain yellow recollection lacks observation time and exact machine number; retained as evidence, not mapped."},
+      {"id":"t1_19rqzu4xtdyjo","parent":null,"time":"2026-10-27T21:17:03.744Z","text":"Post sharing the FindMyCharlie website link","decision":"Not a card sighting."}
+    ],
+    "outcome":"One newer Harvard yellow sighting imported; State Old State House negative corroborates existing unavailability."
   }
 ]
