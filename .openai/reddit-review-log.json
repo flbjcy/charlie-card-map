@@ -573,5 +573,71 @@
       }
     ],
     "outcome": "Imported newer Harvard machine-specific positive and negative reports; retained other comments in evidence without unsupported machine inference."
+  },
+  {
+    "checkedAt": "2026-10-28T00:30:45.543352Z",
+    "method": "Incremental browser review of visible comments only",
+    "coverage": "92 visible comments across nine tracked threads checked incrementally; no comments posted since the prior 00:27 UTC check were visible. Older comments and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed; 10 were inaccessible.",
+    "evidence": [],
+    "outcome": "No newly posted comments visible since the preceding check; older and collapsed edits were not fully compared. No map change."
+  },
+  {
+    "checkedAt": "2026-10-28T01:36:34.736406Z",
+    "method": "Incremental browser review of visible comments only",
+    "coverage": "96 visible comments across nine tracked threads checked incrementally. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed; 10 were inaccessible.",
+    "evidence": [
+      {
+        "id": "t1_19rr8kfh46wlh",
+        "parent": null,
+        "time": "2026-10-28T00:32:47.900Z",
+        "text": "tuft medical on orange line 830pm 27oct26",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rr8kfh46wlh/",
+        "context": "Attached image shows a vending machine, apparently numbered 221072, but no identifiable special-design CharlieCard. Orange Line describes the subway line, not the card design.",
+        "decision": "8:30 PM ET observation retained in evidence; no card design established, so no map report added."
+      },
+      {
+        "id": "t1_19rr9ispg5928",
+        "parent": "t1_19rqzu4xtdyjo",
+        "time": "2026-10-28T00:54:12.111Z",
+        "text": "Would you be willing to do a separate post promoting this and we'll pin that as a top post and redirect all posts related to the special CharlieCards to that thread?",
+        "decision": "Website-promotion question, not a sighting; no map report."
+      }
+    ],
+    "outcome": "No supported new card sightings or corrections; no map change."
+  },
+  {
+    "checkedAt": "2026-10-28T02:57:27.099468Z",
+    "method": "Incremental browser review of visible comments only",
+    "coverage": "96 visible comments across nine tracked threads checked incrementally; no newly posted comments were visible. Older and collapsed replies were not fully re-reviewed, and edits to them were not compared. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed; 10 were inaccessible.",
+    "evidence": [],
+    "outcome": "No newly posted comments visible since the preceding check; no supported map change."
+  },
+  {
+    "checkedAt": "2026-10-28T03:45:16.166923Z",
+    "method": "Incremental browser review of visible comments and FindMyCharlie post search",
+    "coverage": "96 visible comments across ten tracked Reddit discussions checked incrementally; the newly discovered FindMyCharlie post had zero comments. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed across the previous nine threads; 10 were inaccessible.",
+    "evidence": [
+      {
+        "id": "t1_19rrgdidxvrc1",
+        "parent": null,
+        "time": "2026-10-28T03:27:51.036Z",
+        "text": "I was just able to get 2 of the dark blue state house cards at North Station",
+        "decision": "Imported North Station dark-blue State House sighting. Posting time used as fallback because “just” gives no exact observation time. Machine and exit unknown; community machine 222029 not inherited."
+      },
+      {
+        "id": "t1_19rrgml301vdt",
+        "parent": "t1_19rr9ispg5928",
+        "time": "2026-10-28T03:33:30.136Z",
+        "text": "Hi! That would be great, thank you! I just made a separate post about the map, and I’d love for it to help the community :)",
+        "decision": "Reply about map announcement, no sighting."
+      },
+      {
+        "id": "t3_1xhdiol",
+        "url": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/",
+        "title": "FindMyCharlie: An Interactive Map to find Limited-Edition CharlieCards",
+        "decision": "New relevant discussion added to tracked registry; zero comments at review."
+      }
+    ],
+    "outcome": "One new North Station dark-blue report imported; new FindMyCharlie discussion tracked."
   }
 ]

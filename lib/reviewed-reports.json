@@ -1,5 +1,19 @@
 [
   {
+    "id": "reviewed-19rrgdidxvrc1-north-darkblue",
+    "station": "place-north",
+    "design": "capitol",
+    "color": "Dark blue",
+    "machine": "Machine unknown",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793158071036,
+    "createdAt": 1793158071036,
+    "notes": "Writer says they were just able to get two dark-blue State House cards at North Station. Actual observation time is unspecified; 11:27 PM ET October 27 posting time used as a fallback. No machine or exit stated; do not assign this sighting to community-reported machine 222029.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rrgdidxvrc1/"
+  },
+  {
     "id": "reviewed-19rr10l3y3cjo-harvard-yellow",
     "station": "place-harsq",
     "design": "bunker",

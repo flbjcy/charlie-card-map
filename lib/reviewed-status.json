@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-28T00:27:06.677540Z",
-  "method": "Incremental browser review of visible comments in nine tracked discussions; collapsed replies and older comments not fully re-expanded",
-  "coverage": "76 visible comments across nine tracked threads checked. Older and collapsed comments were not fully re-reviewed. Last expanded review on Oct 27 2:52 PM ET covered 246 accessible of 256 displayed; 10 were inaccessible.",
-  "reviewedCount": 76,
-  "displayedCount": 76,
-  "threadCount": 9
+  "checkedAt": "2026-10-28T03:45:16.166923Z",
+  "method": "Incremental browser review of visible comments in ten tracked discussions; collapsed replies and older comments not fully re-expanded",
+  "coverage": "96 visible comments across ten tracked Reddit discussions checked incrementally; the newly discovered FindMyCharlie post had zero comments. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed across the previous nine threads; 10 were inaccessible.",
+  "reviewedCount": 96,
+  "displayedCount": 96,
+  "threadCount": 10
 }

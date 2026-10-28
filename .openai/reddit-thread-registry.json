@@ -1,35 +1,31 @@
 {
-  "checkedAt": "2026-10-28T00:27:06.677540Z",
+  "checkedAt": "2026-10-28T03:45:16.166923Z",
   "lastExpandedReviewAt": "2026-10-27T18:52:52.166087+00:00",
   "lastIncrementalReview": {
-    "checkedAt": "2026-10-28T00:27:06.677540Z",
+    "checkedAt": "2026-10-28T03:45:16.166923Z",
     "visibleCommentCounts": [
-      7,
+      25,
       7,
       3,
-      7,
+      5,
       4,
       8,
       16,
       4,
-      20
+      24,
+      0
     ],
-    "coverage": "76 visible comments across nine tracked threads; collapsed replies and older comments were not fully re-expanded. Edited comments in inaccessible branches were not checked.",
+    "coverage": "96 visible comments across ten tracked Reddit discussions checked incrementally; the newly discovered FindMyCharlie post had zero comments. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed across the previous nine threads; 10 were inaccessible.",
     "newCommentIds": [
-      "t1_19rr62tmc38n9",
-      "t1_19rr1i4ba5v2b",
-      "t1_19rr10l3y3cjo",
-      "t1_19rr1m6jxebt1",
-      "t1_19rr3buzebjfl",
-      "t1_19rr3mq299u00",
-      "t1_19rr3u93oe141",
-      "t1_19rr6hsz9jn6r"
+      "t1_19rrgdidxvrc1",
+      "t1_19rrgml301vdt"
     ]
   },
   "searches": [
     "https://www.reddit.com/r/mbta/search/?q=charliecard&sort=new&restrict_sr=on",
     "https://www.reddit.com/r/mbta/search/?q=charlie%20cards&sort=new&restrict_sr=on",
-    "https://www.reddit.com/r/boston/search/?q=charlie%20cards&sort=new&restrict_sr=on"
+    "https://www.reddit.com/r/boston/search/?q=charlie%20cards&sort=new&restrict_sr=on",
+    "https://www.reddit.com/r/mbta/search/?q=FindMyCharlie&sort=new&restrict_sr=on"
   ],
   "scope": "Recent relevant October 2026 collectible-card discussions surfaced by browser searches and related links; not a claim to cover every Reddit thread.",
   "threads": [
@@ -220,6 +216,16 @@
         "t1_19rqrqjzy50rn"
       ],
       "comparison": "Two new comments; Haymarket description edited."
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/",
+      "title": "FindMyCharlie: An Interactive Map to find Limited-Edition CharlieCards",
+      "checkedAt": "2026-10-28T03:45:16.166923Z",
+      "reviewedCount": 0,
+      "displayedCount": 0,
+      "commentIds": [],
+      "coverage": "Post and zero visible comments reviewed on discovery; future replies will be tracked.",
+      "decision": "Website announcement; no card sighting in post."
     }
   ]
 }
