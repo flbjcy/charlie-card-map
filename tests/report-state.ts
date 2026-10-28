@@ -6,7 +6,7 @@ const now=Date.parse('2026-10-26T17:35:00Z');
 const rows=currentReports(data as Report[]);
 const blue=rows.filter(r=>r.station==='place-state'&&r.design==='capitol');
 assert.equal(blue.length,1);assert.equal(blue[0].status,'unavailable');
-const old=data.find(r=>r.design==='capitol'&&r.status==='available')!;
+const old=data.find(r=>r.id==='reviewed-19rn5fs90warl-place-state-capitol')!;
 const gone={...old,id:'new',machine:'FVM #221054',exitId:'known-exit',status:'unavailable',observedAt:now};
 assert.equal(currentReports([old,gone])[0].id,'new');assert.equal(currentReports([gone,old]).length,1);
 const fresh={...old,id:'a',observedAt:now,sourceUrl:'https://reddit.com/comment/a'};

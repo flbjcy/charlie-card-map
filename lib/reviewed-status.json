@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-28T03:45:16.166923Z",
-  "method": "Incremental browser review of visible comments in ten tracked discussions; collapsed replies and older comments not fully re-expanded",
-  "coverage": "96 visible comments across ten tracked Reddit discussions checked incrementally; the newly discovered FindMyCharlie post had zero comments. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed across the previous nine threads; 10 were inaccessible.",
-  "reviewedCount": 96,
-  "displayedCount": 96,
-  "threadCount": 10
+  "checkedAt": "2026-10-28T05:41:05Z",
+  "method": "Targeted browser check of Tufts photo in original thread and newly discovered related thread; older collapsed replies and other tracked discussions not fully re-reviewed",
+  "coverage": "Original thread: 25 visible of 191 displayed, including four visible photo comments, checked for the Tufts correction; four collapsed replies and older comments not re-expanded. New related thread: post and 25 visible of 27 displayed comments reviewed, with no expansion controls. Previous full expanded review was Oct 27 at 2:52 PM ET: 246 accessible of 256 displayed across nine then-tracked threads, 10 inaccessible. Eleven threads are now tracked.",
+  "reviewedCount": 50,
+  "displayedCount": 218,
+  "threadCount": 11
 }

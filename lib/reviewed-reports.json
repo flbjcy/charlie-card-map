@@ -14,6 +14,20 @@
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rrgdidxvrc1/"
   },
   {
+    "id": "reviewed-19rr8kfh46wlh-tufts-orange",
+    "station": "place-tumnl",
+    "design": "oldstate",
+    "color": "Orange",
+    "machine": "Machine 221072",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793147400000,
+    "createdAt": 1793147567900,
+    "notes": "Observed at Tufts Medical Center on the Orange Line at 8:30 PM ET October 27. Full attached photo shows an orange Old State House CharlieCard and machine number 221072. Card design and machine number were visually confirmed; the comment text alone did not identify the design. Exit unknown.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rr8kfh46wlh/"
+  },
+  {
     "id": "reviewed-19rr10l3y3cjo-harvard-yellow",
     "station": "place-harsq",
     "design": "bunker",
@@ -82,6 +96,20 @@
     "notes": "Explicit observation: October 27 at 12:00 PM ET. Machine 221123; Exit unknown. This is a different numbered machine from the older unavailable221121 report. Comment includes an edit and a photo; availability and number taken from its current text.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rqm8iidaflv/"
+  },
+  {
+    "id": "reviewed-19rqbyzs87tc3-park-orange",
+    "station": "place-pktrm",
+    "design": "oldstate",
+    "color": "Orange",
+    "machine": "Machine 221186",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793103660000,
+    "createdAt": 1793105076864,
+    "notes": "Still in stock at 8:21 AM October 27, explicitly stated. Orange Old State House design and Green Line toward Government Center/Union Square entrance context from parent post. Exact exit unknown. Posted 8:22 AM ET; stated observation time used.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rqbyzs87tc3/"
   },
   {
     "id": "reviewed-1xgrj3u-north-silver-221043",
@@ -168,20 +196,6 @@
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/"
   },
   {
-    "id": "reviewed-19rqbyzs87tc3-park-orange",
-    "station": "place-pktrm",
-    "design": "oldstate",
-    "color": "Orange",
-    "machine": "Machine 221186",
-    "exitId": null,
-    "status": "available",
-    "observedAt": 1793103660000,
-    "createdAt": 1793105076864,
-    "notes": "Still in stock at 8:21 AM October 27, explicitly stated. Orange Old State House design and Green Line toward Government Center/Union Square entrance context from parent post. Exact exit unknown. Posted 8:22 AM ET; stated observation time used.",
-    "source": "reddit-reviewed",
-    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rqbyzs87tc3/"
-  },
-  {
     "id": "reviewed-19rpu1yqdnwao-north-silver",
     "station": "place-north",
     "design": "tea",
@@ -210,48 +224,6 @@
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rpn03q2qwsk/"
   },
   {
-    "id": "reviewed-1xg9rpt-place-harsq-bunker",
-    "station": "place-harsq",
-    "design": "bunker",
-    "color": "Yellow",
-    "machine": "Machine 221121",
-    "exitId": null,
-    "status": "available",
-    "observedAt": 1793044800000,
-    "createdAt": 1793073308831,
-    "notes": "Post explicitly reports yellow Bunker Hill at 4 PM October 26. Exit unknown. Historical availability superseded by later sold-out reports at this same machine; must remain hidden.",
-    "source": "reddit-reviewed",
-    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/"
-  },
-  {
-    "id": "reviewed-1xg9rpt-place-state-oldstate",
-    "station": "place-state",
-    "design": "oldstate",
-    "color": "Orange",
-    "machine": "Machine 221053",
-    "exitId": null,
-    "status": "available",
-    "observedAt": 1793044800000,
-    "createdAt": 1793073308831,
-    "notes": "Old State House entrance. Post explicitly reports orange Old State House at 4 PM October 26. Exact exit coordinate unknown. Posted at 5:27 PM ET; actual stated observation time used.",
-    "source": "reddit-reviewed",
-    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/"
-  },
-  {
-    "id": "reviewed-1xg9rpt-place-pktrm-oldstate",
-    "station": "place-pktrm",
-    "design": "oldstate",
-    "color": "Orange",
-    "machine": "Machine 221186",
-    "exitId": null,
-    "status": "available",
-    "observedAt": 1793044800000,
-    "createdAt": 1793073308831,
-    "notes": "Post explicitly reports orange Old State House at Park Street FVM 221186 as of 4 PM October 26. Described as Green Line, Government Center and Union Square entrance. Exact street exit cannot be established from this description: Exit unknown. Posted at 5:27 PM ET; actual stated observation time used.",
-    "source": "reddit-reviewed",
-    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/"
-  },
-  {
     "id": "reviewed-19rpjsqv7y8hx-place-harsq-bunker",
     "station": "place-harsq",
     "design": "bunker",
@@ -264,6 +236,20 @@
     "notes": "Writer just tried Harvard machine 221121 at 9:30 today and reports it out of yellow. Interpreted as 9:30 PM October 26 from the 9:50 PM posting time and “just tried”; AM/PM was not explicit. Exit unknown. Supersedes the earlier yellow availability at this machine.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rpjsqv7y8hx/"
+  },
+  {
+    "id": "reviewed-19rp6z6ken79h-place-forhl-library",
+    "station": "place-forhl",
+    "design": "library",
+    "color": "Green",
+    "machine": "Machine 221270",
+    "exitId": null,
+    "status": "unavailable",
+    "observedAt": 1793048573616,
+    "createdAt": 1793052696700,
+    "notes": "Nested reply in the Forest Hills series-1 green discussion says machine 221270 ran out and dispensed a regular card just now. Supersedes the older green sighting whose writer tentatively identified 221270. Exact exit unknown; posting time used. Parent context: https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rjocao1sz9g/",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rp6z6ken79h/"
   },
   {
     "id": "reviewed-19rp71z1vuglh-place-harsq-bunker",
@@ -308,20 +294,6 @@
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rp6kew1ft6p/"
   },
   {
-    "id": "reviewed-19rp6z6ken79h-place-forhl-library",
-    "station": "place-forhl",
-    "design": "library",
-    "color": "Green",
-    "machine": "Machine 221270",
-    "exitId": null,
-    "status": "unavailable",
-    "observedAt": 1793048573616,
-    "createdAt": 1793052696700,
-    "notes": "Nested reply in the Forest Hills series-1 green discussion says machine 221270 ran out and dispensed a regular card just now. Supersedes the older green sighting whose writer tentatively identified 221270. Exact exit unknown; posting time used. Parent context: https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rjocao1sz9g/",
-    "source": "reddit-reviewed",
-    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rp6z6ken79h/"
-  },
-  {
     "id": "reviewed-19rp55s3cdr40-place-haecl-garden",
     "station": "place-haecl",
     "design": "garden",
@@ -348,6 +320,48 @@
     "notes": "Direct reply to the Harvard main-lobby machine 221121 yellow-card report: writer just obtained a card. Machine and design inherited from the parent report. Exit unknown; posting time used.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rp4uscjr7nm/"
+  },
+  {
+    "id": "reviewed-1xg9rpt-place-harsq-bunker",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221121",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793044800000,
+    "createdAt": 1793073308831,
+    "notes": "Post explicitly reports yellow Bunker Hill at 4 PM October 26. Exit unknown. Historical availability superseded by later sold-out reports at this same machine; must remain hidden.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/"
+  },
+  {
+    "id": "reviewed-1xg9rpt-place-state-oldstate",
+    "station": "place-state",
+    "design": "oldstate",
+    "color": "Orange",
+    "machine": "Machine 221053",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793044800000,
+    "createdAt": 1793073308831,
+    "notes": "Old State House entrance. Post explicitly reports orange Old State House at 4 PM October 26. Exact exit coordinate unknown. Posted at 5:27 PM ET; actual stated observation time used.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/"
+  },
+  {
+    "id": "reviewed-1xg9rpt-place-pktrm-oldstate",
+    "station": "place-pktrm",
+    "design": "oldstate",
+    "color": "Orange",
+    "machine": "Machine 221186",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793044800000,
+    "createdAt": 1793073308831,
+    "notes": "Post explicitly reports orange Old State House at Park Street FVM 221186 as of 4 PM October 26. Described as Green Line, Government Center and Union Square entrance. Exact street exit cannot be established from this description: Exit unknown. Posted at 5:27 PM ET; actual stated observation time used.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/"
   },
   {
     "id": "reviewed-19roz98puhqiq-place-coecl-oldstate",
@@ -432,6 +446,20 @@
     "notes": "Nested reply confirms yellow cards dispensing at 8:20 AM, after earlier reports of regular cards queued ahead of them. Main lobby; exit unknown.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rok5r986cub/"
+  },
+  {
+    "id": "reviewed-1xfj593-airport-silver",
+    "station": "place-aport",
+    "design": "tea",
+    "color": "Silver",
+    "machine": "Machine unknown",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1792976467823,
+    "createdAt": 1792976467823,
+    "notes": "Original October 25 post lists “Silver: Airport” among cards the author found. Actual observation time, machine, and exit are unspecified; 9:01 PM ET posting time is used as a fallback. A later reply again mentions silver at Airport but does not establish a new observation or restock. Historical report; availability may have changed.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/found_67_of_the_special_edition_cards/"
   },
   {
     "id": "reviewed-19rnj8uacn2ww-copley",
