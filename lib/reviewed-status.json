@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-28T05:41:05Z",
-  "method": "Targeted browser check of Tufts photo in original thread and newly discovered related thread; older collapsed replies and other tracked discussions not fully re-reviewed",
-  "coverage": "Original thread: 25 visible of 191 displayed, including four visible photo comments, checked for the Tufts correction; four collapsed replies and older comments not re-expanded. New related thread: post and 25 visible of 27 displayed comments reviewed, with no expansion controls. Previous full expanded review was Oct 27 at 2:52 PM ET: 246 accessible of 256 displayed across nine then-tracked threads, 10 inaccessible. Eleven threads are now tracked.",
-  "reviewedCount": 50,
-  "displayedCount": 218,
+  "checkedAt": "2026-10-28T13:08:25Z",
+  "method": "Incremental browser review of recent visible comments and direct parent context in 11 tracked threads",
+  "coverage": "Incremental browser review: 128 DOM-visible comments of 308 displayed across 11 tracked threads; newest comments and visible text compared with the previous scan. One nested announcement reply expanded. Older and other collapsed branches not fully re-reviewed. Last expanded review: Oct 27 at 2:52 PM ET, 246 accessible of 256 displayed across nine then-tracked threads (10 inaccessible).",
+  "reviewedCount": 128,
+  "displayedCount": 308,
   "threadCount": 11
 }
