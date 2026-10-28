@@ -1,5 +1,33 @@
 [
   {
+    "id": "reviewed-19rskcc00ls76-park-orange",
+    "station": "place-pktrm",
+    "design": "oldstate",
+    "color": "Orange",
+    "machine": "Machine 221186",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793211835440,
+    "createdAt": 1793211835440,
+    "notes": "Orange Old State House card confirmed at Park Street machine 221186, by the Government Center/North Station direction from Boston Common. Exact observation time was not stated; Reddit posting time (October 28, 2:23 PM ET) is the fallback. Exact exit unknown.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rskcc00ls76/"
+  },
+  {
+    "id": "reviewed-19rk22r2vk2v6-malden-purple",
+    "station": "place-mlmnl",
+    "design": "garden",
+    "color": "Purple",
+    "machine": "Machine 221030",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1792799843154,
+    "createdAt": 1792799843154,
+    "notes": "Photographed purple Zakim Bridge card by machine 221030 at Malden Center. A nearby October 23 comment independently names Malden 221030 as purple. Exact observation time was not stated; Reddit posting time (October 23, 7:57 PM ET) is the fallback. This is an older sighting, so current stock is uncertain. Exit unknown.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rk22r2vk2v6/"
+  },
+  {
     "id": "reviewed-19rsddbwz2hj5-harvard-yellow",
     "station": "place-harsq",
     "design": "bunker",

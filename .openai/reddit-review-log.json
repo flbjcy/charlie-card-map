@@ -856,5 +856,117 @@
       }
     ],
     "outcome": "Published two Harvard machine-specific updates. Park Street orange confirmation retained in audit because a newer community report is already live; no duplicate map report added. No full older-branch review claimed."
+  },
+  {
+    "checkedAt": "2026-10-28T17:30:22Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 137,
+    "displayedCount": 319,
+    "inspectedRecentCount": 90,
+    "coverage": "Incremental browser review: 137 DOM-visible comments of 319 displayed across 11 tracked threads; 90 recent/leading comments inspected, plus all visible comments posted since the previous check. Older visible text, edits, and collapsed branches were not fully re-compared. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
+    "newCommentIds": [
+      "t1_19rsedszk1hy8",
+      "t1_19rsgv1xl1jid",
+      "t1_19rsfe011yebo",
+      "t1_19rseyu84o7wg"
+    ],
+    "evidence": [
+      {
+        "id": "t1_19rsedszk1hy8",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rsedszk1hy8/",
+        "postedAt": "2026-10-28T16:10:19.179Z",
+        "text": "Same machine as of 10/28 11:59 am",
+        "parentId": "t1_19rqing6zlpus",
+        "parentText": "I found the Orange at Park St yesterday, a lesser known location, 221186. Still in stock as of this morning.",
+        "decision": "Confirms orange at Park Street machine 221186 at 11:59 AM; redundant with a newer 12:02 PM community report and previous source comment. No duplicate imported."
+      },
+      {
+        "id": "t1_19rsgv1xl1jid",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rsgv1xl1jid/",
+        "postedAt": "2026-10-28T17:05:54.122Z",
+        "text": "marketing schemes makes me want to pull my hair.",
+        "decision": "Feedback, no sighting."
+      },
+      {
+        "id": "t1_19rsfe011yebo",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rsfe011yebo/",
+        "postedAt": "2026-10-28T16:32:51.699Z",
+        "text": "THIS IS AMAZING!!! i don't live in boston or even in the US anymore but i collect transit cards from around the world and have always been wanting something like this in the back of my mind! i know someone was looking into making something similar for LA TAP cards too, and mentioned it to me a few weeks ago... will link them this!",
+        "decision": "Feedback, no sighting."
+      },
+      {
+        "id": "t1_19rseyu84o7wg",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rseyu84o7wg/",
+        "postedAt": "2026-10-28T16:23:25.171Z",
+        "text": "Completed my set on my way to work today with help from this! So helpful! I wish I could send a tip.",
+        "decision": "Feedback, no machine or card location."
+      }
+    ],
+    "outcome": "No new map entry. Park Street machine confirmation was redundant; other new comments contained no sightings. No image-bearing new candidate. No full older-branch or edit comparison claimed."
+  },
+  {
+    "checkedAt": "2026-10-28T18:00:38Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 135,
+    "displayedCount": 319,
+    "coverage": "Incremental browser check: 135 DOM-visible comments of 319 displayed across 11 tracked threads. No comments posted after the prior 1:30 PM ET review were visible. This run did not fully re-compare older text, edits, or collapsed branches. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
+    "newCommentIds": [],
+    "evidence": [],
+    "outcome": "No new visible comments since previous check; no map entry. Older branches and edits not fully compared."
+  },
+  {
+    "checkedAt": "2026-10-28T19:11:33Z",
+    "status": "expanded-partial",
+    "threadCount": 11,
+    "accessibleCount": 304,
+    "displayedCount": 325,
+    "inaccessibleCount": 21,
+    "coverage": "Expanded browser review loaded 304 accessible comment entries of 325 displayed across 11 tracked threads. All visible older-comment and nested-reply controls were expanded; 21 displayed comments remained inaccessible. Reviewed current and historical location text, with selected full-size image checks; not every image was reopened. No broader Reddit-wide completeness claim.",
+    "newCommentIds": [
+      "t1_19rskcc00ls76"
+    ],
+    "evidence": [
+      {
+        "id": "t1_19rskcc00ls76",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rskcc00ls76/",
+        "postedAt": "2026-10-28T18:23:55.440Z",
+        "text": "Confirming orange line still at park street 221186. Entrance for gov ctr & north down from Boston common",
+        "decision": "Imported new machine-specific Park Street orange confirmation; posting time used as observation fallback. Exit unspecified."
+      },
+      {
+        "id": "t1_19rk22r2vk2v6",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rk22r2vk2v6/",
+        "postedAt": "2026-10-23T23:57:23.154Z",
+        "text": "Thanks for the heads up! 221030 in Malden center",
+        "imageUrl": "https://preview.redd.it/limited-edition-special-design-charlie-cards-v0-01080pac2bxh1.jpeg?width=4284&format=pjpg&auto=webp&s=a33971aeb3cc667402103ee01140d0299cc17d7d",
+        "visualReading": "Photo shows purple Zakim Bridge card at fare machine; machine number comes from comment text, not legible in this photo.",
+        "corroboratingCommentId": "t1_19rk19z6lysn6",
+        "decision": "Imported historical Malden Center purple report at 221030 with posting-time fallback. Current availability remains uncertain due to age."
+      },
+      {
+        "id": "t1_19rhgntpe2ww4",
+        "sourceUrl": "https://www.reddit.com/r/boston/comments/1xbaq62/comment/19rhgntpe2ww4/",
+        "imageUrl": "https://preview.redd.it/new-collectible-charlie-cards-announced-v0-nqh1zg0qo0xh1.jpeg?width=1080&format=pjpg&auto=webp&s=9c4ddf0c3e39d4bf31bed4317adad00166b25983",
+        "visualReading": "Screenshot of an older Reddit location roundup, not a new direct sighting.",
+        "decision": "No new report."
+      },
+      {
+        "id": "t1_19rpcjn5r1g4g",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/comment/19rpcjn5r1g4g/",
+        "imageUrl": "https://i.redd.it/ylhpb3o78wxh1.gif",
+        "visualReading": "Reaction GIF, not a card or machine.",
+        "decision": "No report."
+      },
+      {
+        "id": "t1_19rnpsbstbzs2",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/comment/19rnpsbstbzs2/",
+        "imageUrl": "https://external-preview.redd.it/fsHSn1bP6-wj2oI8QkZldLlVmdNJn1ElCrEIfSYtsc0.gif?auto=webp&s=3512083b41b1a84d8017bd0d0b24e632302b67c7",
+        "visualReading": "Cartoon reaction GIF, not a sighting.",
+        "decision": "No report."
+      }
+    ],
+    "outcome": "Two supported reports: current Park Street 221186 orange confirmation and older photographed Malden Center 221030 purple sighting. Related-thread searches found no new relevant discussion. Older image-only replies were not sightings."
   }
 ]
