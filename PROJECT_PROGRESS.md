@@ -25,6 +25,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 28, 2 AM** | Moved the project PDF to the end of the map's information panel and linked the new FindMyCharlie Reddit discussion beside the author credit and on the personal site. Revised the downtown label layout so Aquarium sits east of Tufts Medical Center and pointer crossings count against candidate positions. |
 | **Oct 28, 11 AM** | Added optional machine photos to community reports. The report form resizes and removes metadata from images before upload; each photo appears through a “View photo” link beside its machine details. Added an hourly statistics feed for page views, approximate visits, and community submissions. |
 | **Oct 28, 11 AM** | Added a scheduled job in the private GitHub archive to back up public reports and anonymous hourly counts when the Mac is asleep. Its first manual test succeeded. Machine photos are backed up once when present. Reddit comment review remains dependent on browser access or an approved Reddit integration. |
+| **Oct 28, 11 AM** | Added an on-device quality check to optional machine-photo uploads. It checks image size, exposure, contrast, and severe blur before upload; unusable images get a clear retake message. The check uses browser pixels without ChatGPT or a remote review service. |
 
 ## Problems we found and how we handled them
 
@@ -42,6 +43,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **A Tufts photo report was missed.** | Full-size inspection revealed the orange card and machine number that were not in the comment text. This correction is recorded as a review error rather than silently rewriting the audit. A related-thread check also found an older Airport silver report. Other photo-only reports need the same explicit visual check. |
 | **Public data needed a recoverable history.** | Created a private GitHub archive of dated report-feed snapshots, including community submissions, plus reviewed Reddit evidence and coverage notes. It is not a complete verbatim copy of every Reddit comment. |
 | **Machine descriptions were sometimes hard to follow.** | Added an optional photo so reporters can show the exact machine. Photos are public; the form asks people to avoid including bystanders. |
+| **A machine photo could be too blurry or dark to help anyone.** | Added a conservative browser-only quality check before upload. It catches obvious technical problems, but it does not verify that a photo depicts a machine or screen for inappropriate content. |
 | **Local browser reviews stop when the Mac locks or sleeps.** | Kept the live site independent of the Mac and added a cloud backup for public reports and hourly counts. This preserves new community submissions while offline, but it does not read new Reddit comments; that requires a separate approved cloud integration. |
 
 ## Hourly activity
