@@ -1,5 +1,33 @@
 [
   {
+    "id": "reviewed-19rr10l3y3cjo-harvard-yellow",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221121",
+    "exitId": null,
+    "status": "unavailable",
+    "observedAt": 1793137320000,
+    "createdAt": 1793137409940,
+    "notes": "Explicitly reports Harvard machine 221121 out of yellow at 5:42 PM ET October 27. Exit unknown. Separate machine 221123 remains available based on later reports. A reply to an older 221121 restock report also says it is out again, without an independent observation time.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xe978o/comment/19rr10l3y3cjo/"
+  },
+  {
+    "id": "reviewed-19rr1i4ba5v2b-harvard-yellow",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221123 (rightmost, closest to fare gates)",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793137200000,
+    "createdAt": 1793138065112,
+    "notes": "Confirmed yellow at Harvard FVM 221123 at about 5:40 PM ET October 27. Observation time used rather than 5:54 PM posting time; about makes the minute approximate. Rightmost machine closest to fare gates. Exit unknown. Does not revive yellow at different machine 221121.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rr1i4ba5v2b/"
+  },
+  {
     "id": "reviewed-19rqwk7ted9c3-harvard-yellow",
     "station": "place-harsq",
     "design": "bunker",

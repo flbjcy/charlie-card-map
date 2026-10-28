@@ -1,11 +1,30 @@
 {
-  "checkedAt": "2026-10-27T21:37:26Z",
+  "checkedAt": "2026-10-28T00:27:06.677540Z",
   "lastExpandedReviewAt": "2026-10-27T18:52:52.166087+00:00",
   "lastIncrementalReview": {
-    "checkedAt": "2026-10-27T21:37:26Z",
-    "visibleCommentCounts": [25, 7, 3, 5, 4, 8, 16, 4, 16],
-    "coverage": "88 visible comments across nine tracked threads; collapsed replies and older comments were not re-expanded in this hourly run.",
-    "newCommentIds": ["t1_19rqwk7ted9c3", "t1_19rqzu4xtdyjo", "t1_19rqxn3r2q3ac", "t1_19rqyrsj3g5y8"]
+    "checkedAt": "2026-10-28T00:27:06.677540Z",
+    "visibleCommentCounts": [
+      7,
+      7,
+      3,
+      7,
+      4,
+      8,
+      16,
+      4,
+      20
+    ],
+    "coverage": "76 visible comments across nine tracked threads; collapsed replies and older comments were not fully re-expanded. Edited comments in inaccessible branches were not checked.",
+    "newCommentIds": [
+      "t1_19rr62tmc38n9",
+      "t1_19rr1i4ba5v2b",
+      "t1_19rr10l3y3cjo",
+      "t1_19rr1m6jxebt1",
+      "t1_19rr3buzebjfl",
+      "t1_19rr3mq299u00",
+      "t1_19rr3u93oe141",
+      "t1_19rr6hsz9jn6r"
+    ]
   },
   "searches": [
     "https://www.reddit.com/r/mbta/search/?q=charliecard&sort=new&restrict_sr=on",

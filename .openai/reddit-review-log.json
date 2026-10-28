@@ -477,11 +477,101 @@
     "method": "Incremental browser review of visible comments only",
     "coverage": "88 visible comments in nine tracked threads. Older comments and collapsed replies were not re-expanded. Last full expanded review was 2026-10-27T18:52:52Z (246 accessible of 256 displayed).",
     "evidence": [
-      {"id":"t1_19rqwk7ted9c3","parent":null,"time":"2026-10-27T20:03:37.432Z","text":"Yellow confirmed at Harvard rightmost TVM 221123 at 2:30pm today 10/27","decision":"Imported explicit 2:30 PM ET observation for Harvard machine 221123; posting time not used as observation time."},
-      {"id":"t1_19rqxn3r2q3ac","parent":"t1_19rqk7uh11an8","time":"2026-10-27T20:27:50.524Z","text":"All are normal Charlie cards now as of 2:00 PM","context":"Parent discussed orange and dark-blue cards at the Old State House entrance.","decision":"Supports existing unavailable status at that entrance; does not change State platform machines or imply a station-wide outage."},
-      {"id":"t1_19rqyrsj3g5y8","parent":"t1_19rqxn3r2q3ac","time":"2026-10-27T20:53:10.920Z","text":"I think they’re mixed in. Went to this location and someone got a yellow on the far left and then normal for the other machines","decision":"Second-hand and uncertain yellow recollection lacks observation time and exact machine number; retained as evidence, not mapped."},
-      {"id":"t1_19rqzu4xtdyjo","parent":null,"time":"2026-10-27T21:17:03.744Z","text":"Post sharing the FindMyCharlie website link","decision":"Not a card sighting."}
+      {
+        "id": "t1_19rqwk7ted9c3",
+        "parent": null,
+        "time": "2026-10-27T20:03:37.432Z",
+        "text": "Yellow confirmed at Harvard rightmost TVM 221123 at 2:30pm today 10/27",
+        "decision": "Imported explicit 2:30 PM ET observation for Harvard machine 221123; posting time not used as observation time."
+      },
+      {
+        "id": "t1_19rqxn3r2q3ac",
+        "parent": "t1_19rqk7uh11an8",
+        "time": "2026-10-27T20:27:50.524Z",
+        "text": "All are normal Charlie cards now as of 2:00 PM",
+        "context": "Parent discussed orange and dark-blue cards at the Old State House entrance.",
+        "decision": "Supports existing unavailable status at that entrance; does not change State platform machines or imply a station-wide outage."
+      },
+      {
+        "id": "t1_19rqyrsj3g5y8",
+        "parent": "t1_19rqxn3r2q3ac",
+        "time": "2026-10-27T20:53:10.920Z",
+        "text": "I think they’re mixed in. Went to this location and someone got a yellow on the far left and then normal for the other machines",
+        "decision": "Second-hand and uncertain yellow recollection lacks observation time and exact machine number; retained as evidence, not mapped."
+      },
+      {
+        "id": "t1_19rqzu4xtdyjo",
+        "parent": null,
+        "time": "2026-10-27T21:17:03.744Z",
+        "text": "Post sharing the FindMyCharlie website link",
+        "decision": "Not a card sighting."
+      }
     ],
-    "outcome":"One newer Harvard yellow sighting imported; State Old State House negative corroborates existing unavailability."
+    "outcome": "One newer Harvard yellow sighting imported; State Old State House negative corroborates existing unavailability."
+  },
+  {
+    "checkedAt": "2026-10-28T00:27:06.677540Z",
+    "method": "Incremental browser review of visible comments only",
+    "coverage": "76 visible comments in nine tracked threads. Older and collapsed replies not fully re-expanded. Last full expanded review: 2026-10-27T18:52:52Z (246 accessible of 256 displayed).",
+    "evidence": [
+      {
+        "id": "t1_19rr1i4ba5v2b",
+        "parent": null,
+        "time": "2026-10-27T21:54:25.112Z",
+        "text": "Yellow also confirmed today at Harvard FVM 221123 around 5:40 (rightmost one closest to fare gates)",
+        "decision": "Imported approximate 5:40 PM ET observation for Harvard machine 221123; kept distinct from 221121."
+      },
+      {
+        "id": "t1_19rr10l3y3cjo",
+        "parent": null,
+        "time": "2026-10-27T21:43:29.940Z",
+        "text": "As of 5:42 pm, 10/27, 221121 is out of yellow cards again.",
+        "decision": "Imported explicit 5:42 PM ET negative for Harvard machine 221121 only."
+      },
+      {
+        "id": "t1_19rr1m6jxebt1",
+        "parent": "t1_19ros4t1excn8",
+        "time": "2026-10-27T21:56:56.905Z",
+        "text": "And it's out again.",
+        "context": "Reply to Harvard main-lobby 221121 yellow restock report.",
+        "decision": "Corroborates 221121 negative; no separate observation time."
+      },
+      {
+        "id": "t1_19rr3buzebjfl",
+        "parent": null,
+        "time": "2026-10-27T22:35:21.646Z",
+        "text": "6:30 update: haymarket is out of stock, silver found at north station and yellow found at state old state house entrance/exit",
+        "decision": "Haymarket lacks specific card and machine, so no station-wide removal. Silver North and yellow State were separately reported by newer community submissions; Reddit source retained without inventing machine numbers."
+      },
+      {
+        "id": "t1_19rr3mq299u00",
+        "parent": "t1_19rr3buzebjfl",
+        "time": "2026-10-27T22:42:07.574Z",
+        "text": "Do you mean 6:30? It's not 9:30 yet.",
+        "decision": "Suggests parent was edited to 6:30; time ambiguity retained, no independent sighting."
+      },
+      {
+        "id": "t1_19rr62tmc38n9",
+        "parent": null,
+        "time": "2026-10-27T23:36:59.558Z",
+        "text": "Anyone know where the blue statehouse is rn? Got all the others",
+        "decision": "Question, not a sighting."
+      },
+      {
+        "id": "t1_19rr3u93oe141",
+        "parent": "t1_19rr3mq299u00",
+        "text": "i’m a time traveler",
+        "decision": "Not a sighting.",
+        "time": "2026-10-27T22:46:48.905Z"
+      },
+      {
+        "id": "t1_19rr6hsz9jn6r",
+        "text": "You deserve every upvote",
+        "decision": "Not a sighting.",
+        "time": "2026-10-27T23:46:19.397Z",
+        "parent": "t1_19rqzu4xtdyjo"
+      }
+    ],
+    "outcome": "Imported newer Harvard machine-specific positive and negative reports; retained other comments in evidence without unsupported machine inference."
   }
 ]
