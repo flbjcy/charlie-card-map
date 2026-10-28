@@ -23,6 +23,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 27, 5–11 PM** | Continued publishing supported sightings and corrections from Reddit and community reports, including separate Harvard machines and a North Station dark-blue report. Added a newly developing FindMyCharlie discussion to the review registry. |
 | **Oct 28, 1 AM** | A user pointed out that a Tufts Medical Center comment had been missed. Full-size photo review identified the orange Old State House card and machine **221072**, observed **Oct 27 at 8:30 PM**. A follow-up check found an older Airport silver report in another thread. Both reports were added to the reviewed data; the prior thumbnail-based exclusion was recorded as an error. |
 | **Oct 28, 2 AM** | Moved the project PDF to the end of the map's information panel and linked the new FindMyCharlie Reddit discussion beside the author credit and on the personal site. Revised the downtown label layout so Aquarium sits east of Tufts Medical Center and pointer crossings count against candidate positions. |
+| **Oct 28, 11 AM** | Added optional machine photos to community reports. The report form resizes and removes metadata from images before upload; each photo appears through a “View photo” link beside its machine details. Added an hourly statistics feed for page views, approximate visits, and community submissions. |
 
 ## Problems we found and how we handled them
 
@@ -39,6 +40,11 @@ The times below are rounded to the hour from source-control history. They date p
 | **The Green Line path near Back Bay was inaccurate.** | Replaced the incorrect plotted section with MBTA route geometry. Lines are geographic context, not live service status. |
 | **A Tufts photo report was missed.** | Full-size inspection revealed the orange card and machine number that were not in the comment text. This correction is recorded as a review error rather than silently rewriting the audit. A related-thread check also found an older Airport silver report. Other photo-only reports need the same explicit visual check. |
 | **Public data needed a recoverable history.** | Created a private GitHub archive of dated report-feed snapshots, including community submissions, plus reviewed Reddit evidence and coverage notes. It is not a complete verbatim copy of every Reddit comment. |
+| **Machine descriptions were sometimes hard to follow.** | Added an optional photo so reporters can show the exact machine. Photos are public; the form asks people to avoid including bystanders. |
+
+## Hourly activity
+
+The charts in the PDF use a snapshot taken **October 28 at 11:08 AM ET**. They show **597 recorded page views**, **555 approximate visits**, and **53 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project's public source as report-data/hourly-activity-2026-10-28T1508Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 

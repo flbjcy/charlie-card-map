@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import html
+import json
 import re
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
@@ -13,12 +16,13 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.platypus import BaseDocTemplate, Flowable, Frame, PageBreak, PageTemplate, Paragraph, Spacer, Table, TableStyle
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "PROJECT_PROGRESS.md"
 OUTPUT = ROOT / "public" / "findmycharlie-progress.pdf"
+HOURLY = ROOT / "report-data" / "hourly-activity-2026-10-28T1508Z.json"
 
 pdfmetrics.registerFont(TTFont("Arial", "/System/Library/Fonts/Supplemental/Arial.ttf"))
 pdfmetrics.registerFont(TTFont("Arial-Bold", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"))
@@ -38,6 +42,55 @@ body = ParagraphStyle("Body", fontName="Arial", fontSize=8.0, leading=10.5, text
 cell = ParagraphStyle("Cell", parent=body, fontSize=7.2, leading=9.3, spaceAfter=0)
 cell_head = ParagraphStyle("CellHead", parent=cell, fontName="Arial-Bold", textColor=BLUE)
 bullet = ParagraphStyle("Bullet", parent=body, leftIndent=10, firstLineIndent=-7, spaceAfter=2)
+
+
+class HourlyCharts(Flowable):
+    def __init__(self):
+        super().__init__()
+        self.width = 7.2 * inch
+        self.height = 3.55 * inch
+        data = json.loads(HOURLY.read_text())["hours"]
+        by_hour = {int(item["hour"]): item for item in data}
+        first, last = min(by_hour), max(by_hour)
+        self.hours = [
+            by_hour.get(hour, {"hour": hour, "views": 0, "communityReports": 0})
+            for hour in range(first, last + 1, 3600000)
+        ]
+
+    def draw(self):
+        c = self.canv
+        tz = ZoneInfo("America/New_York")
+        left, right = 30, self.width - 8
+        plot_width = right - left
+        n = len(self.hours)
+        for base, key, title, color in [
+            (142, "views", "Page views per hour", BLUE),
+            (12, "communityReports", "Community reports submitted per hour", colors.HexColor("#BF6D21")),
+        ]:
+            values = [int(row[key]) for row in self.hours]
+            maximum = max(1, max(values))
+            c.setFillColor(INK)
+            c.setFont("Arial-Bold", 8)
+            c.drawString(left, base + 104, title)
+            c.setFont("Arial", 7)
+            c.setFillColor(MUTED)
+            c.drawRightString(right, base + 104, f"{sum(values)} total")
+            c.setStrokeColor(colors.HexColor("#D8DCD7"))
+            for fraction in (0, .5, 1):
+                y = base + 12 + 82 * fraction
+                c.line(left, y, right, y)
+                c.setFont("Arial", 6.3)
+                c.drawRightString(left - 5, y - 2, str(round(maximum * fraction)))
+            stride = plot_width / n
+            c.setFillColor(color)
+            for i, value in enumerate(values):
+                if value:
+                    c.rect(left + i * stride + 1, base + 12, max(1.5, stride - 2), 82 * value / maximum, stroke=0, fill=1)
+            c.setFillColor(MUTED)
+            for i, row in enumerate(self.hours):
+                local = datetime.fromtimestamp(row["hour"] / 1000, tz)
+                if local.hour in (0, 6, 12, 18):
+                    c.drawCentredString(left + (i + .5) * stride, base, local.strftime("%b %-d %-I%p"))
 
 
 def markup(value: str) -> str:
@@ -69,6 +122,8 @@ def parse(md: str):
                 blocks.append(Paragraph(markup("<br/>".join(sub)), subtitle))
             continue
         if line.startswith("## "):
+            if line == "## Hourly activity":
+                blocks.append(PageBreak())
             blocks.append(Paragraph(markup(line[3:]), heading))
             i += 1
             continue
@@ -103,6 +158,8 @@ def parse(md: str):
             para.append(lines[i].strip())
             i += 1
         blocks.append(Paragraph(markup(" ".join(para)), body))
+        if para[0].startswith("The charts in the PDF use a snapshot"):
+            blocks.extend([Spacer(1, 8), HourlyCharts(), Spacer(1, 8)])
     return blocks
 
 
