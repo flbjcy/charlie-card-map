@@ -22,6 +22,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 27, 2–5 PM** | Corrected an edited Haymarket machine description without pretending the sighting was new. Fixed duplicate station pins, including State, by showing one pin per station and grouping its cards and machines. Adjusted label placement to reduce overlapping white boxes and made pointer lines stop at box edges. |
 | **Oct 27, 5–11 PM** | Continued publishing supported sightings and corrections from Reddit and community reports, including separate Harvard machines and a North Station dark-blue report. Added a newly developing FindMyCharlie discussion to the review registry. |
 | **Oct 28, 1 AM** | A user pointed out that a Tufts Medical Center comment had been missed. Full-size photo review identified the orange Old State House card and machine **221072**, observed **Oct 27 at 8:30 PM**. A follow-up check found an older Airport silver report in another thread. Both reports were added to the reviewed data; the prior thumbnail-based exclusion was recorded as an error. |
+| **Oct 28, 2 AM** | Moved the project PDF to the end of the map's information panel and linked the new FindMyCharlie Reddit discussion beside the author credit and on the personal site. Revised the downtown label layout so Aquarium sits east of Tufts Medical Center and pointer crossings count against candidate positions. |
 
 ## Problems we found and how we handled them
 
@@ -34,6 +35,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **A single station appeared as two pins.** | Grouped reports by station before drawing markers, so State has one pin with its different machines and cards inside. |
 | **Many reports for one card made a station panel hard to scan.** | Grouped by card, ranked current machine reports by recency and corroboration, and put earlier reports in expandable history. Longer prose alone does not raise confidence. |
 | **White station labels overlapped and pointer lines crossed boxes.** | Added a layout pass that finds freer positions around each station and clips connector lines at label edges. Dense maps can still be constrained by screen size and zoom. |
+| **Aquarium and Tufts labels were reversed and downtown pointers clumped.** | Gave Aquarium the eastern label position, kept Tufts to its west, and penalized crossing pointer segments when choosing positions. The labels still move with zoom and available screen space. |
 | **The Green Line path near Back Bay was inaccurate.** | Replaced the incorrect plotted section with MBTA route geometry. Lines are geographic context, not live service status. |
 | **A Tufts photo report was missed.** | Full-size inspection revealed the orange card and machine number that were not in the comment text. This correction is recorded as a review error rather than silently rewriting the audit. A related-thread check also found an older Airport silver report. Other photo-only reports need the same explicit visual check. |
 | **Public data needed a recoverable history.** | Created a private GitHub archive of dated report-feed snapshots, including community submissions, plus reviewed Reddit evidence and coverage notes. It is not a complete verbatim copy of every Reddit comment. |
@@ -54,6 +56,7 @@ Reddit browser access is not guaranteed, and an hourly review is not instant or 
 
 - [Public website and code](https://github.com/flbjcy/find-my-charlie)
 - [Original r/mbta discussion](https://www.reddit.com/r/mbta/comments/1xaqcns/limited_edition_special_design_charlie_cards/)
+- [FindMyCharlie Reddit discussion](https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/)
 - [Tufts Medical Center photo report](https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rr8kfh46wlh/)
 - [Public traffic dashboard](https://flbjcy.github.io/find-my-charlie/?traffic=1)
 - [MBTA V3 API](https://api-v3.mbta.com/)

@@ -34,10 +34,10 @@ MUTED = colors.HexColor("#5C696F")
 title = ParagraphStyle("Title", fontName="EBGaramond", fontSize=25, leading=28, textColor=BLUE, spaceAfter=4)
 subtitle = ParagraphStyle("Subtitle", fontName="Arial", fontSize=8.4, leading=12, textColor=MUTED, spaceAfter=11)
 heading = ParagraphStyle("Heading", fontName="EBGaramond", fontSize=14, leading=16, textColor=BLUE, spaceBefore=6, spaceAfter=3, keepWithNext=True)
-body = ParagraphStyle("Body", fontName="Arial", fontSize=8.1, leading=10.9, textColor=INK, spaceAfter=4, allowWidows=0, allowOrphans=0)
-cell = ParagraphStyle("Cell", parent=body, fontSize=7.3, leading=9.7, spaceAfter=0)
+body = ParagraphStyle("Body", fontName="Arial", fontSize=8.0, leading=10.5, textColor=INK, spaceAfter=4, allowWidows=0, allowOrphans=0)
+cell = ParagraphStyle("Cell", parent=body, fontSize=7.2, leading=9.3, spaceAfter=0)
 cell_head = ParagraphStyle("CellHead", parent=cell, fontName="Arial-Bold", textColor=BLUE)
-bullet = ParagraphStyle("Bullet", parent=body, leftIndent=10, firstLineIndent=-7, spaceAfter=4)
+bullet = ParagraphStyle("Bullet", parent=body, leftIndent=10, firstLineIndent=-7, spaceAfter=2)
 
 
 def markup(value: str) -> str:
@@ -87,8 +87,8 @@ def parse(md: str):
                 ("VALIGN", (0, 0), (-1, -1), "TOP"),
                 ("LEFTPADDING", (0, 0), (-1, -1), 8),
                 ("RIGHTPADDING", (0, 0), (-1, -1), 8),
-                ("TOPPADDING", (0, 0), (-1, -1), 3),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+                ("TOPPADDING", (0, 0), (-1, -1), 2.4),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 2.4),
                 ("LINEBELOW", (0, -1), (-1, -1), .5, colors.HexColor("#D7D9D1")),
             ]))
             blocks.extend([table, Spacer(1, 5)])
@@ -108,7 +108,7 @@ def parse(md: str):
 
 class ProgressDoc(BaseDocTemplate):
     def __init__(self, filename):
-        super().__init__(filename, pagesize=letter, leftMargin=.65 * inch, rightMargin=.65 * inch, topMargin=.78 * inch, bottomMargin=.62 * inch,
+        super().__init__(filename, pagesize=letter, leftMargin=.65 * inch, rightMargin=.65 * inch, topMargin=.72 * inch, bottomMargin=.58 * inch,
                          title="FindMyCharlie: project progress", author="Jia Hao Liang", subject="Development timeline, problems fixed, and measured site activity")
         frame = Frame(self.leftMargin, self.bottomMargin, self.width, self.height, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
         self.addPageTemplates(PageTemplate(id="main", frames=[frame], onPage=self.decorate))
