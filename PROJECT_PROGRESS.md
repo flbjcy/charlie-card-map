@@ -26,6 +26,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 28, 11 AM** | Added optional machine photos to community reports. The report form resizes and removes metadata from images before upload; each photo appears through a “View photo” link beside its machine details. Added an hourly statistics feed for page views, approximate visits, and community submissions. |
 | **Oct 28, 11 AM** | Added a scheduled job in the private GitHub archive to back up public reports and anonymous hourly counts when the Mac is asleep. Its first manual test succeeded. Machine photos are backed up once when present. Reddit comment review remains dependent on browser access or an approved Reddit integration. |
 | **Oct 28, 11 AM** | Added an on-device quality check to optional machine-photo uploads. It checks image size, exposure, contrast, and severe blur before upload; unusable images get a clear retake message. The check uses browser pixels without ChatGPT or a remote review service. |
+| **Oct 28, 12 PM** | Published a machine-specific Harvard update: 221121 was down while 221123 had yellow Bunker Hill cards at 11:30 AM. Also reviewed an 11:59 AM orange confirmation at Park Street 221186; a newer community report already covered it, so no duplicate map entry was added. Kept same-author cross-posts from being treated as independent sightings. Normalized reports such as “Unknown221123” so the same numbered machine appears once. |
 
 ## Problems we found and how we handled them
 
@@ -37,6 +38,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **Harvard yellow and Forest Hills green seemed missing or inconsistent.** | Separated machine-specific reports and their observation times. Harvard 221121 sold out while 221123 had later positive reports; Forest Hills 221270 had a later negative while separate community reports identified 221100. The map now preserves these distinctions. |
 | **A single station appeared as two pins.** | Grouped reports by station before drawing markers, so State has one pin with its different machines and cards inside. |
 | **Many reports for one card made a station panel hard to scan.** | Grouped by card, ranked current machine reports by recency and corroboration, and put earlier reports in expandable history. Longer prose alone does not raise confidence. |
+| **A machine number attached to a word produced a duplicate row.** | Recognized six-digit machine numbers even in entries such as “Unknown221123,” so they merge with reports that write “Machine 221123.” |
 | **White station labels overlapped and pointer lines crossed boxes.** | Added a layout pass that finds freer positions around each station and clips connector lines at label edges. Dense maps can still be constrained by screen size and zoom. |
 | **Aquarium and Tufts labels were reversed and downtown pointers clumped.** | Gave Aquarium the eastern label position, kept Tufts to its west, and penalized crossing pointer segments when choosing positions. The labels still move with zoom and available screen space. |
 | **The Green Line path near Back Bay was inaccurate.** | Replaced the incorrect plotted section with MBTA route geometry. Lines are geographic context, not live service status. |
@@ -48,7 +50,7 @@ The times below are rounded to the hour from source-control history. They date p
 
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 28 at 11:08 AM ET**. They show **597 recorded page views**, **555 approximate visits**, and **53 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project's public source as report-data/hourly-activity-2026-10-28T1508Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 28 at 12:08 PM ET**. They show **650 recorded page views**, **600 approximate visits**, and **55 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project's public source as report-data/hourly-activity-2026-10-28T1608Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 

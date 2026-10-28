@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-28T13:08:25Z",
-  "method": "Incremental browser review of recent visible comments and direct parent context in 11 tracked threads",
-  "coverage": "Incremental browser review: 128 DOM-visible comments of 308 displayed across 11 tracked threads; newest comments and visible text compared with the previous scan. One nested announcement reply expanded. Older and other collapsed branches not fully re-reviewed. Last expanded review: Oct 27 at 2:52 PM ET, 246 accessible of 256 displayed across nine then-tracked threads (10 inaccessible).",
-  "reviewedCount": 128,
-  "displayedCount": 308,
+  "checkedAt": "2026-10-28T16:09:11Z",
+  "method": "Incremental browser review of recent visible comments and relevant parent context in 11 tracked threads",
+  "coverage": "Incremental browser review: 134 DOM-visible comments of 315 displayed across 11 tracked threads. Recent visible comments and relevant parent context checked; older and collapsed branches not fully re-reviewed. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
+  "reviewedCount": 134,
+  "displayedCount": 315,
   "threadCount": 11
 }

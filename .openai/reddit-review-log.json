@@ -593,7 +593,8 @@
         "text": "tuft medical on orange line 830pm 27oct26",
         "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rr8kfh46wlh/",
         "context": "Attached image shows a vending machine, apparently numbered 221072, but no identifiable special-design CharlieCard. Orange Line describes the subway line, not the card design.",
-        "decision": "8:30 PM ET observation retained in evidence; no card design established, so no map report added."
+        "decision": "8:30 PM ET observation retained in evidence; no card design established, so no map report added.",
+        "correction": "Superseded by full-resolution photo review on 2026-10-28: the bottom of the image shows an orange Old State House card and the top shows machine 221072. The initial preview-based exclusion was incorrect."
       },
       {
         "id": "t1_19rr9ispg5928",
@@ -639,5 +640,221 @@
       }
     ],
     "outcome": "One new North Station dark-blue report imported; new FindMyCharlie discussion tracked."
+  },
+  {
+    "checkedAt": "2026-10-28T04:44:06.118695Z",
+    "method": "Incremental browser review of visible comments only",
+    "coverage": "99 visible comments across ten tracked Reddit discussions checked incrementally. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed across the previous nine threads; 10 were inaccessible.",
+    "evidence": [
+      {
+        "id": "t1_19rri8m449k3k",
+        "parent": null,
+        "time": "2026-10-28T04:09:38.489Z",
+        "text": "With this new tool, new questions and reports about collectible CharlieCards will be done as comments under this post. Any new posts will be removed and linked to this post",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rri8m449k3k/",
+        "decision": "Thread routing note, not a card sighting."
+      }
+    ],
+    "outcome": "No new supported card sighting or correction; no map change."
+  },
+  {
+    "checkedAt": "2026-10-28T05:35:47Z",
+    "method": "Full-resolution photo reinspection after user correction",
+    "coverage": "One previously excluded image comment rechecked. This was not a full-thread or all-photo audit.",
+    "evidence": [
+      {
+        "id": "t1_19rr8kfh46wlh",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rr8kfh46wlh/",
+        "text": "tuft medical on orange line 830pm 27oct26",
+        "photo": "Full image shows machine 221072 and orange Old State House card.",
+        "decision": "Import Tufts Medical Center, orange Old State House, machine 221072, observed October 27 8:30 PM ET; exit unknown. Earlier exclusion was wrong."
+      }
+    ],
+    "outcome": "Corrected previously missed photo sighting; broad image audit still pending."
+  },
+  {
+    "checkedAt": "2026-10-28T05:41:05Z",
+    "method": "Targeted browser review of related r/mbta thread and original-thread visible photo comments",
+    "coverage": "Original thread: 25 visible of 191 displayed; four visible photo comments checked for missed card identification, four collapsed replies and older comments not re-expanded. New related thread: post and 25 visible of 27 displayed; two comments not visible. Ten other tracked threads not re-reviewed in this pass.",
+    "evidence": [
+      {
+        "id": "t3_1xfj593",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/found_67_of_the_special_edition_cards/",
+        "time": "2026-10-26T01:01:07.823Z",
+        "text": "Green: Forest Hills @ the North Entrance; Red: State @ Old South Meeting House entrance; Blue and Orange: State @ Old State House; Silver: Airport; Purple: Haymarket @ the Green Line Entrance.",
+        "decision": "Import historical Airport silver with posting-time fallback; no machine or exit given. Older Forest Hills, State, and Haymarket details do not override newer machine-specific reports."
+      },
+      {
+        "id": "t1_19rp6284uclpg",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/comment/19rp6284uclpg/",
+        "time": "2026-10-26T20:42:22.135Z",
+        "text": "Silver one at North Station, back row right side ends in 045",
+        "decision": "Corroborates North silver machine 221045; later community report already present."
+      },
+      {
+        "id": "t1_19rp5yz53syxt",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/comment/19rp5yz53syxt/",
+        "time": "2026-10-26T20:40:20.695Z",
+        "text": "Blue at back bay, downstairs in the under passage, left machine",
+        "context": "Nested reply identifies design as “Ironsides on it”, i.e. USS Constitution.",
+        "decision": "Corroborates Back Bay light-blue location; later community report with machine 221080 already present. Do not infer same machine number from this comment."
+      },
+      {
+        "id": "t1_19rosqnrcx6g3",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xfj593/comment/19rosqnrcx6g3/",
+        "time": "2026-10-26T15:43:42.219Z",
+        "text": "I got the USS Constitution at ruggles",
+        "context": "Reply says it may have been left or middle machine but was a couple of weeks ago.",
+        "decision": "Historical memory lacks a reliable observation date and machine; no current availability inferred."
+      }
+    ],
+    "outcome": "Found one missed historical Airport silver source and imported it. Tufts full-photo correction imported separately. Other reviewed comments corroborate newer reports or are too uncertain for an active location."
+  },
+  {
+    "checkedAt": "2026-10-28T06:09:34Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 133,
+    "coverage": "Recent visible comments checked across 11 tracked threads (71 currently loaded in original; newest seven or fewer inspected per other thread). Older and collapsed branches not fully re-reviewed. Last expanded review Oct 27 2:52 PM ET: 246 accessible of 256 displayed across nine threads, 10 inaccessible.",
+    "newCommentIds": [
+      "t1_19rrkoaut08w4"
+    ],
+    "evidence": {
+      "id": "t1_19rrkoaut08w4",
+      "thread": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/",
+      "text": "This is awesome. Gonna check this out and submit a report this Thursday.",
+      "interpretation": "Praise and future intent only; no current observation."
+    },
+    "outcome": "No new supported sighting or correction; map unchanged."
+  },
+  {
+    "checkedAt": "2026-10-28T10:39:43Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 125,
+    "coverage": "125 DOM-visible comments across 11 tracked threads; newest visible comments compared with the prior incremental review. Older and collapsed replies were not expanded. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
+    "newCommentIds": [],
+    "outcome": "No new supported Reddit sighting or correction among currently visible recent comments. One new community report says Forest Hills machine removed; it is already in the live feed as unavailable and was archived. No map change."
+  },
+  {
+    "checkedAt": "2026-10-28T11:57:36Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 127,
+    "coverage": "127 DOM-visible comments across 11 tracked threads; newest visible comments compared with the prior incremental review. One nested reply expanded in the FindMyCharlie thread. Older and collapsed replies elsewhere were not fully re-reviewed. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
+    "newCommentIds": [
+      "t1_19rs0rifthlz4",
+      "t1_19rs0hzs76akl",
+      "t1_19rs16ij7mk1w"
+    ],
+    "evidence": [
+      {
+        "id": "t1_19rs0rifthlz4",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/limited_edition_special_design_charlie_cards/comment/19rs0rifthlz4/",
+        "text": "https://flbjcy.github.io/find-my-charlie/"
+      },
+      {
+        "id": "t1_19rs0hzs76akl",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/comment/19rs0hzs76akl/",
+        "text": "You should allow people to take a photo of the machine to make it easier to find"
+      },
+      {
+        "id": "t1_19rs16ij7mk1w",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/comment/19rs16ij7mk1w/",
+        "text": "Can you please pin it in that case? It'll be hard to find later otherwise.\n    \n      Edit - nvm, I see it's pinned already!"
+      }
+    ],
+    "outcome": "No supported new Reddit sighting. One new community report says Forest Hills dispensed only regular cards; it is already live as unavailable and archived. No map publication."
+  },
+  {
+    "checkedAt": "2026-10-28T13:08:25Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 128,
+    "coverage": "Incremental browser review: 128 DOM-visible comments of 308 displayed across 11 tracked threads; newest comments and visible text compared with the previous scan. One nested announcement reply expanded. Older and other collapsed branches not fully re-reviewed. Last expanded review: Oct 27 at 2:52 PM ET, 246 accessible of 256 displayed across nine then-tracked threads (10 inaccessible).",
+    "newCommentIds": [
+      "t1_19rs4obd0zgjm",
+      "t1_19rs5jjybj4sh"
+    ],
+    "evidence": [
+      {
+        "id": "t1_19rs4obd0zgjm",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/limited_edition_special_design_charlie_cards/comment/19rs4obd0zgjm/",
+        "postedAt": "2026-10-28T12:32:39.820000+0000",
+        "text": "North Station 221104 near the large info booth!",
+        "parentId": "t1_19rr62tmc38n9",
+        "imageUrls": [],
+        "decision": "Imported with posting-time fallback; exact observation time unstated. Machine and card details only as supported by comment and direct parent context."
+      },
+      {
+        "id": "t1_19rs5jjybj4sh",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/comment/19rs5jjybj4sh/",
+        "postedAt": "2026-10-28T12:52:07.112000+0000",
+        "text": "Can confirm Blue line at north station in 221104, silver line in 221045, And red line at state street entrance by the Bank of America (no number). And yellow at old state house entrance! Still looking for purple and orange, though looks like I have lots of good leads for orange once my shift is over today",
+        "parentId": null,
+        "imageUrls": [],
+        "decision": "Imported with posting-time fallback; exact observation time unstated. Machine and card details only as supported by comment and direct parent context."
+      }
+    ],
+    "outcome": "Added four card observations from the new FindMyCharlie reply and a separate North Station dark-blue location reply. All exact exit IDs remain unknown. No new or edited image-bearing candidate. No older-branch full review claimed."
+  },
+  {
+    "checkedAt": "2026-10-28T16:09:11Z",
+    "status": "incremental-partial",
+    "threadCount": 11,
+    "domVisibleCount": 134,
+    "coverage": "Incremental browser review: 134 DOM-visible comments of 315 displayed across 11 tracked threads. Recent visible comments and relevant parent context checked; older and collapsed branches not fully re-reviewed. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
+    "newCommentIds": [
+      "t1_19rsddbwz2hj5",
+      "t1_19rsd10tgzm1t",
+      "t1_19rsd1o8uyezp",
+      "t1_19rsd46bhe89w",
+      "t1_19rse12ic7vvm",
+      "t1_19rr1m6jxebt1",
+      "t1_19rsa8yofaadc",
+      "t1_19rsb67mxojk1"
+    ],
+    "evidence": [
+      {
+        "id": "t1_19rsddbwz2hj5",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rsddbwz2hj5/",
+        "postedAt": "2026-10-28T15:47:36.250Z",
+        "text": "121 at Harvard is down, 23 had yellow as of 10/28 at 11:30 am",
+        "decision": "Imported machine-specific down and yellow reports. Observation time 11:30 AM; full machine numbers from direct discussion and same author."
+      },
+      {
+        "id": "t1_19rsd10tgzm1t",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xdpxde/comment/19rsd10tgzm1t/",
+        "postedAt": "2026-10-28T15:39:56.328Z",
+        "text": "Was at Harvard, machine noted is down, but right two ends in 221123, has yellow...",
+        "decision": "Same author as 19rsddbwz2hj5; context supports full 221123 number but not imported as independent report."
+      },
+      {
+        "id": "t1_19rsd1o8uyezp",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xdpxde/comment/19rsd1o8uyezp/",
+        "text": "Others said 21 at Harvard , but it won't accept the purchase",
+        "decision": "Same author; ambiguous purchase failure, no additional station-wide inference."
+      },
+      {
+        "id": "t1_19rsd46bhe89w",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xdpxde/comment/19rsd46bhe89w/",
+        "text": "Silver at North as of 10/25, back wall far right machine, not the testing machine..",
+        "decision": "Older October 25 sighting, no current-stock refresh."
+      },
+      {
+        "id": "t1_19rse12ic7vvm",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xgrj3u/comment/19rse12ic7vvm/",
+        "postedAt": "2026-10-28T16:02:23.293Z",
+        "text": "Orange at Park, side to north station, machine is 186 as of 10/28 at 11:59 am",
+        "decision": "11:59 AM orange 221186 confirmation retained in audit. A newer 12:02 PM community report already covers machine 186; avoid a duplicate map entry."
+      },
+      {
+        "id": "t1_19rr1m6jxebt1",
+        "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xe978o/comment/19rr1m6jxebt1/",
+        "text": "And it's out again.",
+        "decision": "October 27 reply to Harvard 221121 yellow; already superseded by newer machine-down report. Not a new current-stock signal."
+      }
+    ],
+    "outcome": "Published two Harvard machine-specific updates. Park Street orange confirmation retained in audit because a newer community report is already live; no duplicate map report added. No full older-branch review claimed."
   }
 ]

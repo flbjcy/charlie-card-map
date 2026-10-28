@@ -1,5 +1,33 @@
 [
   {
+    "id": "reviewed-19rsddbwz2hj5-harvard-yellow",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221123",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793201400000,
+    "createdAt": 1793202456250,
+    "notes": "Reported machine 23 at Harvard had yellow Bunker Hill cards as of October 28 at 11:30 AM ET. The 221123 expansion is supported by the same machine number in this discussion and another comment by this author. Exact exit unknown.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rsddbwz2hj5/"
+  },
+  {
+    "id": "reviewed-19rsddbwz2hj5-harvard-down",
+    "station": "place-harsq",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221121",
+    "exitId": null,
+    "status": "unavailable",
+    "observedAt": 1793201400000,
+    "createdAt": 1793202456250,
+    "notes": "Reporter says machine 121 at Harvard is down while machine 23 had yellow at 11:30 AM ET October 28. Treated as machine 221121 from the numbered context in this discussion. This is a machine-down report, not a claim that the whole station is out. Exact exit unknown.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xg9rpt/comment/19rsddbwz2hj5/"
+  },
+  {
     "id": "reviewed-19rs5jjybj4sh-north-blue",
     "station": "place-north",
     "design": "capitol",

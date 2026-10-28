@@ -1,25 +1,46 @@
 {
-  "checkedAt": "2026-10-28T03:45:16.166923Z",
+  "checkedAt": "2026-10-28T16:09:11Z",
   "lastExpandedReviewAt": "2026-10-27T18:52:52.166087+00:00",
   "lastIncrementalReview": {
-    "checkedAt": "2026-10-28T03:45:16.166923Z",
+    "checkedAt": "2026-10-28T16:09:11Z",
     "visibleCommentCounts": [
       25,
-      7,
-      3,
-      5,
-      4,
       8,
+      3,
+      7,
+      4,
+      11,
       16,
       4,
-      24,
-      0
+      25,
+      6,
+      25
     ],
-    "coverage": "96 visible comments across ten tracked Reddit discussions checked incrementally; the newly discovered FindMyCharlie post had zero comments. Older and collapsed replies were not fully re-reviewed. Last expanded review on Oct 27 at 2:52 PM ET covered 246 accessible of 256 displayed across the previous nine threads; 10 were inaccessible.",
+    "displayedCommentCounts": [
+      193,
+      13,
+      3,
+      7,
+      4,
+      12,
+      17,
+      5,
+      26,
+      8,
+      27
+    ],
+    "coverage": "Incremental browser review: 134 DOM-visible comments of 315 displayed across 11 tracked threads. Recent visible comments and relevant parent context checked; older and collapsed branches not fully re-reviewed. Last expanded review remains Oct 27 at 2:52 PM ET (246 accessible of 256 displayed across nine then-tracked threads; 10 inaccessible).",
     "newCommentIds": [
-      "t1_19rrgdidxvrc1",
-      "t1_19rrgml301vdt"
-    ]
+      "t1_19rsddbwz2hj5",
+      "t1_19rsd10tgzm1t",
+      "t1_19rsd1o8uyezp",
+      "t1_19rsd46bhe89w",
+      "t1_19rse12ic7vvm",
+      "t1_19rr1m6jxebt1",
+      "t1_19rsa8yofaadc",
+      "t1_19rsb67mxojk1"
+    ],
+    "decision": "Imported Harvard 221121 machine-down and 221123 yellow observations at 11:30 AM. Park Street orange 221186 at 11:59 AM is retained in audit; a newer 12:02 PM community report already covers the same station and machine shorthand, so no duplicate map entry was added. Other newly visible comments were older, redundant, or not sightings. The Harvard author repeated the same observation in multiple threads; not counted as independent corroboration. No new image-bearing candidate."
   },
   "searches": [
     "https://www.reddit.com/r/mbta/search/?q=charliecard&sort=new&restrict_sr=on",
@@ -37,7 +58,10 @@
       "comparison": "Previously accessible comments unchanged.",
       "newCommentIds": [],
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
-      "decision": "Import explicit noon Harvard221123 yellow report; keep221121 unavailable. Feedback replies excluded."
+      "decision": "Import explicit noon Harvard221123 yellow report; keep221121 unavailable. Feedback replies excluded.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 25,
+      "lastIncrementalDisplayedCount": 193
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xg9rpt/charliecards_update/",
@@ -65,7 +89,10 @@
         "t1_19rqritiwwnr9",
         "t1_19rqr0yyrpr29"
       ],
-      "comparison": "Two new comments."
+      "comparison": "Two new comments.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 8,
+      "lastIncrementalDisplayedCount": 13
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xg4b3a/location_of_the_old_charliecards_from_summer/",
@@ -81,7 +108,10 @@
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
       "displayedCount": 3,
       "newCommentIds": [],
-      "comparison": "Previously accessible comments unchanged."
+      "comparison": "Previously accessible comments unchanged.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 3,
+      "lastIncrementalDisplayedCount": 3
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xe978o/yellow_limited_card_location/",
@@ -99,7 +129,10 @@
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
       "displayedCount": 5,
       "newCommentIds": [],
-      "comparison": "Previously accessible comments unchanged."
+      "comparison": "Previously accessible comments unchanged.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 7,
+      "lastIncrementalDisplayedCount": 7
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xc6fmh/the_5_new_charliecards/",
@@ -116,7 +149,10 @@
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
       "displayedCount": 4,
       "newCommentIds": [],
-      "comparison": "Previously accessible comments unchanged."
+      "comparison": "Previously accessible comments unchanged.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 4,
+      "lastIncrementalDisplayedCount": 4
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xdpxde/collecting_new_limited_edition_charlie_cards/",
@@ -138,7 +174,10 @@
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
       "displayedCount": 9,
       "newCommentIds": [],
-      "comparison": "Previously accessible comments unchanged."
+      "comparison": "Previously accessible comments unchanged.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 11,
+      "lastIncrementalDisplayedCount": 12
     },
     {
       "url": "https://www.reddit.com/r/boston/comments/1xbaq62/new_collectible_charlie_cards_announced/",
@@ -168,7 +207,10 @@
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
       "displayedCount": 17,
       "newCommentIds": [],
-      "comparison": "Previously accessible comments unchanged."
+      "comparison": "Previously accessible comments unchanged.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 16,
+      "lastIncrementalDisplayedCount": 17
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xb4uz4/new_charlie_card_designs/",
@@ -185,7 +227,10 @@
       "displayedCount": 5,
       "checkedAt": "2026-10-27T18:52:52.166087+00:00",
       "newCommentIds": [],
-      "comparison": "Previously accessible comments unchanged."
+      "comparison": "Previously accessible comments unchanged.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 4,
+      "lastIncrementalDisplayedCount": 5
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xgrj3u/limited_edition_charlie_card_hunt_this_am/",
@@ -215,17 +260,601 @@
         "t1_19rqr3xd29d7m",
         "t1_19rqrqjzy50rn"
       ],
-      "comparison": "Two new comments; Haymarket description edited."
+      "comparison": "Two new comments; Haymarket description edited.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 25,
+      "lastIncrementalDisplayedCount": 26
     },
     {
       "url": "https://www.reddit.com/r/mbta/comments/1xhdiol/findmycharlie_an_interactive_map_to_find/",
       "title": "FindMyCharlie: An Interactive Map to find Limited-Edition CharlieCards",
-      "checkedAt": "2026-10-28T03:45:16.166923Z",
-      "reviewedCount": 0,
-      "displayedCount": 0,
-      "commentIds": [],
-      "coverage": "Post and zero visible comments reviewed on discovery; future replies will be tracked.",
-      "decision": "Website announcement; no card sighting in post."
+      "checkedAt": "2026-10-28T06:09:34Z",
+      "reviewedCount": 1,
+      "displayedCount": 1,
+      "commentIds": [
+        "t1_19rri8m449k3k",
+        "t1_19rrkoaut08w4"
+      ],
+      "coverage": "Two comments visible; newest reply reviewed, no card sighting. Older full thread review unnecessary at two comments.",
+      "decision": "Website announcement; no card sighting in post.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 6,
+      "lastIncrementalDisplayedCount": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/mbta/comments/1xfj593/found_67_of_the_special_edition_cards/",
+      "title": "Found 6/7 of the special edition cards",
+      "checkedAt": "2026-10-28T05:41:05Z",
+      "reviewedCount": 25,
+      "displayedCount": 27,
+      "commentIds": [
+        "t1_19rqslm1vrl5w",
+        "t1_19rq3bqr3xhpg",
+        "t1_19rqsfiqk7fmp",
+        "t1_19rpcjn5r1g4g",
+        "t1_19rp6284uclpg",
+        "t1_19rps9nh39qsi",
+        "t1_19rpdm3sva86a",
+        "t1_19rp5yz53syxt",
+        "t1_19rpb0qxgrht0",
+        "t1_19rp68fn69rs5",
+        "t1_19rp6g8z1kuzl",
+        "t1_19rosqnrcx6g3",
+        "t1_19royleibdsyr",
+        "t1_19royo55cab51",
+        "t1_19ros270v9sdf",
+        "t1_19rpazwxd638k",
+        "t1_19rotakss4d0g",
+        "t1_19roojpbujwtf",
+        "t1_19ron8gbprkrp",
+        "t1_19rpfo3gml90i",
+        "t1_19rq7mcshyg2o",
+        "t1_19rolufref9b6",
+        "t1_19rpdmfylqnkx",
+        "t1_19rntl206a6sj",
+        "t1_19rnpsbstbzs2"
+      ],
+      "coverage": "Post and 25 visible comments reviewed. Reddit displayed 27 comments; two not visible. No more-replies control was shown. Not a claim of complete 27-comment coverage.",
+      "decision": "Imported historical Airport silver from explicit post; posting time fallback. Back Bay light blue and North silver details retained as context, with newer community reports already on map. Ruggles memory was weeks old; no present availability inferred. Yellow Harvard 221121 in this thread is superseded by later sold-out reports.",
+      "lastIncrementalAt": "2026-10-28T16:09:11Z",
+      "lastIncrementalVisibleCount": 25,
+      "lastIncrementalDisplayedCount": 27
     }
-  ]
+  ],
+  "lastVisibleCommentFingerprints": {
+    "1xaqcns": {
+      "t1_19rs0rifthlz4": {
+        "sha256": "b0f8bb0ccb82b9a8841317e689a7180bde128055d9716b11a2a6211c85d6ae0c",
+        "edited": null
+      },
+      "t1_19rr8kfh46wlh": {
+        "sha256": "2a237b67e414ed1b37a7c59bc288b5615c8c9e54486d43328aa4f321bf2abb96",
+        "edited": null
+      },
+      "t1_19rr62tmc38n9": {
+        "sha256": "bbabd7416de8bb9867aa882da989a0c6556a9ea88b4106cc06394c9f9a4f7f3a",
+        "edited": null
+      },
+      "t1_19rs4obd0zgjm": {
+        "sha256": "e8c5276a55019f69d3700bfa31f3587fdd98346f11309738f0fd5d82dca51e95",
+        "edited": null
+      },
+      "t1_19rr1i4ba5v2b": {
+        "sha256": "537459f246d9cc5f719447e32d0350839e9f3e1e1b12c344a1290ac9132f455e",
+        "edited": null
+      },
+      "t1_19rqwk7ted9c3": {
+        "sha256": "8243b2d302ecc07a2eebfcf6032dc01d42fefc1d2c4d37a34dd974779f880469",
+        "edited": null
+      },
+      "t1_19rqm8iidaflv": {
+        "sha256": "3a4907a365465b05c45324d08f339b3ef9723b1de0c0e3e51e2a005ad33c7220",
+        "edited": null
+      },
+      "t1_19rpnsgrhtvnk": {
+        "sha256": "33c70183dab692531e9774f1dcc394944f5f4ddb94365fdb0bb701a2d500fa65",
+        "edited": null
+      },
+      "t1_19rqjkikuvji8": {
+        "sha256": "c7efd1facbcc249e73b309d89c7474b3515a8531b91b25e48e7b9722223fc979",
+        "edited": null
+      },
+      "t1_19rqliawvmo3o": {
+        "sha256": "ddb062561bea6666e5a84545de86ec197d8c2dfc119e692978049b6f2a2a4c5c",
+        "edited": null
+      },
+      "t1_19rpn03q2qwsk": {
+        "sha256": "08ac0159c7f6fc41160d02a0e03913fa135bbcdd30c9a9d6dc31e5036e503807",
+        "edited": null
+      },
+      "t1_19rpa6vfhddhc": {
+        "sha256": "1dadc813f3cf4b80feb137560339e955526a26ecd04d2e746abe8a68d5d3ca0d",
+        "edited": null
+      },
+      "t1_19rpjsqv7y8hx": {
+        "sha256": "177f4f6f187c4d11298d225a1093030d837d5accd21c048e9dbe88ff89bab986",
+        "edited": null
+      },
+      "t1_19rp6kew1ft6p": {
+        "sha256": "0f24ea840afb2fc18113e64a82f81684e831d6c5f85e7ca1e69132637fdd7471",
+        "edited": null
+      },
+      "t1_19rp55s3cdr40": {
+        "sha256": "89b2cd708bbd0e81680dcdded032cb54a59ea6cc3750a115d2085aea7ec6c4e7",
+        "edited": null
+      },
+      "t1_19rorz8kljngh": {
+        "sha256": "4d799020dca1a87ab2cd52066da4cdf81a2fbe86e8e9e68cc7d3dd2e6ae04bf5",
+        "edited": null
+      },
+      "t1_19rp71z1vuglh": {
+        "sha256": "68b09d896d2203fab48c769dbfb525d6f6151b49524cab7e0cbfb1fb2ace9d02",
+        "edited": null
+      },
+      "t1_19rp4uscjr7nm": {
+        "sha256": "afec904d7241e914ae2a735da22f68da41179a7e309bf010eef9d2b1ba606462",
+        "edited": null
+      },
+      "t1_19royr0kgorr5": {
+        "sha256": "81b766646f291625fbd1380c64a66d7b2ee825890cd7a79b2f3bc5daf6e6df26",
+        "edited": null
+      },
+      "t1_19rolt5u4mf7o": {
+        "sha256": "99d5f19361d2b332e6cb6350055e69a6700c6a9adcc91563fa36a21984384df2",
+        "edited": null
+      },
+      "t1_19rnj8uacn2ww": {
+        "sha256": "92a3c192e862b8a9e85a7d1c252b23d0eb6f792c2561990039dff43b93aebd76",
+        "edited": null
+      },
+      "t1_19roz98puhqiq": {
+        "sha256": "b1de3f619cfde94b091043d330ae88b186071b38d0e85e2760004bd6b96e029a",
+        "edited": null
+      },
+      "t1_19rn6axq98yo2": {
+        "sha256": "1831e17a7d409cf498b9ac07672f290e7f30bae7df54851d79ed0c0ea8fadc6c",
+        "edited": null
+      },
+      "t1_19rn5fs90warl": {
+        "sha256": "8603929921ba80e1f7f38955c0bd818ab916ca8f38cc99b7b738c9c663cc6753",
+        "edited": null
+      },
+      "t1_19rn4ysyq6uma": {
+        "sha256": "b15cd7e5c030155f2f2c96bd22d52a1190eaba272ec6c669eabf43aba7b08f48",
+        "edited": null
+      }
+    },
+    "1xg9rpt": {
+      "t1_19rqr0yyrpr29": {
+        "sha256": "d3ffc3849823e127c66af503d6e71043e70d4fa400313f912313692d2cfa0cda",
+        "edited": null
+      },
+      "t1_19rqbyzs87tc3": {
+        "sha256": "be25f77557881e9f28e467cd46aee740c7b34699b39977492f3d862116e80419",
+        "edited": null
+      },
+      "t1_19rqk7uig8fgk": {
+        "sha256": "12eee3009f3d2b114d767e410b4b24538d1c66ec4d6b8f1efb5cbd0b846cd2fd",
+        "edited": null
+      },
+      "t1_19rqklapcxemd": {
+        "sha256": "b201cbf5ac6f12e1d74e77a47059b41598f7156f4bb5e3930b811cbe552343c3",
+        "edited": null
+      },
+      "t1_19rpdzqtgzeio": {
+        "sha256": "085b6649ed96ba24a5da2d34e6512a3f6c36b56108416d4794e4958ce5946e28",
+        "edited": null
+      },
+      "t1_19rpsliza5t1f": {
+        "sha256": "9aee7c2c5cac823bbab60db6e75587c9b71184560cd4434ebbc878fb38b085f2",
+        "edited": null
+      },
+      "t1_19rpu1yqdnwao": {
+        "sha256": "886f7789b7367dd22a60431c0249f99e13405855f76c5ed46504cdece149be15",
+        "edited": null
+      }
+    },
+    "1xg4b3a": {
+      "t1_19rqcdp8m6b4x": {
+        "sha256": "3150d499c24dad22e3dac1ea18e9db983ac43c4d0c436f9bed213b59af692cdd",
+        "edited": null
+      },
+      "t1_19rqiqph8h90l": {
+        "sha256": "4d784dc9373c7e43eef2a383f9a9143414cda9b6a595237772d908e68fc4f76f",
+        "edited": null
+      },
+      "t1_19roz2j3w25ep": {
+        "sha256": "377e4c6acda99bd3572aafa43f9ed313d093ce2e9a002afba2a9bc63bfa85007",
+        "edited": null
+      }
+    },
+    "1xe978o": {
+      "t1_19rr10l3y3cjo": {
+        "sha256": "c5f8594e2ab954d3905c462b094eb900904bc565ad08c6703043d33919727fd6",
+        "edited": null
+      },
+      "t1_19ros4t1excn8": {
+        "sha256": "210adb89ac7ba6b07ba0947abfde9e2ae3d85c1a9be906dbdea6fe21c2237e5b",
+        "edited": null
+      },
+      "t1_19rr1m6jxebt1": {
+        "sha256": "e66281a2eb440c1783fa06b2b403ef4f22f05d66eb7e9e262ac2d5bf44d9dac5",
+        "edited": null
+      },
+      "t1_19rolqkdf4wg4": {
+        "sha256": "c087de2546971a1e7fb59067a584855d7f397813ce5d5504d8f82423f3805488",
+        "edited": null
+      },
+      "t1_19rlbbwc3ynut": {
+        "sha256": "906292f0cec708a28530c0fb7f60ea59d81b127edfd2fe6deb38b9bdc18d2bf6",
+        "edited": null
+      },
+      "t1_19rl66rpwklz8": {
+        "sha256": "58d2b0cc6c26fb674117ea1f9aedccbf54c169b970b58cc787b7ac6588835f75",
+        "edited": null
+      },
+      "t1_19rl68anafy2s": {
+        "sha256": "43835fb796dadac6e3b19c2fc61cfdaf789925f56793adab7426a8f4c68255e0",
+        "edited": null
+      }
+    },
+    "1xc6fmh": {
+      "t1_19royzybgl69s": {
+        "sha256": "7428b896f672de2731892f805846aded91b26eebdc0cb75d2fca8df749b833c0",
+        "edited": null
+      },
+      "t1_19royg9vxji0x": {
+        "sha256": "d63f0ffa69e331406b287e857f86cb366d4203dc8cda0b0bdbe55d648310bf93",
+        "edited": null
+      },
+      "t1_19rhe8ju1b9qd": {
+        "sha256": "4b818f0d9caf23eddb7a0cb2abcf63d28b2bfa439cce85e5cb1140296d79556c",
+        "edited": null
+      },
+      "t1_19rkbz0hamnlt": {
+        "sha256": "9b41ef01dd4635b71a496f6761640f8c1a2558213671c088f194284fdbb49a6c",
+        "edited": null
+      }
+    },
+    "1xdpxde": {
+      "t1_19ros6ykzgkf4": {
+        "sha256": "31e1c243b7e114d3e8c38a76385d800ce8a9baa33788abf5b5bc4a75ecf9a045",
+        "edited": null
+      },
+      "t1_19rltvjhqfjhc": {
+        "sha256": "6481d01e2a703e4203f567acccbf009366a088fdd0236fa97470b731be78b742",
+        "edited": null
+      },
+      "t1_19rjux7kyirmo": {
+        "sha256": "3aedc9234a46102048e49f47c0e2c6a8c20548938eaef876718e6c5c9cb94d95",
+        "edited": null
+      },
+      "t1_19rjvgmvwfaea": {
+        "sha256": "d046606a0be592f4da6fe6df004fab17e64428fd26ddc5c316d01a45320490e9",
+        "edited": null
+      },
+      "t1_19rjvl337hj6s": {
+        "sha256": "a626386b05fd1aefd63e45951a0d16e3474eba0f1761eefcf3ac1730d336122a",
+        "edited": null
+      },
+      "t1_19rjvfhvkxpb9": {
+        "sha256": "26cfaee7484daea08131c3a4558f00ff297d6900a64cbc263f81a156b3437d0b",
+        "edited": null
+      },
+      "t1_19rjvhmexxkdc": {
+        "sha256": "7ef0b54ad3647cc33802c09af747a007c5d58a1266180a4f5ad14793c0472551",
+        "edited": null
+      },
+      "t1_19rjuyg1py8v7": {
+        "sha256": "464eaa37c780b6b4a3c0d2237625085c9640e809b7e0ff6391f296224a34b5cf",
+        "edited": null
+      }
+    },
+    "1xbaq62": {
+      "t1_19rghwmwyqyv8": {
+        "sha256": "6e7a2032032e1b44c10953627745658552612c28ef044f14668f2500b06a06ca",
+        "edited": null
+      },
+      "t1_19rfxwida6mf7": {
+        "sha256": "c0f73550ee7335d53b2f9986cac37925dfdfa719e27fb22fc1fa9c65017967cd",
+        "edited": null
+      },
+      "t1_19rpf6w9yp0jl": {
+        "sha256": "8a3dfa16883bfb19ef1633e2e561b9e7c3b51ed4e32d6d5b2bd9e21dd8e3ad16",
+        "edited": null
+      },
+      "t1_pi04zyf": {
+        "sha256": "3c8d13e5b966eeb6f851c6261a8e0566ae09513db6280195a8dcb64ffaf9075c",
+        "edited": null
+      },
+      "t1_19rg92jpk79q9": {
+        "sha256": "eece74a4ff44711022528d42a33ea71256054821803a6f05acfc9b82be7c1ecc",
+        "edited": null
+      },
+      "t1_19rhb8t1jgxkz": {
+        "sha256": "52e38a3eb56db038d1aee28dcf620ea1928aee75e8e51ad578d7c4907e63e651",
+        "edited": null
+      },
+      "t1_phz9m2f": {
+        "sha256": "d1aec300a7ad2811b4c3dd7dee8360700fa64e6fb816915d9b419fd6e11328cc",
+        "edited": null
+      },
+      "t1_pi01llq": {
+        "sha256": "6ade3f61306e884f6c09f21815c2421d2b7464a3eaf10b85b983cf48af32f3ba",
+        "edited": null
+      },
+      "t1_phzb2ku": {
+        "sha256": "48e08f220502984a3b6172a1bd00de46c16a2935b12fb7274abe78b89c6f3b01",
+        "edited": null
+      },
+      "t1_phz3nhb": {
+        "sha256": "fc3c52fa1be8e019d07d9ac3f56b35a43c434f8d51f120849aaf95bd77c564bc",
+        "edited": null
+      },
+      "t1_phyz8cq": {
+        "sha256": "043040e8ae05d91fcb23f7ea2d613f00dfb091222dd4ef87c2aa8da47f9565a7",
+        "edited": null
+      },
+      "t1_phzk14t": {
+        "sha256": "98ce40a035b535efdfa3f3e77f9c84dec246ae023532d856ce33e1654c4a0156",
+        "edited": null
+      },
+      "t1_phz19ad": {
+        "sha256": "84525da0ae532b74bd36e75a36d01e607a5f5aea8d944ea06867c975d2be4c4b",
+        "edited": null
+      },
+      "t1_pi0e00e": {
+        "sha256": "044ee6e86500482acfec9e77370d1378ca02d5641dbad2ab7c19390ac0d86bf3",
+        "edited": null
+      },
+      "t1_phyztzz": {
+        "sha256": "4398a8a6725c97a75ea96e261ca7727bb4b9bb215b4dbf54b601402e1d0ed4d0",
+        "edited": null
+      },
+      "t1_phz0gxs": {
+        "sha256": "ab07469e72b99385edf4f1528fccf49b104751f0e9b686af7d3b79e0e7a4f43b",
+        "edited": null
+      }
+    },
+    "1xb4uz4": {
+      "t1_19rglrbtjh751": {
+        "sha256": "6771cbbdaa8fd3b0305f740967893075be239514f3a5ab39d99faff61bef1f06",
+        "edited": null
+      },
+      "t1_19rfl22t6cyub": {
+        "sha256": "a0005530e21adb3964498a6d7a4b45ecab2b337f89e09bdc528343473eb918ea",
+        "edited": null
+      },
+      "t1_19relx807s674": {
+        "sha256": "0e0881ee0d545df1bdf7a01139164c9f74f4f67aa237580761163e9b56cbf872",
+        "edited": null
+      },
+      "t1_19rekb8mseelc": {
+        "sha256": "d685f983663187eca952016e2fd94b59befc3536f74d38aa5a0e335980159e5b",
+        "edited": null
+      }
+    },
+    "1xgrj3u": {
+      "t1_19rrgdidxvrc1": {
+        "sha256": "3d42111f8279b82f62a8195a8e55f08d99144b97f614b44b70baa0dd01fecee8",
+        "edited": null
+      },
+      "t1_19rr3buzebjfl": {
+        "sha256": "19951cd1d92929895b7f0092fd4d0a4791d02c193538ec25c01d21edef2a4084",
+        "edited": null
+      },
+      "t1_19rr6634bdwkg": {
+        "sha256": "6c206b227e190388ef3f63a8a7b95422f762b6af9bcefbeba278b9bf07cd1bb7",
+        "edited": null
+      },
+      "t1_19rr3mq299u00": {
+        "sha256": "2fa320a9392123b5f1c7c8190b5f5f41e6b694abaaa1f11a08ab0b2ad73c48d2",
+        "edited": null
+      },
+      "t1_19rr3u93oe141": {
+        "sha256": "1550cf78fa3b71c437d387b2e7b30df4c7a3938e6d8af7847fc519c33e4699dd",
+        "edited": null
+      },
+      "t1_19rqzu4xtdyjo": {
+        "sha256": "33c70183dab692531e9774f1dcc394944f5f4ddb94365fdb0bb701a2d500fa65",
+        "edited": null
+      },
+      "t1_19rr9ispg5928": {
+        "sha256": "0a9f289e416a53977a09b9957f5924a2bee1083f4aa532b064688b5c2dc5ec1c",
+        "edited": null
+      },
+      "t1_19rrgml301vdt": {
+        "sha256": "ea3b1d1e617bababd29523c5163b9744aca03c3bbc11bca0ccebd310da630dac",
+        "edited": null
+      },
+      "t1_19rr6hsz9jn6r": {
+        "sha256": "cce198bf3e2a6560611b1a3c003b65c49d60011e9ea367837ea21d4a0b9ca138",
+        "edited": null
+      },
+      "t1_19rqrqjzy50rn": {
+        "sha256": "7b9efce4c7525956cfe26c97900fce53dc18c131a4a3a958866795508d3c8904",
+        "edited": null
+      },
+      "t1_19rqqke1qh4x1": {
+        "sha256": "a958c671e3d8ddb7dc8bbe59235dc73dcda4416544001db5dd9cde9c95da61db",
+        "edited": null
+      },
+      "t1_19rqpztk9l44g": {
+        "sha256": "b63a9690485f5e838399b10615a65d72ccb2b528e7a1935ffd51bf2de026f96e",
+        "edited": null
+      },
+      "t1_19rqona5dpq1t": {
+        "sha256": "799514bbc142225da7f1d63a6427b57490a8bbefbd1af86acced5f0b14543142",
+        "edited": null
+      },
+      "t1_19rqn3kfnl25d": {
+        "sha256": "e2aa93757dc62cd1587e52b248df6e17da660547ebee9f9e765c1db10e6e6555",
+        "edited": null
+      },
+      "t1_19rqkpnm4awx1": {
+        "sha256": "36ec653b18e778e587d3285a4349e66b062a9fc7121a04764a36b88c218574ac",
+        "edited": null
+      },
+      "t1_19rqk7uh11an8": {
+        "sha256": "4a26da5d1b55bc8186bc9de3eb4481481307b506c7e8c2495d0a7927215f2fe6",
+        "edited": null
+      },
+      "t1_19rqxn3r2q3ac": {
+        "sha256": "6aec77ded6b7f3f2530739eb022b7836483d3dd5e291a6d87b4055bf766ebb82",
+        "edited": null
+      },
+      "t1_19rqyrsj3g5y8": {
+        "sha256": "0c5849c5179d31d46e2312489a33e91c6d42c942b7cc360a2cfeaaaf31d2d777",
+        "edited": null
+      },
+      "t1_19rqing6zlpus": {
+        "sha256": "7c3569291c5fc22586b523cb43bcb4808dc0196c82e4249c8e18162b9e9ebf44",
+        "edited": null
+      },
+      "t1_19rqh6mcih44i": {
+        "sha256": "1340dc397763067aaa79e96b472bdcb0e9ed5aad6428a81d2c13d9496db4fb1e",
+        "edited": null
+      },
+      "t1_19rqiu2km9jj8": {
+        "sha256": "5f60ee52e45df5665a3e73bc8226efd570a7afd40b3741cbcb9f534ce1d6e2a8",
+        "edited": null
+      },
+      "t1_19rqp4wme8nxd": {
+        "sha256": "83b8b8b1ea6931becc664d7cfae25588259a9040f92b4af9baa8852e8dac7fb5",
+        "edited": null
+      },
+      "t1_19rqdftg1ly5d": {
+        "sha256": "668a710b0861b9b2e7d0c028b722ec04235ae7dc8af6dfe6459cdd516f31370f",
+        "edited": null
+      },
+      "t1_19rqgo8mf2v4z": {
+        "sha256": "4d6bf947c419a2d5c13dae6e4802c6d07bf5f3005b1a7f531b19450f0b9dc873",
+        "edited": null
+      }
+    },
+    "1xhdiol": {
+      "t1_19rri8m449k3k": {
+        "sha256": "9aee8d90eb1499104657f9a79809a273c38260bbf72f573ca59bf1bae82df789",
+        "edited": null
+      },
+      "t1_19rs16ij7mk1w": {
+        "sha256": "f07f84cca3dbe9f0522c297dbad2c8e102e215fa22fc9fb25ce28b7edc1bbb97",
+        "edited": null
+      },
+      "t1_19rs5jjybj4sh": {
+        "sha256": "4e6ab196fafa461312be3c64ed4d3101759efbf4d6f8d2b869f4fcb76705a50a",
+        "edited": null
+      },
+      "t1_19rs0hzs76akl": {
+        "sha256": "5ccca8d9680b3813f3bb9feca27ce5321ce2b108be9df32a29799ad3b224252d",
+        "edited": null
+      },
+      "t1_19rrkoaut08w4": {
+        "sha256": "486f5bd1ee1d246b272da1e67a7318fcc0b6c8c2c2110b7f80ab41efde37eed0",
+        "edited": null
+      }
+    },
+    "1xfj593": {
+      "t1_19rqslm1vrl5w": {
+        "sha256": "2053342790443ef944b11160aa2e4213f52b74b3cf05bd7f4b1c512e5dff05e4",
+        "edited": null
+      },
+      "t1_19rq3bqr3xhpg": {
+        "sha256": "7613e2cf85862565d69c29e08cec837d377c70ea6be95bbb20aecf07aaaf67fd",
+        "edited": null
+      },
+      "t1_19rqsfiqk7fmp": {
+        "sha256": "8805a5c355f172da6b3eeb3237687f109d20163e1c24d12daa79d4c0232f0ae7",
+        "edited": null
+      },
+      "t1_19rpcjn5r1g4g": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "edited": null
+      },
+      "t1_19rp6284uclpg": {
+        "sha256": "fa7ff2aa57641e32fc19c75790be02a6705fa972b5aa656eabf401b005ab4bb2",
+        "edited": null
+      },
+      "t1_19rps9nh39qsi": {
+        "sha256": "267098ea718333b4e18938bd6b3e9099bb40bf46d85fd3a8ce72b9670f4eabde",
+        "edited": null
+      },
+      "t1_19rpdm3sva86a": {
+        "sha256": "9340eb63cb89a46b0dcf21f21a62324151fa08c0f468d9bde3cd4abb59aa127b",
+        "edited": null
+      },
+      "t1_19rp5yz53syxt": {
+        "sha256": "80a26460aa443512ce354096dacc360dcaced3f01878c4d1035023231e5b47bd",
+        "edited": null
+      },
+      "t1_19rpb0qxgrht0": {
+        "sha256": "0b1786ad3f3f7bcfaef897814eb68b973360458e37df50371eea9b1c00b27f15",
+        "edited": null
+      },
+      "t1_19rp68fn69rs5": {
+        "sha256": "e20940d5c634dec2c1e250e6f6b7197c515feed03880e0e155b66b388d85e43e",
+        "edited": null
+      },
+      "t1_19rp6g8z1kuzl": {
+        "sha256": "d2d3667a0bf87c79fae0c6a37a9ca03732ed7d1fa9e4e576928773f01edc9c51",
+        "edited": null
+      },
+      "t1_19rosqnrcx6g3": {
+        "sha256": "14414e8eb0ea8f39e8cf89b8ba36823749dd80b1ae3acdd47cefeb10b9dbf1d7",
+        "edited": null
+      },
+      "t1_19royleibdsyr": {
+        "sha256": "f7a387534a7ed80f1c9c8ac2b59f07801b516db4d5b38713463229a96f8b249c",
+        "edited": null
+      },
+      "t1_19royo55cab51": {
+        "sha256": "c34c8aa270fd8d0d2d1017efaefcb0e1c788c3deefbfb2a224417e8a510dde1f",
+        "edited": null
+      },
+      "t1_19ros270v9sdf": {
+        "sha256": "719c5b3da1c9781af2f924f63d89589a0c78a608cb407349b68172ee176d721d",
+        "edited": null
+      },
+      "t1_19rpazwxd638k": {
+        "sha256": "7bedf03c5cd9f1dccc9ee6c7c0d3701e1ac4726a04982f4c39a3f56829d0b76e",
+        "edited": null
+      },
+      "t1_19rotakss4d0g": {
+        "sha256": "d61cad417b26b16a39b5e7b78a91d0d177f75ab856a1b9eae48d168c6beca364",
+        "edited": null
+      },
+      "t1_19roojpbujwtf": {
+        "sha256": "d3adfafeac0831561d9a58886bae9836630dcaf7d34a9340b6f6191c3b4f7132",
+        "edited": null
+      },
+      "t1_19ron8gbprkrp": {
+        "sha256": "c22c51966ff7d91ddbf9b84df37e020a4ec88ffd2e065f334618a4d6a2345dc8",
+        "edited": null
+      },
+      "t1_19rpfo3gml90i": {
+        "sha256": "ea6637c8d908f221ec7cfdb919bb04afcc968d6e53fb95740f18dfd9fba520f8",
+        "edited": null
+      },
+      "t1_19rq7mcshyg2o": {
+        "sha256": "4b35633972e46f723925d5b5c0d31dc1e15ec6482284d0b9e6f17872b3c18c31",
+        "edited": null
+      },
+      "t1_19rolufref9b6": {
+        "sha256": "739d826b72f8a5ddd0f2fead970f8350b2e28f8bd6766868bca988caafa813c2",
+        "edited": null
+      },
+      "t1_19rpdmfylqnkx": {
+        "sha256": "163ff1cfd070f53272be682eb0272bc5988ddcf3508b81d8a8bbcc7986a99aca",
+        "edited": null
+      },
+      "t1_19rntl206a6sj": {
+        "sha256": "9862ac4e05cf671a5845390b2f79ee117b55d78b795dac040044c62d40e1d13c",
+        "edited": null
+      },
+      "t1_19rnpsbstbzs2": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "edited": null
+      }
+    }
+  }
 }
