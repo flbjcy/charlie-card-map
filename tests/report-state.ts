@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {currentReports,availableReports,confidence} from '../lib/report-state';
+import {currentReports,availableReports,confidence,reportHistory} from '../lib/report-state';
 import data from '../lib/reviewed-reports.json';
 import type {Report} from '../lib/catalog';
 const now=Date.parse('2026-10-26T17:35:00Z');
@@ -31,3 +31,17 @@ assert.equal(confidence({...vague,notes:'great '.repeat(100)},[vague],now).score
 assert.equal(confidence({...detailed,source:'community'},[detailed],now).score,confidence(detailed,[detailed],now).score);
 const removed={...detailed,id:'removed',observedAt:now+1,status:'unavailable'};
 assert.equal(availableReports([detailed,removed]).length,0);
+
+// A unique three-digit suffix is the same machine only within its station and design.
+const parkFull={...fresh,id:'park-full',station:'place-pktrm',design:'oldstate',machine:'Machine 221186',status:'available'};
+const parkShort={...parkFull,id:'park-short',machine:'186',status:'unavailable',observedAt:now+1};
+assert.deepEqual(currentReports([parkFull,parkShort]).map(r=>r.id),['park-short']);
+assert.equal(reportHistory(parkFull,[parkFull,parkShort]).length,2);
+const stateFull={...fresh,id:'state-full',station:'place-state',design:'bunker',machine:'221277'};
+const stateShort={...stateFull,id:'state-short',machine:'Ending 277',observedAt:now+1};
+assert.equal(currentReports([stateFull,stateShort]).length,1);
+assert.equal(currentReports([{...stateFull,machine:'221227'},{...stateShort,machine:'227'}]).length,1);
+assert.equal(currentReports([stateFull,{...stateShort,station:'place-pktrm'}]).length,2);
+assert.equal(currentReports([stateFull,{...stateShort,design:'tea'}]).length,2);
+const collision={...stateFull,id:'collision',machine:'222277'};
+assert.equal(currentReports([stateFull,stateShort,collision]).length,3);

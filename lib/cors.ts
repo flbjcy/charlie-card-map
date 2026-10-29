@@ -7,5 +7,5 @@ export function cors(req:Request,response:Response){
 }
 export function preflight(req:Request){
  if(!allowedOrigin(req))return new Response(null,{status:403});
- const response=new Response(null,{status:204});response.headers.set('Access-Control-Allow-Methods','GET, POST, OPTIONS');response.headers.set('Access-Control-Allow-Headers','Content-Type');return cors(req,response);
+ const response=new Response(null,{status:204});response.headers.set('Access-Control-Allow-Methods','GET, POST, DELETE, OPTIONS');response.headers.set('Access-Control-Allow-Headers','Content-Type, X-Report-Token');return cors(req,response);
 }

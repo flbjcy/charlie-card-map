@@ -30,6 +30,12 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 28, 3 PM** | Expanded all available older-comment and nested-reply controls across 11 tracked Reddit threads and searched for new relevant discussions. A new comment confirmed Park Street machine **221186** still had the orange card around 2:23 PM. Revisiting an older machine photo also recovered a missed purple Zakim Bridge sighting at Malden Center **221030** from October 23; its age is shown as uncertainty, not a fresh confirmation. The browser loaded 304 of 325 displayed comments; 21 remained inaccessible. |
 | **Oct 28, 10 PM** | Added a Reddit report confirming yellow Bunker Hill at State **221277**, silver Boston Tea Party at North Station **221045**, and dark-blue MA State House at North Station **222029** between 5:00 and 5:30 PM. A later community report said the dark-blue card was sold out at 222029 by 6:59 PM, so that older confirmation remains in history but does not appear as available. Updated the hourly activity charts with measured counts. |
 
+## October 28, 10 PM: report corrections
+
+The map now treats a unique three- to five-digit machine suffix as the same six-digit machine **only when the station and card design agree**. Thus Park Street “186” joins 221186, and State “277” joins 221277. If more than one full machine number fits a suffix, the short report stays separate rather than guessing. This changes grouping, history, confidence, and newer sold-out overrides.
+
+An anonymous community report placed an Aquarium USS Constitution machine at **Airport** with a detailed note about its touchscreen and coin slot. An identical Aquarium report followed four minutes later. The erroneous Airport copy is excluded from the public feed; the Aquarium report remains. New community submissions receive a private browser-held removal key so the original browser can retract a mistake without marking a real machine sold out. Older reports cannot be removed through this key because they were submitted before it existed.
+
 ## Problems we found and how we handled them
 
 | Problem | Change or current status |
@@ -41,6 +47,8 @@ The times below are rounded to the hour from source-control history. They date p
 | **A single station appeared as two pins.** | Grouped reports by station before drawing markers, so State has one pin with its different machines and cards inside. |
 | **Many reports for one card made a station panel hard to scan.** | Grouped by card, ranked current machine reports by recency and corroboration, and put earlier reports in expandable history. Longer prose alone does not raise confidence. |
 | **A machine number attached to a word produced a duplicate row.** | Recognized six-digit machine numbers even in entries such as “Unknown221123,” so they merge with reports that write “Machine 221123.” |
+| **Short machine numbers appeared as separate machines.** | Matched a three- to five-digit suffix to a unique full ID at the same station and for the same card. Ambiguous suffixes remain separate. The same match is used for sold-out overrides and report history. |
+| **A report was submitted under the wrong station.** | Excluded the mistaken Airport copy while keeping the Aquarium report. Added browser-held removal keys for new community submissions, so a submitter can retract an error and resubmit correctly. |
 | **White station labels overlapped and pointer lines crossed boxes.** | Added a layout pass that finds freer positions around each station and clips connector lines at label edges. Dense maps can still be constrained by screen size and zoom. |
 | **Aquarium and Tufts labels were reversed and downtown pointers clumped.** | Gave Aquarium the eastern label position, kept Tufts to its west, and penalized crossing pointer segments when choosing positions. The labels still move with zoom and available screen space. |
 | **The Green Line path near Back Bay was inaccurate.** | Replaced the incorrect plotted section with MBTA route geometry. Lines are geographic context, not live service status. |
@@ -53,7 +61,7 @@ The times below are rounded to the hour from source-control history. They date p
 
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 28 at 10:17 PM ET**. They show **1,045 recorded page views**, **950 approximate visits**, and **93 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T0217Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 28 at 10:34 PM ET**. They show **1,051 recorded page views**, **954 approximate visits**, and **93 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T0234Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 

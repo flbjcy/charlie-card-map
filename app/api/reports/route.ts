@@ -1,6 +1,7 @@
 import {env} from 'cloudflare:workers';
 import {allowedOrigin,cors,preflight} from '../../../lib/cors';
 import reviewedReports from '../../../lib/reviewed-reports.json';
+import retractedReports from '../../../lib/retracted-reports.json';
 import {getDb} from '../../../db';
 import {reports,syncState} from '../../../db/schema';
 import {desc,eq,and,gt} from 'drizzle-orm';
@@ -11,7 +12,7 @@ async function getReports(){
   const db=getDb();
   const rows=await db.select({id:reports.id,station:reports.station,exitId:reports.exitId,design:reports.design,machine:reports.machine,color:reports.color,status:reports.status,observedAt:reports.observedAt,createdAt:reports.createdAt,notes:reports.notes,source:reports.source,sourceUrl:reports.sourceUrl,photoKey:reports.photoKey}).from(reports).orderBy(desc(reports.observedAt)).limit(2000);
   const sync=await db.select().from(syncState).limit(1);
-  const publicRows=rows.map(({photoKey,...report})=>({...report,hasPhoto:Boolean(photoKey)}));
+  const publicRows=rows.filter(row=>row.status!=='retracted'&&!retractedReports.includes(row.id)).map(({photoKey,...report})=>({...report,hasPhoto:Boolean(photoKey)}));
   return Response.json({reports:[...publicRows,...reviewedReports.filter(r=>!rows.some(x=>x.id===r.id))].sort((a,b)=>b.observedAt-a.observedAt),sync:sync[0]||null},{headers:{'Cache-Control':'no-store'}});
  }catch{return Response.json({error:'Reports are temporarily unavailable. Please try again.'},{status:503});}
 }
@@ -50,11 +51,15 @@ async function postReport(req:Request){
   const recent=await db.select({id:reports.id}).from(reports).where(and(eq(reports.clientHash,hash),gt(reports.createdAt,now-3600000))).limit(20);
   if(recent.length>=20)return Response.json({error:'Please wait before submitting more reports. Limit: 20 per hour.'},{status:429});
   const id=crypto.randomUUID(),photoKey=photo?'machine-photos/'+id+'.jpg':null;
+  const token=Array.from(crypto.getRandomValues(new Uint8Array(32)),byte=>byte.toString(16).padStart(2,'0')).join('');
+  const tokenHash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token))),byte=>byte.toString(16).padStart(2,'0')).join('');
+  if(!env.BUCKET)throw Error('Report ownership storage unavailable');
   if(photoKey){if(!env.BUCKET)throw Error('Photo storage unavailable');await env.BUCKET.put(photoKey,photo!.stream(),{httpMetadata:{contentType:'image/jpeg'}});}
   try{
+   await env.BUCKET.put('report-edit/'+id,tokenHash);
    await db.insert(reports).values({id,station:String(b.station),exitId:b.exitId?String(b.exitId):null,design:String(b.design),machine:b.machine.trim(),color:b.color.trim()||'Not specified',status:String(b.status),observedAt:b.observedAt,createdAt:now,notes:b.notes.trim(),source:'community',sourceUrl:null,clientHash:hash,photoKey});
-  }catch(error){if(photoKey)await env.BUCKET?.delete(photoKey);throw error;}
-  return Response.json({ok:true,id},{status:201});
+  }catch(error){if(photoKey)await env.BUCKET?.delete(photoKey);await env.BUCKET.delete('report-edit/'+id);throw error;}
+  return Response.json({ok:true,id,editToken:token},{status:201,headers:{'Cache-Control':'no-store'}});
  }catch{return Response.json({error:'Your report could not be saved. Please try again.'},{status:503});}
 }
 
