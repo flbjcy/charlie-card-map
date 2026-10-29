@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-29T13:57:28.725526Z",
-  "method": "Incremental browser catch-up after deferred reviews",
-  "coverage": "Incremental catch-up scan of 11 tracked threads: 148 loaded comments compared with saved text/IDs; 6 nested-reply controls opened. Older-comment loading and every deep branch were not completed, so this is not a full review. Last expanded review remains Oct 28 at 3:11 PM ET (304 accessible of 325 displayed). Three newly recorded comments: one card sighting and two questions. No edited sightings identified.",
-  "reviewedCount": 148,
-  "displayedCount": null,
-  "threadCount": 11,
-  "lastExpandedReviewAt": "2026-10-28T19:11:33Z",
-  "lastExpandedAccessibleCount": 304,
-  "lastExpandedDisplayedCount": 325
+  "checkedAt": "2026-10-29T16:39:55.640215Z",
+  "method": "Daily expanded browser review across 12 tracked discussions",
+  "coverage": "Expanded browser review of 12 tracked discussions: 324 accessible comments out of 339 displayed. Loaded older comments, opened 35 reply/comment controls and 16 deep branches; 15 counted comments remained inaccessible, including a deleted placeholder. Searched r/mbta and r/boston for new discussions. No current sighting changes; historical confirmations and questions were not treated as fresh availability.",
+  "reviewedCount": 324,
+  "displayedCount": 339,
+  "threadCount": 12,
+  "lastExpandedReviewAt": "2026-10-29T16:39:55.640215Z",
+  "lastExpandedAccessibleCount": 324,
+  "lastExpandedDisplayedCount": 339
 }
