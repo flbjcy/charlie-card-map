@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-29T02:12:27.728Z",
-  "method": "Incremental browser scan of 11 tracked Reddit discussions, compared against IDs and comment text saved at the October 28 expanded review",
-  "coverage": "Incremental new-sort browser scan of 11 tracked threads: 133 visible comments compared with saved IDs/text. Older comments and nested replies were not re-expanded. Last expanded review on Oct 28 at 3:11 PM ET: 304 accessible of 325 displayed; 21 inaccessible.",
-  "reviewedCount": 133,
+  "checkedAt": "2026-10-29T13:57:28.725526Z",
+  "method": "Incremental browser catch-up after deferred reviews",
+  "coverage": "Incremental catch-up scan of 11 tracked threads: 148 loaded comments compared with saved text/IDs; 6 nested-reply controls opened. Older-comment loading and every deep branch were not completed, so this is not a full review. Last expanded review remains Oct 28 at 3:11 PM ET (304 accessible of 325 displayed). Three newly recorded comments: one card sighting and two questions. No edited sightings identified.",
+  "reviewedCount": 148,
   "displayedCount": null,
   "threadCount": 11,
   "lastExpandedReviewAt": "2026-10-28T19:11:33Z",

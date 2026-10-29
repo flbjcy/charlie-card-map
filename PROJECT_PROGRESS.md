@@ -1,6 +1,6 @@
 # FindMyCharlie: project progress
 
-**Jia Hao Liang · October 25–28, 2026 · all times Eastern**  
+**Jia Hao Liang · October 25–29, 2026 · all times Eastern**
 **Live map:** https://flbjcy.github.io/find-my-charlie/  
 **Source:** https://github.com/flbjcy/find-my-charlie
 
@@ -27,8 +27,9 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 28, 11 AM** | Added a scheduled job in the private GitHub archive to back up public reports and anonymous hourly counts when the Mac is asleep. Its first manual test succeeded. Machine photos are backed up once when present. Reddit comment review remains dependent on browser access or an approved Reddit integration. |
 | **Oct 28, 11 AM** | Added an on-device quality check to optional machine-photo uploads. It checks image size, exposure, contrast, and severe blur before upload; unusable images get a clear retake message. The check uses browser pixels without ChatGPT or a remote review service. |
 | **Oct 28, 12 PM** | Published a machine-specific Harvard update: 221121 was down while 221123 had yellow Bunker Hill cards at 11:30 AM. Also reviewed an 11:59 AM orange confirmation at Park Street 221186; a newer community report already covered it, so no duplicate map entry was added. Kept same-author cross-posts from being treated as independent sightings. Normalized reports such as “Unknown221123” so the same numbered machine appears once. |
-| **Oct 28, 3 PM** | Expanded all available older-comment and nested-reply controls across 11 tracked Reddit threads and searched for new relevant discussions. A new comment confirmed Park Street machine **221186** still had the orange card around 2:23 PM. Revisiting an older machine photo also recovered a missed purple Zakim Bridge sighting at Malden Center **221030** from October 23; its age is shown as uncertainty, not a fresh confirmation. The browser loaded 304 of 325 displayed comments; 21 remained inaccessible. |
-| **Oct 28, 10 PM** | Added a Reddit report confirming yellow Bunker Hill at State **221277**, silver Boston Tea Party at North Station **221045**, and dark-blue MA State House at North Station **222029** between 5:00 and 5:30 PM. A later community report said the dark-blue card was sold out at 222029 by 6:59 PM, so that older confirmation remains in history but does not appear as available. Updated the hourly activity charts with measured counts. |
+| **Oct 28, 3 PM** | Reviewed 11 tracked threads and searched for new discussions. Confirmed Park Street orange 221186 around 2:23 PM and recovered an older Malden purple photo report (221030, Oct 23). Loaded 304 of 325 displayed comments; 21 remained inaccessible. |
+| **Oct 28, 10 PM** | Added historical confirmations of State yellow 221277, North Station silver 221045, and dark blue 222029. A later sold-out report superseded the dark-blue sighting. Updated measured activity charts. |
+| **Oct 29, 10 AM** | Caught up after deferred browser reviews. Added green BPL at North Station 221042, observed 12:32 AM near Valenti Way; original photo confirms the machine, while card design comes from the comment. Compared 148 loaded comments across 11 threads; this was an incremental review. |
 
 ## October 28, 10–11 PM: report corrections and form
 
@@ -62,7 +63,7 @@ A community report mistakenly placed an Aquarium USS Constitution machine at **A
 
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 28 at 10:34 PM ET**. They show **1,051 recorded page views**, **954 approximate visits**, and **93 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T0234Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 29 at 9:56 AM ET**. They show **1,215 recorded page views**, **1,100 approximate visits**, and **104 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T1356Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 

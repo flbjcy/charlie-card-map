@@ -908,5 +908,19 @@
     "notes": "Original light-blue USS Constitution card. A nested reply clarifies: entrance farther from the water/Marriott, machines on the left around a corner; exact machine and exit unknown. Posting time used. Location clarification: https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rhgrrezp283/",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rhfuuk7c6f6/"
+  },
+  {
+    "id": "reviewed-19rtbozfgu26a-place-north-library",
+    "station": "place-north",
+    "design": "library",
+    "color": "Green",
+    "machine": "221042",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793248320000,
+    "createdAt": 1793282175536,
+    "notes": "Series 1 green Boston Public Library card reported at the Valenti Way entrance. Exact entrance door unknown. Observed Oct 29 at 12:32 AM ET, explicitly stated in the comment. Full-resolution photo confirms machine 221042 and shows the concourse near a bank of machines; the card face is not visible, so the design is based on the author’s explicit identification.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rtbozfgu26a/"
   }
 ]
