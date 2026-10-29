@@ -13,6 +13,6 @@ export const designs = [
  {id:'oldstate',name:'Old State House',short:'Old State House',symbol:'♖',season:'Fall 2026',aliases:['old state house']},
  {id:'garden',name:'TD Garden',short:'TD Garden',symbol:'▦',season:'Fall 2026',aliases:['td garden']},
 ];
-export type Report={id:string;station:string;exitId?:string|null;design:string;machine:string;color:string;status:string;observedAt:number;createdAt:number;notes:string;source:string;sourceUrl?:string|null;hasPhoto?:boolean};
+export type Report={id:string;station:string;exitId?:string|null;design:string;machine:string;color:string;paymentMethod?:'credit_card'|'coins'|'both'|null;status:string;observedAt:number;createdAt:number;notes:string;source:string;sourceUrl?:string|null;hasPhoto?:boolean};
 export function freshness(r:Report,now=Date.now()) {const h=Math.max(0,(now-r.observedAt)/3600000);return h<=6?'Fresh':h<=24?'Recent':h<=72?'Aging':'Stale';}
 export function age(time:number,now=Date.now()){const m=Math.max(0,Math.floor((now-time)/60000));return m<1?'Just now':m<60?`${m}m ago`:m<1440?`${Math.floor(m/60)}h ago`:`${Math.floor(m/1440)}d ago`;}

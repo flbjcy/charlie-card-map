@@ -12,7 +12,7 @@ async function getReports(){
   const db=getDb();
   const rows=await db.select({id:reports.id,station:reports.station,exitId:reports.exitId,design:reports.design,machine:reports.machine,color:reports.color,status:reports.status,observedAt:reports.observedAt,createdAt:reports.createdAt,notes:reports.notes,source:reports.source,sourceUrl:reports.sourceUrl,photoKey:reports.photoKey}).from(reports).orderBy(desc(reports.observedAt)).limit(2000);
   const sync=await db.select().from(syncState).limit(1);
-  const publicRows=rows.filter(row=>row.status!=='retracted'&&!retractedReports.includes(row.id)).map(({photoKey,...report})=>({...report,hasPhoto:Boolean(photoKey)}));
+  const publicRows=rows.filter(row=>row.status!=='retracted'&&!retractedReports.includes(row.id)).map(({photoKey,...report})=>({...report,paymentMethod:report.color==='payment:credit_card'?'credit_card':report.color==='payment:coins'?'coins':report.color==='payment:both'?'both':null,hasPhoto:Boolean(photoKey)}));
   return Response.json({reports:[...publicRows,...reviewedReports.filter(r=>!rows.some(x=>x.id===r.id))].sort((a,b)=>b.observedAt-a.observedAt),sync:sync[0]||null},{headers:{'Cache-Control':'no-store'}});
  }catch{return Response.json({error:'Reports are temporarily unavailable. Please try again.'},{status:503});}
 }
@@ -36,7 +36,7 @@ async function postReport(req:Request){
   }
  }catch{return Response.json({error:'Invalid report or photo.'},{status:400});}
  const now=Date.now();
- if(!b||typeof b!=='object'||!stations.some(s=>s.id===b.station)||!designs.some(d=>d.id===b.design)||!['available','unavailable'].includes(String(b.status))||typeof b.machine!=='string'||b.machine.trim().length<2||b.machine.length>120||typeof b.color!=='string'||b.color.length>40||typeof b.notes!=='string'||b.notes.length>1000||typeof b.observedAt!=='number'||!Number.isFinite(b.observedAt)||b.observedAt>now+60000||b.observedAt<now-30*86400000)return Response.json({error:'Check the station, design, machine, and time (within the past 30 days).'}, {status:400});
+ if(!b||typeof b!=='object'||!stations.some(s=>s.id===b.station)||!designs.some(d=>d.id===b.design)||!['available','unavailable'].includes(String(b.status))||typeof b.machine!=='string'||b.machine.trim().length<2||b.machine.length>120||!['','credit_card','coins','both'].includes(String(b.paymentMethod??''))||typeof b.notes!=='string'||b.notes.length>1000||typeof b.observedAt!=='number'||!Number.isFinite(b.observedAt)||b.observedAt>now+60000||b.observedAt<now-30*86400000)return Response.json({error:'Check the station, design, machine, payment, and time (within the past 30 days).'}, {status:400});
  if(b.exitId&&!exits.some(x=>x.id===b.exitId&&x.station===b.station))return Response.json({error:'Choose an exit belonging to this station, or Exit unknown.'},{status:400});
  if(b.website)return Response.json({error:'Unable to accept this report.'},{status:400});
  if(photo){
@@ -57,7 +57,7 @@ async function postReport(req:Request){
   if(photoKey){if(!env.BUCKET)throw Error('Photo storage unavailable');await env.BUCKET.put(photoKey,photo!.stream(),{httpMetadata:{contentType:'image/jpeg'}});}
   try{
    await env.BUCKET.put('report-edit/'+id,tokenHash);
-   await db.insert(reports).values({id,station:String(b.station),exitId:b.exitId?String(b.exitId):null,design:String(b.design),machine:b.machine.trim(),color:b.color.trim()||'Not specified',status:String(b.status),observedAt:b.observedAt,createdAt:now,notes:b.notes.trim(),source:'community',sourceUrl:null,clientHash:hash,photoKey});
+   await db.insert(reports).values({id,station:String(b.station),exitId:b.exitId?String(b.exitId):null,design:String(b.design),machine:b.machine.trim(),color:b.paymentMethod?'payment:'+String(b.paymentMethod):'Not specified',status:String(b.status),observedAt:b.observedAt,createdAt:now,notes:b.notes.trim(),source:'community',sourceUrl:null,clientHash:hash,photoKey});
   }catch(error){if(photoKey)await env.BUCKET?.delete(photoKey);await env.BUCKET.delete('report-edit/'+id);throw error;}
   return Response.json({ok:true,id,editToken:token},{status:201,headers:{'Cache-Control':'no-store'}});
  }catch{return Response.json({error:'Your report could not be saved. Please try again.'},{status:503});}

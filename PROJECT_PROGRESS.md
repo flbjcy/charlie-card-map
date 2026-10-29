@@ -30,11 +30,12 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 28, 3 PM** | Expanded all available older-comment and nested-reply controls across 11 tracked Reddit threads and searched for new relevant discussions. A new comment confirmed Park Street machine **221186** still had the orange card around 2:23 PM. Revisiting an older machine photo also recovered a missed purple Zakim Bridge sighting at Malden Center **221030** from October 23; its age is shown as uncertainty, not a fresh confirmation. The browser loaded 304 of 325 displayed comments; 21 remained inaccessible. |
 | **Oct 28, 10 PM** | Added a Reddit report confirming yellow Bunker Hill at State **221277**, silver Boston Tea Party at North Station **221045**, and dark-blue MA State House at North Station **222029** between 5:00 and 5:30 PM. A later community report said the dark-blue card was sold out at 222029 by 6:59 PM, so that older confirmation remains in history but does not appear as available. Updated the hourly activity charts with measured counts. |
 
-## October 28, 10 PM: report corrections
+## October 28, 10–11 PM: report corrections and form
 
-The map now treats a unique three- to five-digit machine suffix as the same six-digit machine **only when the station and card design agree**. Thus Park Street “186” joins 221186, and State “277” joins 221277. If more than one full machine number fits a suffix, the short report stays separate rather than guessing. This changes grouping, history, confidence, and newer sold-out overrides.
+A three- to five-digit machine suffix now matches a unique six-digit ID **at the same station and for the same card design**: Park Street “186” joins 221186, and State “277” joins 221277. Ambiguous suffixes stay separate. The match also controls history, confidence, and sold-out overrides.
 
-An anonymous community report placed an Aquarium USS Constitution machine at **Airport** with a detailed note about its touchscreen and coin slot. An identical Aquarium report followed four minutes later. The erroneous Airport copy is excluded from the public feed; the Aquarium report remains. New community submissions receive a private browser-held removal key so the original browser can retract a mistake without marking a real machine sold out. Older reports cannot be removed through this key because they were submitted before it existed.
+A community report mistakenly placed an Aquarium USS Constitution machine at **Airport**; a matching Aquarium report followed four minutes later. The Airport copy is hidden, and Aquarium remains. New submissions receive a browser-held removal key for correcting mistakes; older anonymous reports lack this key. At 11 PM, the form replaced card color with optional accepted payment (credit card, coins, or both), and typing now replaces the default “Unknown” machine text.
+
 
 ## Problems we found and how we handled them
 
@@ -55,7 +56,7 @@ An anonymous community report placed an Aquarium USS Constitution machine at **A
 | **A Tufts photo report was missed.** | Full-size inspection revealed the orange card and machine number that were not in the comment text. This correction is recorded as a review error rather than silently rewriting the audit. A related-thread check also found an older Airport silver report. Other photo-only reports need the same explicit visual check. |
 | **An older Malden photo was overlooked.** | Rechecked the photo and its nearby comment: the image shows the purple Zakim Bridge card, and the comments identify Malden Center machine 221030. Added the historical sighting with the October 23 posting time as a fallback and an explicit warning that current stock is unknown. |
 | **Public data needed a recoverable history.** | Created a private GitHub archive of dated report-feed snapshots, including community submissions, plus reviewed Reddit evidence and coverage notes. It is not a complete verbatim copy of every Reddit comment. |
-| **Machine descriptions were sometimes hard to follow.** | Added an optional photo so reporters can show the exact machine. Photos are public; the form asks people to avoid including bystanders. |
+| **Machine and payment details were hard to report.** | Added optional machine photos and accepted-payment choices. “Unknown” machine text is selected on click so a reporter can replace it by typing. |
 | **A machine photo could be too blurry or dark to help anyone.** | Added a conservative browser-only quality check before upload. It catches obvious technical problems, but it does not verify that a photo depicts a machine or screen for inappropriate content. |
 | **Local browser reviews stop when the Mac locks or sleeps.** | Kept the live site independent of the Mac and added a cloud backup for public reports and hourly counts. This preserves new community submissions while offline, but it does not read new Reddit comments; that requires a separate approved cloud integration. |
 
