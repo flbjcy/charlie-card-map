@@ -1,5 +1,47 @@
 [
   {
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793221200000,
+    "createdAt": 1793230961690,
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rsyk6kw1bsy/",
+    "id": "reviewed-19rsyk6kw1bsy-state-bunker",
+    "station": "place-state",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Machine 221277",
+    "notes": "Yellow Bunker Hill card confirmed at State machine 221277 between 5:00 and 5:30 PM ET October 28. The earliest bound (5:00 PM) is used for ordering; exact observation minute and exit unknown."
+  },
+  {
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793221200000,
+    "createdAt": 1793230961690,
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rsyk6kw1bsy/",
+    "id": "reviewed-19rsyk6kw1bsy-north-tea",
+    "station": "place-north",
+    "design": "tea",
+    "color": "Silver",
+    "machine": "Machine 221045",
+    "notes": "Silver Boston Tea Party card confirmed at North Station machine 221045 between 5:00 and 5:30 PM ET October 28. The earliest bound (5:00 PM) is used for ordering; exact observation minute and exit unknown."
+  },
+  {
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793221200000,
+    "createdAt": 1793230961690,
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rsyk6kw1bsy/",
+    "id": "reviewed-19rsyk6kw1bsy-north-capitol",
+    "station": "place-north",
+    "design": "capitol",
+    "color": "Dark blue",
+    "machine": "Machine 222029",
+    "notes": "Dark-blue MA State House card confirmed at North Station machine 222029 between 5:00 and 5:30 PM ET October 28. The earliest bound (5:00 PM) is used for ordering; exact observation minute and exit unknown. Later community report at 6:59 PM says this design sold out at this machine, so this historical sighting must remain hidden from current availability."
+  },
+  {
     "id": "reviewed-19rskcc00ls76-park-orange",
     "station": "place-pktrm",
     "design": "oldstate",

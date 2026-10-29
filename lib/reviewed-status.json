@@ -1,8 +1,11 @@
 {
-  "checkedAt": "2026-10-28T19:11:33Z",
-  "method": "Expanded browser review of 11 tracked Reddit discussions, including older comments and nested replies",
-  "coverage": "Expanded browser review loaded 304 accessible comment entries of 325 displayed across 11 tracked threads. All visible older-comment and nested-reply controls were expanded; 21 displayed comments remained inaccessible. Reviewed current and historical location text, with selected full-size image checks; not every image was reopened. No broader Reddit-wide completeness claim.",
-  "reviewedCount": 304,
-  "displayedCount": 325,
-  "threadCount": 11
+  "checkedAt": "2026-10-29T02:12:27.728Z",
+  "method": "Incremental browser scan of 11 tracked Reddit discussions, compared against IDs and comment text saved at the October 28 expanded review",
+  "coverage": "Incremental new-sort browser scan of 11 tracked threads: 133 visible comments compared with saved IDs/text. Older comments and nested replies were not re-expanded. Last expanded review on Oct 28 at 3:11 PM ET: 304 accessible of 325 displayed; 21 inaccessible.",
+  "reviewedCount": 133,
+  "displayedCount": null,
+  "threadCount": 11,
+  "lastExpandedReviewAt": "2026-10-28T19:11:33Z",
+  "lastExpandedAccessibleCount": 304,
+  "lastExpandedDisplayedCount": 325
 }
