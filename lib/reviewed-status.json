@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T21:58:47.888Z",
+  "checkedAt": "2026-10-29T23:00:37.708Z",
   "method": "Incremental browser review across 12 tracked discussions",
-  "coverage": "Compared accessible loaded comments and available nested controls across 12 tracked threads; not a full older/deep-branch review. Added full-photo-confirmed Tufts orange 221072 reply; feedback and card-release background excluded. Original-thread inaccessible count gap persists.",
-  "reviewedCount": 164,
-  "displayedCount": 345,
+  "coverage": "Compared accessible loaded comments and nested controls across 12 threads. Added full-photo-confirmed North silver222029 report; photo resolves text222629 discrepancy. Exact observation time uncertain, approximately20minutes after parent Tufts sighting. Feedback, design-release background and secondhand Forest Hills tip excluded. No full older/deep-branch coverage claimed; prior inaccessible gap remains.",
+  "reviewedCount": 167,
+  "displayedCount": 349,
   "threadCount": 12,
   "lastExpandedReviewAt": "2026-10-29T16:39:55.640215Z",
   "lastExpandedAccessibleCount": 324,

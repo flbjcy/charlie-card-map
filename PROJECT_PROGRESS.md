@@ -31,7 +31,7 @@ The times below are rounded to the hour from source-control history. They date p
 | **Oct 28, 10 PM** | Added historical confirmations of State yellow 221277, North Station silver 221045, and dark blue 222029. A later sold-out report superseded the dark-blue sighting. Updated measured activity charts. |
 | **Oct 29, 10 AM** | Caught up after deferred browser reviews. Added green BPL at North Station 221042, observed 12:32 AM near Valenti Way; original photo confirms the machine, while card design comes from the comment. Compared 148 loaded comments across 11 threads; this was an incremental review. |
 
-| **Oct 29, 6 PM** | Reviewed a new nested Tufts Medical Center photo confirmation for orange Old State House cards at middle machine **221072**, Medical Center side. Inspected the full-resolution image before accepting the sighting; recorded 5:38 PM posting time as a fallback for “just got.” Updated the measured hourly charts. |
+| **Oct 29, 6 PM** | Reviewed a new nested Tufts Medical Center photo confirmation for orange Old State House cards at middle machine **221072**, Medical Center side. Inspected the full-resolution image before accepting the sighting; recorded 5:38 PM posting time as a fallback for “just got.” Also inspected a later North Station silver photo: its visible label resolves typed “222629” to **222029**, rightmost of three island machines, approximately 20 minutes after the Tufts sighting. Updated the measured hourly charts. |
 
 ## October 28, 10–11 PM: report corrections and form
 
@@ -65,7 +65,7 @@ A community report mistakenly placed an Aquarium USS Constitution machine at **A
 
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 29 at 5:56 PM ET**. They show **1,485 recorded page views**, **1,329 approximate visits**, and **129 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T2156Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 29 at 7:01 PM ET**. They show **1,514 recorded page views**, **1,354 approximate visits**, and **133 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T2301Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 
