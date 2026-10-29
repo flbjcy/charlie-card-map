@@ -1,4 +1,5 @@
 import type {Report} from './catalog';
+export function cleanMachineLabel(machine:string){return machineNumber(machine)||'Unknown'}
 function machineNumber(machine:string){const matches=[...machine.matchAll(/(?:^|\D)(\d{3,6})(?!\d)/g)].map(match=>match[1]);return matches.length===1?matches[0]:null}
 export function machineKey(r:Report,reports:Report[]=[]){
  const number=machineNumber(r.machine);

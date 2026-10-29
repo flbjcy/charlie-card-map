@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {currentReports,availableReports,confidence,reportHistory} from '../lib/report-state';
+import {currentReports,availableReports,confidence,reportHistory,cleanMachineLabel} from '../lib/report-state';
 import data from '../lib/reviewed-reports.json';
 import type {Report} from '../lib/catalog';
 const now=Date.parse('2026-10-26T17:35:00Z');
@@ -45,3 +45,12 @@ assert.equal(currentReports([stateFull,{...stateShort,station:'place-pktrm'}]).l
 assert.equal(currentReports([stateFull,{...stateShort,design:'tea'}]).length,2);
 const collision={...stateFull,id:'collision',machine:'222277'};
 assert.equal(currentReports([stateFull,stateShort,collision]).length,3);
+
+assert.equal(cleanMachineLabel('Unknown221054'),'221054');
+assert.equal(cleanMachineLabel('unknown 221054'),'221054');
+assert.equal(cleanMachineLabel('Unknown'),'Unknown');
+assert.equal(cleanMachineLabel('Unknown entrance, machine 221054'),'221054');
+
+assert.equal(cleanMachineLabel('Machine 221277'),'221277');
+assert.equal(cleanMachineLabel('leftmost machine'),'Unknown');
+assert.equal(cleanMachineLabel('221277 or 221278'),'Unknown');
