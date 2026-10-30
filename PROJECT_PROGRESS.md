@@ -65,7 +65,7 @@ A community report mistakenly placed an Aquarium USS Constitution machine at **A
 
 ## October 30, 2 PM: feedback and a report correction
 
-Added **Feedback** immediately left of Report, with praise, suggestion, and error categories. Messages save privately for scheduled review; supported corrections target a single report without changing its observation time. Corrected the reporter’s Back Bay purple machine typo **221106 to 221107** while preserving the original submission. Tested saving, validation, spam limits, private access, and mobile layout.
+Added **Feedback** immediately left of Report, with suggestion, error, and other categories (Other is last). Messages save privately for scheduled review; supported corrections target a single report without changing its observation time. Corrected the reporter’s Back Bay purple machine typo **221106 to 221107** while preserving the original submission. Tested saving, validation, spam limits, private access, and mobile layout.
 
 ## Hourly activity
 

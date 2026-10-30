@@ -8,7 +8,7 @@ export async function POST(req:Request){
  if(Number(req.headers.get('content-length')||0)>10000)return reply({error:'Feedback is too long.'},413);
  let body:any;
  try{const raw=await req.text();if(raw.length>6000)return reply({error:'Feedback is too long.'},413);body=JSON.parse(raw);}catch{return reply({error:'Check your feedback and try again.'},400);}
- if(!body||!['praise','suggestion','error'].includes(body.category)||typeof body.message!=='string'||body.message.trim().length<3||body.message.length>2000||body.website)return reply({error:'Choose a type and enter 3–2,000 characters.'},400);
+ if(!body||!['suggestion','error','other'].includes(body.category)||typeof body.message!=='string'||body.message.trim().length<3||body.message.length>2000||body.website)return reply({error:'Choose a type and enter 3–2,000 characters.'},400);
  try{
   if(!env.DB||!env.BUCKET)throw Error('Storage unavailable');
   const now=Date.now(),hour=Math.floor(now/3600000);
