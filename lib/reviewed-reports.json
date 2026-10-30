@@ -964,5 +964,33 @@
     "notes": "Yellow Bunker Hill cards reported at two far-right machines by the Old State House. No machine numbers given; do not assign this observation to a specific numbered machine or the whole station. “As of1030” interpreted as10:30AM ET October30, the same morning as11:09AM posting. Exact entrance door not established: Exit unknown.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rvw5967ts3p/"
+  },
+  {
+    "id": "reviewed-19rw83ssv8vt0-dtx-store-capitol",
+    "station": "place-dwnxg",
+    "design": "capitol",
+    "color": "Dark blue",
+    "machine": "CharlieCard Store counter (not a vending machine)",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793385900000,
+    "createdAt": 1793389084302,
+    "notes": "Obtained at the staffed CharlieCard Store inside Downtown Crossing, not a vending machine. Collector explicitly visited October30 at2:45PM ET and received dark-blue State House and purple TD Garden cards. They report a limit of two cards per customer and no payment; this is a collector report, not a verified permanent policy. Exact entrance unknown. Other designs were mentioned generally but not individually mapped.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rw83ssv8vt0/"
+  },
+  {
+    "id": "reviewed-19rw83ssv8vt0-dtx-store-garden",
+    "station": "place-dwnxg",
+    "design": "garden",
+    "color": "Purple",
+    "machine": "CharlieCard Store counter (not a vending machine)",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793385900000,
+    "createdAt": 1793389084302,
+    "notes": "Obtained at the staffed CharlieCard Store inside Downtown Crossing, not a vending machine. Collector explicitly visited October30 at2:45PM ET and received dark-blue State House and purple TD Garden cards. They report a limit of two cards per customer and no payment; this is a collector report, not a verified permanent policy. Exact entrance unknown. Other designs were mentioned generally but not individually mapped.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xhdiol/comment/19rw83ssv8vt0/"
   }
 ]
