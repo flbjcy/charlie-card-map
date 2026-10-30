@@ -2,7 +2,7 @@
 import {useEffect,useState} from 'react';
 const API=process.env.NEXT_PUBLIC_API_BASE||'';
 export function trackVisit(){
- if(navigator.doNotTrack==='1'||(navigator as Navigator & {globalPrivacyControl?:boolean}).globalPrivacyControl||navigator.webdriver||!['flbjcy.github.io','charlie-card-hunt-boston.warmmaple17.chatgpt.site'].includes(location.hostname))return;
+ if(navigator.doNotTrack==='1'||(navigator as Navigator & {globalPrivacyControl?:boolean}).globalPrivacyControl||navigator.webdriver||!['flbjcy.github.io','charlie-card-hunt-boston.warmmaple17.chatgpt.site','charlie-card-hunt-boston.flbjcy.chatgpt.site'].includes(location.hostname))return;
  let visit=true;try{const last=Number(sessionStorage.getItem('findmycharlie:lastVisit'));visit=!last||Date.now()-last>1800000;sessionStorage.setItem('findmycharlie:lastVisit',String(Date.now()));}catch{}
  let source='Direct / unknown';try{const h=new URL(document.referrer).hostname;if(h!==location.hostname){source=/(^|\.)reddit\.com$/.test(h)?'Reddit':/(^|\.)google\.[a-z.]+$/.test(h)?'Google':h==='github.com'?'GitHub':'Other';}}catch{}
  void fetch(API+'/api/traffic',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:crypto.randomUUID(),source,device:innerWidth<768?'Mobile':'Desktop',visit}),keepalive:true}).catch(()=>{});

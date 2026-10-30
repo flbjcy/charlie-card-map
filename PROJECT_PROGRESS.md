@@ -30,6 +30,7 @@ Times are approximate Eastern time, based on source-control history and review l
 | **Oct 29, 6–7 PM** | Added a full-photo-confirmed Tufts orange 221072 reply, Medical Center side, using 5:38 PM posting time as a fallback for “just got.” A North silver photo corrected typed 222629 to **222029**, approximately 20 minutes later; exact time remained uncertain. |
 | **Oct 30, 11 AM** | Searched for new discussions and reviewed 338 accessible comments of 360 displayed across 14 threads; 22 remained inaccessible. Inspected two new collection photos. Preserved uncertain recollections and cross-post context without inventing fresh stock. |
 | **Oct 30, 2 PM** | Added private **Feedback** left of Report: Suggestion, Report an error, Other. Scheduled reviews triage messages. Corrected the Back Bay purple typo **221106 to 221107**, preserving the original report and observation time. Tested validation, private storage, spam limits and mobile layout. |
+| **Oct 30, 2:30 PM** | Fixed GitHub map report loading after the backend host changed. The old host redirected without CORS headers, so browsers blocked requests despite intact data. Updated the frontend and archive to call the current backend directly; verified report reads and submission preflight. |
 
 ## Problems we found and how we handled them
 
