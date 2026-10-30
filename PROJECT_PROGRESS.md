@@ -8,43 +8,34 @@ FindMyCharlie began as a way to turn scattered Reddit comments about eight limit
 
 ## Progress by time
 
-The times below are rounded to the hour from source-control history. They date published code changes, not necessarily the moment an idea was discussed or a station was visited.
+Times are approximate Eastern time, based on source-control history and review logs. They describe changes and reviews, not when a collector visited a station.
 
 | When (ET) | What changed |
 | --- | --- |
-| **Oct 25, 6 PM** | Built the first shared sightings map and report API. Added the eight card designs, station and exit data, subway shapes, and a form for community reports. The map uses OpenStreetMap tiles without a paid map key. |
-| **Oct 26, 1–2 PM** | Added reviewed Reddit reports and refined the map-first interface. Replaced generic card symbols with cropped photos of the eight real card designs so collectors can recognize them quickly. |
-| **Oct 26, 9 PM** | Corrected Green Line geometry near Back Bay using MBTA route shapes; the earlier plotted line was wrong. |
-| **Oct 26, 11 PM** | Published the frontend on GitHub Pages, using the same shared backend for reports. Renamed the public site **FindMyCharlie** and moved it to `/find-my-charlie/`. Removed a failing manual Reddit-sync message from the main interface. |
-| **Oct 26, 11 PM** | Added anonymous public traffic totals. Updated the lemon-yellow header and author credit, including Garamond type and a sharper, smaller circular Beijing subway emblem linked to Jia Hao Liang's personal GitHub Pages site. |
-| **Oct 27, 2–10 AM** | Expanded reviews beyond the first thread into related Reddit discussions and nested replies. Corrected the treatment of sold-out or broken machines so older positive reports do not keep appearing as current stock. |
-| **Oct 27, 11 AM–2 PM** | Clarified machine-specific sightings such as North Station silver and Harvard yellow. Added card photos to the report form, a direct “Report unavailable” action, and grouped same-card reports ranked by recency, corroboration, machine detail, and conflicting evidence. Started the private report-and-evidence archive. |
-| **Oct 27, 2–5 PM** | Corrected an edited Haymarket machine description without pretending the sighting was new. Fixed duplicate station pins, including State, by showing one pin per station and grouping its cards and machines. Adjusted label placement to reduce overlapping white boxes and made pointer lines stop at box edges. |
-| **Oct 27, 5–11 PM** | Continued publishing supported sightings and corrections from Reddit and community reports, including separate Harvard machines and a North Station dark-blue report. Added a newly developing FindMyCharlie discussion to the review registry. |
-| **Oct 28, 1 AM** | A user pointed out that a Tufts Medical Center comment had been missed. Full-size photo review identified the orange Old State House card and machine **221072**, observed **Oct 27 at 8:30 PM**. A follow-up check found an older Airport silver report in another thread. Both reports were added to the reviewed data; the prior thumbnail-based exclusion was recorded as an error. |
-| **Oct 28, 2 AM** | Moved the project PDF to the end of the map's information panel and linked the new FindMyCharlie Reddit discussion beside the author credit and on the personal site. Revised the downtown label layout so Aquarium sits east of Tufts Medical Center and pointer crossings count against candidate positions. |
-| **Oct 28, 11 AM** | Added optional machine photos to community reports. The report form resizes and removes metadata from images before upload; each photo appears through a “View photo” link beside its machine details. Added an hourly statistics feed for page views, approximate visits, and community submissions. |
-| **Oct 28, 11 AM** | Added a scheduled job in the private GitHub archive to back up public reports and anonymous hourly counts when the Mac is asleep. Its first manual test succeeded. Machine photos are backed up once when present. Reddit comment review remains dependent on browser access or an approved Reddit integration. |
-| **Oct 28, 11 AM** | Added an on-device quality check to optional machine-photo uploads. It checks image size, exposure, contrast, and severe blur before upload; unusable images get a clear retake message. The check uses browser pixels without ChatGPT or a remote review service. |
-| **Oct 28, 12 PM** | Published a machine-specific Harvard update: 221121 was down while 221123 had yellow Bunker Hill cards at 11:30 AM. Also reviewed an 11:59 AM orange confirmation at Park Street 221186; a newer community report already covered it, so no duplicate map entry was added. Kept same-author cross-posts from being treated as independent sightings. Normalized reports such as “Unknown221123” so the same numbered machine appears once. |
-| **Oct 28, 3 PM** | Reviewed 11 tracked threads and searched for new discussions. Confirmed Park Street orange 221186 around 2:23 PM and recovered an older Malden purple photo report (221030, Oct 23). Loaded 304 of 325 displayed comments; 21 remained inaccessible. |
-| **Oct 28, 10 PM** | Added historical confirmations of State yellow 221277, North Station silver 221045, and dark blue 222029. A later sold-out report superseded the dark-blue sighting. Updated measured activity charts. |
-| **Oct 29, 10 AM** | Caught up after deferred browser reviews. Added green BPL at North Station 221042, observed 12:32 AM near Valenti Way; original photo confirms the machine, while card design comes from the comment. Compared 148 loaded comments across 11 threads; this was an incremental review. |
-
-| **Oct 29, 6 PM** | Reviewed a new nested Tufts Medical Center photo confirmation for orange Old State House cards at middle machine **221072**, Medical Center side. Inspected the full-resolution image before accepting the sighting; recorded 5:38 PM posting time as a fallback for “just got.” Also inspected a later North Station silver photo: its visible label resolves typed “222629” to **222029**, rightmost of three island machines, approximately 20 minutes after the Tufts sighting. Updated the measured hourly charts. |
-
-## October 28, 10–11 PM: report corrections and form
-
-A three- to five-digit machine suffix now matches a unique six-digit ID **at the same station and for the same card design**: Park Street “186” joins 221186, and State “277” joins 221277. Ambiguous suffixes stay separate. The match also controls history, confidence, and sold-out overrides.
-
-A community report mistakenly placed an Aquarium USS Constitution machine at **Airport**; a matching Aquarium report followed four minutes later. The Airport copy is hidden, and Aquarium remains. New submissions receive a browser-held removal key for correcting mistakes; older anonymous reports lack this key. At 11 PM, the form replaced card color with optional accepted payment (credit card, coins, or both), and typing now replaces the default “Unknown” machine text.
-
+| **Oct 25, 6 PM** | Built the shared map, report API and community form for eight card designs, with subway routes and station entrances. OpenStreetMap tiles require no paid map key. |
+| **Oct 26, 1–2 PM** | Added reviewed Reddit sightings and a simpler map-first interface. Replaced generic symbols with cropped photos of the eight real cards. |
+| **Oct 26, 9 PM** | Fixed the incorrectly plotted Green Line near Back Bay using official MBTA route shapes. |
+| **Oct 26, 11 PM** | Published GitHub Pages as **FindMyCharlie**, connected it to the shared backend, and removed the failing sync banner. Added anonymous traffic counts, the lemon-yellow header, Garamond credit and sharper Beijing subway emblem. |
+| **Oct 27, 2–10 AM** | Expanded reviews to related threads and nested replies. Made newer sold-out, broken and regular-only observations replace older stock reports for the same machine and card. |
+| **Oct 27, 11 AM–2 PM** | Added card photos to the report form and a Report unavailable action. Grouped same-card reports by confidence using time, corroboration and useful details. Started the private evidence archive. |
+| **Oct 27, 2–5 PM** | Corrected an edited Haymarket description without refreshing the sighting time. Fixed duplicate State pins, grouped machines under one station, and reduced overlapping labels and pointer crossings. |
+| **Oct 27, 5–11 PM** | Published supported Reddit and community corrections, keeping Harvard machines separate. Added the developing FindMyCharlie discussion to the source registry. |
+| **Oct 28, 1–2 AM** | Recovered a missed Tufts photo report: orange Old State House card, **221072**, observed Oct 27 at 8:30 PM. Added an older Airport silver report. Moved the PDF into Info and improved Aquarium/Tufts label positions and pointer lines. |
+| **Oct 28, 11 AM** | Added optional machine photos, View photo links, resizing and metadata removal. Added an on-device clarity check, hourly anonymous activity counts, and GitHub cloud backups while the Mac sleeps. |
+| **Oct 28, noon** | Distinguished Harvard **221121 down** from **221123 yellow** at 11:30 AM. Reviewed Park Street orange without duplicating a newer community report; normalized labels such as Unknown221123. |
+| **Oct 28, 3 PM** | Reviewed 11 threads, including older replies: 304 of 325 displayed comments were accessible. Confirmed Park Street orange 221186 and recovered an older Malden purple photo report, 221030. |
+| **Oct 28, 10 PM** | Added historical State yellow 221277, North silver 221045 and dark-blue 222029 confirmations. A newer negative superseded the dark-blue report. Updated measured activity charts. |
+| **Oct 28, 10–11 PM** | Merged unique short machine suffixes with full IDs at the same station/card, including Park186 / 221186. Removed the mistaken Airport copy of an Aquarium report. Added browser-held removal keys, accepted payment choices and replacement of the default Unknown text when typing. |
+| **Oct 29, 10 AM** | Caught up after deferred reviews. Added North Station green BPL 221042 at Valenti Way, observed 12:32 AM; the photo confirms the machine and text identifies the design. Incremental review covered 148 loaded comments in 11 threads. |
+| **Oct 29, 6–7 PM** | Added a full-photo-confirmed Tufts orange 221072 reply, Medical Center side, using 5:38 PM posting time as a fallback for “just got.” A North silver photo corrected typed 222629 to **222029**, approximately 20 minutes later; exact time remained uncertain. |
+| **Oct 30, 11 AM** | Searched for new discussions and reviewed 338 accessible comments of 360 displayed across 14 threads; 22 remained inaccessible. Inspected two new collection photos. Preserved uncertain recollections and cross-post context without inventing fresh stock. |
+| **Oct 30, 2 PM** | Added private **Feedback** left of Report: Suggestion, Report an error, Other. Scheduled reviews triage messages. Corrected the Back Bay purple typo **221106 to 221107**, preserving the original report and observation time. Tested validation, private storage, spam limits and mobile layout. |
 
 ## Problems we found and how we handled them
 
 | Problem | Change or current status |
 | --- | --- |
-| **Comments were spread across multiple threads and nested replies.** | Tracked relevant discussions, kept source links and review notes, and reviewed reply context. Hourly checks compare recent comments; wider expanded reviews are scheduled daily. Coverage is reported honestly when older or collapsed comments cannot be opened. |
+| **Comments were spread across multiple threads and nested replies.** | Tracked relevant discussions, kept source links and review notes, and reviewed reply context. Checks every two hours compare recent comments; wider expanded reviews are scheduled daily. Coverage is reported honestly when older or collapsed comments cannot be opened. |
 | **Reddit's server API was blocked.** | Used browser-reviewed reports rather than pretending the map had a live Reddit feed. Community submissions go into the shared backend immediately; Reddit additions depend on the scheduled review and successful publication. |
 | **A report could be stale after cards sold out or a machine broke.** | Kept negative observations in history and hid superseded availability for the same machine and card. A negative for one machine does not erase a different machine at the same station. |
 | **Harvard yellow and Forest Hills green seemed missing or inconsistent.** | Separated machine-specific reports and their observation times. Harvard 221121 sold out while 221123 had later positive reports; Forest Hills 221270 had a later negative while separate community reports identified 221100. The map now preserves these distinctions. |
@@ -63,10 +54,6 @@ A community report mistakenly placed an Aquarium USS Constitution machine at **A
 | **A machine photo could be too blurry or dark to help anyone.** | Added a conservative browser-only quality check before upload. It catches obvious technical problems, but it does not verify that a photo depicts a machine or screen for inappropriate content. |
 | **Local browser reviews stop when the Mac locks or sleeps.** | Kept the live site independent of the Mac and added a cloud backup for public reports and hourly counts. This preserves new community submissions while offline, but it does not read new Reddit comments; that requires a separate approved cloud integration. |
 
-## October 30, 2 PM: feedback and a report correction
-
-Added **Feedback** immediately left of Report, with suggestion, error, and other categories (Other is last). Messages save privately for scheduled review; supported corrections target a single report without changing its observation time. Corrected the reporter’s Back Bay purple machine typo **221106 to 221107** while preserving the original submission. Tested saving, validation, spam limits, private access, and mobile layout.
-
 ## Hourly activity
 
 The charts in the PDF use a snapshot taken **October 30 at about 2:13 PM ET**. They show **1,853 recorded page views**, **1,656 approximate visits**, and **160 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-30T1813Z.json; it contains counts, not visitor identifiers.
@@ -81,7 +68,7 @@ GitHub Pages serves the public map at the address above. A shared Sites backend 
 
 ## What remains imperfect
 
-Reddit browser access is not guaranteed, and an hourly review is not instant or exhaustive. Photo-only details, deep replies, edits, and ambiguous station language need manual attention. Visitor counts are approximate, and machine availability can change between any observation and a collector's arrival. Future reviews should inspect full-size images attached to candidate comments before excluding a sighting.
+Reddit browser access is not guaranteed, and a scheduled review is not instant or exhaustive. Photo-only details, deep replies, edits, and ambiguous station language need manual attention. Visitor counts are approximate, and machine availability can change between any observation and a collector's arrival. Future reviews should inspect full-size images attached to candidate comments before excluding a sighting.
 
 ## Evidence and links
 
