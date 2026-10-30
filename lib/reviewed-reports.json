@@ -950,5 +950,19 @@
     "notes": "Silver Boston Tea Party card obtained at North Station, rightmost of three island machines. Full-resolution photo shows silver card and machine222029; comment says222629, recorded as a transcription discrepancy resolved by the visible machine label. Approximate observation about5:58PM ET October29, derived from twenty minutes after the parent Tufts sighting; parent uses5:38PM posting-time fallback. Exact observation time uncertain; reply posted6:43PM, not used to imply a later purchase. Exit unknown.",
     "source": "reddit-reviewed",
     "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19ruo5o5g4k1w/"
+  },
+  {
+    "id": "reviewed-19rvw5967ts3p-state-yellow",
+    "station": "place-state",
+    "design": "bunker",
+    "color": "Yellow",
+    "machine": "Two far-right machines at Old State House entrance (numbers unknown)",
+    "exitId": null,
+    "status": "available",
+    "observedAt": 1793370600000,
+    "createdAt": 1793372996141,
+    "notes": "Yellow Bunker Hill cards reported at two far-right machines by the Old State House. No machine numbers given; do not assign this observation to a specific numbered machine or the whole station. “As of1030” interpreted as10:30AM ET October30, the same morning as11:09AM posting. Exact entrance door not established: Exit unknown.",
+    "source": "reddit-reviewed",
+    "sourceUrl": "https://www.reddit.com/r/mbta/comments/1xaqcns/comment/19rvw5967ts3p/"
   }
 ]

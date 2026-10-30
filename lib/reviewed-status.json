@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-29T23:00:37.708Z",
-  "method": "Incremental browser review across 12 tracked discussions",
-  "coverage": "Compared accessible loaded comments and nested controls across 12 threads. Added full-photo-confirmed North silver222029 report; photo resolves text222629 discrepancy. Exact observation time uncertain, approximately20minutes after parent Tufts sighting. Feedback, design-release background and secondhand Forest Hills tip excluded. No full older/deep-branch coverage claimed; prior inaccessible gap remains.",
-  "reviewedCount": 167,
-  "displayedCount": 349,
-  "threadCount": 12,
-  "lastExpandedReviewAt": "2026-10-29T16:39:55.640215Z",
-  "lastExpandedAccessibleCount": 324,
-  "lastExpandedDisplayedCount": 339
+  "checkedAt": "2026-10-30T19:02:44.541Z",
+  "method": "Incremental browser review across14 tracked discussions",
+  "coverage": "Incremental comparison of285 accessible loaded comments across14 threads, with available nested controls. No full older/deep coverage claimed. Added State yellow at two far-right Old State House machines, numbers unknown; existing inaccessible gaps retained.",
+  "reviewedCount": 285,
+  "displayedCount": 366,
+  "threadCount": 14,
+  "lastExpandedReviewAt": "2026-10-30T15:09:33.768Z",
+  "lastExpandedAccessibleCount": 338,
+  "lastExpandedDisplayedCount": 360
 }

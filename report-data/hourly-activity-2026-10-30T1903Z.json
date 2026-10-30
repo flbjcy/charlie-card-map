@@ -1,0 +1,542 @@
+{
+  "hours": [
+    {
+      "hour": 1793070000000,
+      "views": 11,
+      "visits": 5,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793073600000,
+      "views": 2,
+      "visits": 2,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793077200000,
+      "views": 2,
+      "visits": 2,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793080800000,
+      "views": 1,
+      "visits": 1,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793084400000,
+      "views": 1,
+      "visits": 1,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793088000000,
+      "views": 0,
+      "visits": 0,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793091600000,
+      "views": 1,
+      "visits": 1,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793095200000,
+      "views": 4,
+      "visits": 4,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793098800000,
+      "views": 13,
+      "visits": 11,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793102400000,
+      "views": 7,
+      "visits": 7,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793106000000,
+      "views": 5,
+      "visits": 5,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793109600000,
+      "views": 12,
+      "visits": 12,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793113200000,
+      "views": 15,
+      "visits": 15,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793116800000,
+      "views": 14,
+      "visits": 14,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793120400000,
+      "views": 10,
+      "visits": 9,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793124000000,
+      "views": 22,
+      "visits": 21,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793127600000,
+      "views": 13,
+      "visits": 12,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793131200000,
+      "views": 21,
+      "visits": 20,
+      "communityReports": 6
+    },
+    {
+      "hour": 1793134800000,
+      "views": 47,
+      "visits": 43,
+      "communityReports": 10
+    },
+    {
+      "hour": 1793138400000,
+      "views": 38,
+      "visits": 36,
+      "communityReports": 10
+    },
+    {
+      "hour": 1793142000000,
+      "views": 32,
+      "visits": 28,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793145600000,
+      "views": 29,
+      "visits": 28,
+      "communityReports": 5
+    },
+    {
+      "hour": 1793149200000,
+      "views": 10,
+      "visits": 10,
+      "communityReports": 6
+    },
+    {
+      "hour": 1793152800000,
+      "views": 9,
+      "visits": 9,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793156400000,
+      "views": 32,
+      "visits": 30,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793160000000,
+      "views": 21,
+      "visits": 21,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793163600000,
+      "views": 24,
+      "visits": 23,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793167200000,
+      "views": 16,
+      "visits": 15,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793170800000,
+      "views": 1,
+      "visits": 1,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793174400000,
+      "views": 2,
+      "visits": 2,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793178000000,
+      "views": 5,
+      "visits": 5,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793181600000,
+      "views": 13,
+      "visits": 11,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793185200000,
+      "views": 26,
+      "visits": 23,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793188800000,
+      "views": 52,
+      "visits": 46,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793192400000,
+      "views": 46,
+      "visits": 43,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793196000000,
+      "views": 36,
+      "visits": 35,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793199600000,
+      "views": 48,
+      "visits": 40,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793203200000,
+      "views": 61,
+      "visits": 50,
+      "communityReports": 4
+    },
+    {
+      "hour": 1793206800000,
+      "views": 43,
+      "visits": 39,
+      "communityReports": 5
+    },
+    {
+      "hour": 1793210400000,
+      "views": 37,
+      "visits": 36,
+      "communityReports": 7
+    },
+    {
+      "hour": 1793214000000,
+      "views": 37,
+      "visits": 36,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793217600000,
+      "views": 57,
+      "visits": 52,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793221200000,
+      "views": 42,
+      "visits": 33,
+      "communityReports": 7
+    },
+    {
+      "hour": 1793224800000,
+      "views": 47,
+      "visits": 42,
+      "communityReports": 6
+    },
+    {
+      "hour": 1793228400000,
+      "views": 31,
+      "visits": 28,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793232000000,
+      "views": 24,
+      "visits": 19,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793235600000,
+      "views": 21,
+      "visits": 20,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793239200000,
+      "views": 21,
+      "visits": 19,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793242800000,
+      "views": 20,
+      "visits": 20,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793246400000,
+      "views": 14,
+      "visits": 10,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793250000000,
+      "views": 6,
+      "visits": 6,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793253600000,
+      "views": 3,
+      "visits": 3,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793257200000,
+      "views": 2,
+      "visits": 2,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793260800000,
+      "views": 2,
+      "visits": 1,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793264400000,
+      "views": 6,
+      "visits": 5,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793268000000,
+      "views": 16,
+      "visits": 13,
+      "communityReports": 6
+    },
+    {
+      "hour": 1793271600000,
+      "views": 15,
+      "visits": 13,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793275200000,
+      "views": 40,
+      "visits": 36,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793278800000,
+      "views": 29,
+      "visits": 26,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793282400000,
+      "views": 34,
+      "visits": 32,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793286000000,
+      "views": 22,
+      "visits": 20,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793289600000,
+      "views": 36,
+      "visits": 30,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793293200000,
+      "views": 39,
+      "visits": 34,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793296800000,
+      "views": 22,
+      "visits": 18,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793300400000,
+      "views": 34,
+      "visits": 29,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793304000000,
+      "views": 40,
+      "visits": 34,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793307600000,
+      "views": 47,
+      "visits": 35,
+      "communityReports": 10
+    },
+    {
+      "hour": 1793311200000,
+      "views": 25,
+      "visits": 22,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793314800000,
+      "views": 21,
+      "visits": 20,
+      "communityReports": 3
+    },
+    {
+      "hour": 1793318400000,
+      "views": 19,
+      "visits": 17,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793322000000,
+      "views": 25,
+      "visits": 23,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793325600000,
+      "views": 14,
+      "visits": 12,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793329200000,
+      "views": 19,
+      "visits": 15,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793332800000,
+      "views": 4,
+      "visits": 4,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793336400000,
+      "views": 4,
+      "visits": 4,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793340000000,
+      "views": 5,
+      "visits": 5,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793343600000,
+      "views": 1,
+      "visits": 1,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793347200000,
+      "views": 0,
+      "visits": 0,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793350800000,
+      "views": 2,
+      "visits": 2,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793354400000,
+      "views": 6,
+      "visits": 6,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793358000000,
+      "views": 15,
+      "visits": 13,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793361600000,
+      "views": 24,
+      "visits": 23,
+      "communityReports": 1
+    },
+    {
+      "hour": 1793365200000,
+      "views": 22,
+      "visits": 17,
+      "communityReports": 4
+    },
+    {
+      "hour": 1793368800000,
+      "views": 37,
+      "visits": 34,
+      "communityReports": 0
+    },
+    {
+      "hour": 1793372400000,
+      "views": 34,
+      "visits": 33,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793376000000,
+      "views": 44,
+      "visits": 36,
+      "communityReports": 2
+    },
+    {
+      "hour": 1793379600000,
+      "views": 31,
+      "visits": 25,
+      "communityReports": 8
+    },
+    {
+      "hour": 1793383200000,
+      "views": 43,
+      "visits": 35,
+      "communityReports": 4
+    },
+    {
+      "hour": 1793386800000,
+      "views": 2,
+      "visits": 2,
+      "communityReports": 1
+    }
+  ],
+  "coverage": {
+    "traffic": "Recorded page views only, within the last 90 days; privacy opt-outs and known bots excluded.",
+    "community": "Community submissions grouped by submission time, including historical and unavailable reports."
+  }
+}
