@@ -5,5 +5,26 @@
     "originalMachine": "221106",
     "machine": "221107",
     "reason": "Reporter requested correction of a mistyped final digit on October 30, 2026."
+  },
+  "4753a6e3-9662-4f18-88da-2395c0e52e2a": {
+    "station": "place-harsq",
+    "design": "bunker",
+    "originalMachine": "22123",
+    "machine": "221123",
+    "reason": "Owner correction: Harvard machine22123 is a missing-digit typo for221123; October30,2026. Preserve availability status and observation time."
+  },
+  "f1572290-0df1-484a-a7d0-7c0b724ced26": {
+    "station": "place-harsq",
+    "design": "capitol",
+    "originalMachine": "22123",
+    "machine": "221123",
+    "reason": "Owner correction: Harvard machine22123 is a missing-digit typo for221123; October30,2026. Preserve availability status and observation time."
+  },
+  "7ebe58e9-63e1-4a85-ae1a-7c1a99fe1b34": {
+    "station": "place-harsq",
+    "design": "bunker",
+    "originalMachine": "22123",
+    "machine": "221123",
+    "reason": "Owner correction: Harvard machine22123 is a missing-digit typo for221123; October30,2026. Preserve availability status and observation time."
   }
 }
