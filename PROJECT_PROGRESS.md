@@ -1,6 +1,6 @@
 # FindMyCharlie: project progress
 
-**Jia Hao Liang · October 25–29, 2026 · all times Eastern**
+**Jia Hao Liang · October 25–30, 2026 · all times Eastern**
 **Live map:** https://flbjcy.github.io/find-my-charlie/  
 **Source:** https://github.com/flbjcy/find-my-charlie
 
@@ -63,9 +63,13 @@ A community report mistakenly placed an Aquarium USS Constitution machine at **A
 | **A machine photo could be too blurry or dark to help anyone.** | Added a conservative browser-only quality check before upload. It catches obvious technical problems, but it does not verify that a photo depicts a machine or screen for inappropriate content. |
 | **Local browser reviews stop when the Mac locks or sleeps.** | Kept the live site independent of the Mac and added a cloud backup for public reports and hourly counts. This preserves new community submissions while offline, but it does not read new Reddit comments; that requires a separate approved cloud integration. |
 
+## October 30, 2 PM: feedback and a report correction
+
+Added **Feedback** immediately left of Report, with praise, suggestion, and error categories. Messages save privately for scheduled review; supported corrections target a single report without changing its observation time. Corrected the reporter’s Back Bay purple machine typo **221106 to 221107** while preserving the original submission. Tested saving, validation, spam limits, private access, and mobile layout.
+
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 29 at 7:01 PM ET**. They show **1,514 recorded page views**, **1,354 approximate visits**, and **133 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-29T2301Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 30 at about 2:13 PM ET**. They show **1,853 recorded page views**, **1,656 approximate visits**, and **160 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-30T1813Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 

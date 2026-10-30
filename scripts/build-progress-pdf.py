@@ -22,7 +22,7 @@ from reportlab.platypus import BaseDocTemplate, Flowable, Frame, PageBreak, Page
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "PROJECT_PROGRESS.md"
 OUTPUT = ROOT / "public" / "findmycharlie-progress.pdf"
-HOURLY = ROOT / "report-data" / "hourly-activity-2026-10-29T2301Z.json"
+HOURLY = ROOT / "report-data" / "hourly-activity-2026-10-30T1813Z.json"
 
 pdfmetrics.registerFont(TTFont("Arial", "/System/Library/Fonts/Supplemental/Arial.ttf"))
 pdfmetrics.registerFont(TTFont("Arial-Bold", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"))

@@ -2,6 +2,7 @@ import {env} from 'cloudflare:workers';
 import {allowedOrigin,cors,preflight} from '../../../lib/cors';
 import reviewedReports from '../../../lib/reviewed-reports.json';
 import retractedReports from '../../../lib/retracted-reports.json';
+import {correctReport} from '../../../lib/report-corrections';
 import {getDb} from '../../../db';
 import {reports,syncState} from '../../../db/schema';
 import {desc,eq,and,gt} from 'drizzle-orm';
@@ -13,7 +14,7 @@ async function getReports(){
   const rows=await db.select({id:reports.id,station:reports.station,exitId:reports.exitId,design:reports.design,machine:reports.machine,color:reports.color,status:reports.status,observedAt:reports.observedAt,createdAt:reports.createdAt,notes:reports.notes,source:reports.source,sourceUrl:reports.sourceUrl,photoKey:reports.photoKey}).from(reports).orderBy(desc(reports.observedAt)).limit(2000);
   const sync=await db.select().from(syncState).limit(1);
   const publicRows=rows.filter(row=>row.status!=='retracted'&&!retractedReports.includes(row.id)).map(({photoKey,...report})=>({...report,paymentMethod:report.color==='payment:credit_card'?'credit_card':report.color==='payment:coins'?'coins':report.color==='payment:both'?'both':null,hasPhoto:Boolean(photoKey)}));
-  return Response.json({reports:[...publicRows,...reviewedReports.filter(r=>!rows.some(x=>x.id===r.id))].sort((a,b)=>b.observedAt-a.observedAt),sync:sync[0]||null},{headers:{'Cache-Control':'no-store'}});
+  return Response.json({reports:[...publicRows,...reviewedReports.filter(r=>!rows.some(x=>x.id===r.id))].map(correctReport).sort((a,b)=>b.observedAt-a.observedAt),sync:sync[0]||null},{headers:{'Cache-Control':'no-store'}});
  }catch{return Response.json({error:'Reports are temporarily unavailable. Please try again.'},{status:503});}
 }
 
