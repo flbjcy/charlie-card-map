@@ -1,6 +1,6 @@
 # FindMyCharlie: project progress
 
-**Jia Hao Liang · October 25–30, 2026 · all times Eastern**
+**Jia Hao Liang · October 25–31, 2026 · all times Eastern**
 **Live map:** https://flbjcy.github.io/find-my-charlie/  
 **Source:** https://github.com/flbjcy/find-my-charlie
 
@@ -33,6 +33,7 @@ Times are approximate Eastern time, based on source-control history and review l
 | **Oct 30, 2:30 PM** | Fixed GitHub map report loading after the backend host changed. The old host redirected without CORS headers, so browsers blocked requests despite intact data. Updated the frontend and archive to call the current backend directly; verified report reads and submission preflight. |
 | **Oct 30, 3 PM** | Added a State yellow report from10:30 AM: two far-right machines at the Old State House entrance. Machine numbers and exact exit remain unknown. The already-corrected Back Bay request was not counted as a new sighting. |
 | **Oct 30, 5–9 PM** | Removed all eight store entries from station reports. Added a compact **yellow star** at 296 Washington St, layered above routes and below station dots/cards; hover, keyboard focus or tap reveals store details. A short hover-exit delay lets visitors reach its links; leaving both star and box closes it. State contains only station reports. Reviewed two private correction messages: replacement reports already had the corrected machines and times. Corrected three Harvard **22123** typos to **221123**, preserving times and the yellow sold-out report. |
+| **Oct 31, 9 AM** | Reviewed 348 accessible comments across 14 threads; 37 counted entries remained inaccessible. Added a Harvard dark-blue purchase with unknown machine and a posting-time fallback. Kept the store separate. Daily searches found no new relevant threads; full prior-image reinspection remains pending. |
 
 ## Problems we found and how we handled them
 
@@ -59,7 +60,7 @@ Times are approximate Eastern time, based on source-control history and review l
 
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 30 at about 9 PM ET**. They show **2,085 recorded page views**, **1,846 approximate visits**, and **190 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-31T0100Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 31 at about 9:05 AM ET**. They show **2,230 recorded page views**, **1,976 approximate visits**, and **205 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the snapshot hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-31T1305Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 

@@ -22,7 +22,7 @@ from reportlab.platypus import BaseDocTemplate, Flowable, Frame, PageBreak, Page
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "PROJECT_PROGRESS.md"
 OUTPUT = ROOT / "public" / "findmycharlie-progress.pdf"
-HOURLY = ROOT / "report-data" / "hourly-activity-2026-10-31T0100Z.json"
+HOURLY = ROOT / "report-data" / "hourly-activity-2026-10-31T1305Z.json"
 
 pdfmetrics.registerFont(TTFont("Arial", "/System/Library/Fonts/Supplemental/Arial.ttf"))
 pdfmetrics.registerFont(TTFont("Arial-Bold", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"))
@@ -39,7 +39,7 @@ title = ParagraphStyle("Title", fontName="EBGaramond", fontSize=25, leading=28, 
 subtitle = ParagraphStyle("Subtitle", fontName="Arial", fontSize=8.4, leading=12, textColor=MUTED, spaceAfter=11)
 heading = ParagraphStyle("Heading", fontName="EBGaramond", fontSize=14, leading=16, textColor=BLUE, spaceBefore=6, spaceAfter=3, keepWithNext=True)
 body = ParagraphStyle("Body", fontName="Arial", fontSize=8.0, leading=10.5, textColor=INK, spaceAfter=4, allowWidows=0, allowOrphans=0)
-cell = ParagraphStyle("Cell", parent=body, fontSize=7.5, leading=9.4, spaceAfter=0)
+cell = ParagraphStyle("Cell", parent=body, fontSize=7.2, leading=8.6, spaceAfter=0)
 cell_head = ParagraphStyle("CellHead", parent=cell, fontName="Arial-Bold", textColor=BLUE)
 bullet = ParagraphStyle("Bullet", parent=body, leftIndent=10, firstLineIndent=-7, spaceAfter=2)
 

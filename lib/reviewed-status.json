@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-30T21:00:10.189Z",
-  "method": "Incremental browser review across14 tracked discussions",
-  "coverage": "Incremental: 292 accessible loaded comments in14 threads and available nested controls. Added explicit dark-blue and purple purchases at Downtown Crossing CharlieCard Store at2:45PM ET. Not a full older/deep review; inaccessible gaps persist.",
-  "reviewedCount": 292,
-  "displayedCount": 373,
+  "checkedAt": "2026-10-31T13:05:09.957Z",
+  "method": "Expanded accessible browser review with gaps",
+  "coverage": "Expanded accessible review: 348 loaded comments of 385 displayed across14 threads; all available reply controls opened except inaccessible counted entries. Daily r/mbta and r/boston searches found no new relevant untracked threads. Not complete coverage; prior-image reinspection remains pending.",
+  "reviewedCount": 348,
+  "displayedCount": 385,
   "threadCount": 14,
-  "lastExpandedReviewAt": "2026-10-30T15:09:33.768Z",
-  "lastExpandedAccessibleCount": 338,
-  "lastExpandedDisplayedCount": 360
+  "lastExpandedReviewAt": "2026-10-31T13:05:09.957Z",
+  "lastExpandedAccessibleCount": 348,
+  "lastExpandedDisplayedCount": 385
 }
