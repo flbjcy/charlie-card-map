@@ -32,7 +32,7 @@ Times are approximate Eastern time, based on source-control history and review l
 | **Oct 30, 2 PM** | Added private **Feedback** left of Report: Suggestion, Report an error, Other. Scheduled reviews triage messages. Corrected the Back Bay purple typo **221106 to 221107**, preserving the original report and observation time. Tested validation, private storage, spam limits and mobile layout. |
 | **Oct 30, 2:30 PM** | Fixed GitHub map report loading after the backend host changed. The old host redirected without CORS headers, so browsers blocked requests despite intact data. Updated the frontend and archive to call the current backend directly; verified report reads and submission preflight. |
 | **Oct 30, 3 PM** | Added a State yellow report from10:30 AM: two far-right machines at the Old State House entrance. Machine numbers and exact exit remain unknown. The already-corrected Back Bay request was not counted as a new sighting. |
-| **Oct 30, 5–8 PM** | Added explicitly obtained dark-blue and purple cards at the staffed Downtown Crossing CharlieCard Store, observed 2:45 PM. Reviewed two private correction messages: replacement reports already had the corrected machines and times. Corrected three Harvard **22123** typos to **221123**, preserving times and the yellow sold-out report. |
+| **Oct 30, 5–9 PM** | Added the 2:45 PM Charlie Service Center report, then corrected its location to **296 Washington St, near State**, outside the subway. The public report and follow-up clarify all eight designs. Reviewed two private correction messages: replacement reports already had the corrected machines and times. Corrected three Harvard **22123** typos to **221123**, preserving times and the yellow sold-out report. |
 
 ## Problems we found and how we handled them
 
@@ -59,7 +59,7 @@ Times are approximate Eastern time, based on source-control history and review l
 
 ## Hourly activity
 
-The charts in the PDF use a snapshot taken **October 30 at about 7:55 PM ET**. They show **2,057 recorded page views**, **1,821 approximate visits**, and **190 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-30T2355Z.json; it contains counts, not visitor identifiers.
+The charts in the PDF use a snapshot taken **October 30 at about 9 PM ET**. They show **2,085 recorded page views**, **1,846 approximate visits**, and **190 community submissions** from the first recorded traffic hour (**October 26 at 11 PM ET**) through the current hour. Hours with no activity are included as zeroes. Community reports are grouped by *submission time*, not the time a collector says they observed a machine. The traffic log begins when the counter was introduced; earlier page views cannot be reconstructed. Privacy opt-outs and known bots are excluded. The underlying hourly aggregate is saved in the project’s public source as report-data/hourly-activity-2026-10-31T0100Z.json; it contains counts, not visitor identifiers.
 
 ## Measured snapshot
 
